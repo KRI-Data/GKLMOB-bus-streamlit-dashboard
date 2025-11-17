@@ -1,0 +1,25 @@
+[theme]
+base = "dark"
+
+# General color setup
+textColor = "#e2e8f0"
+primaryColor = "#615fff"
+backgroundColor = "#1d293d"
+secondaryBackgroundColor = "#0f172b"
+
+# Widgets
+showWidgetBorder = true
+borderColor = "#314158"
+
+# Dataframes
+dataframeHeaderBackgroundColor = '#1d293d'
+
+# Base sans-serif font (Inter)
+font = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@300..700&display=swap"
+baseFontWeight = 400
+baseFontSize = 14
+
+# Heading serif font (Crimson Pro)
+headingFont = "'Crimson Pro':https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+headingFontWeights = [400, 500, 600, 700, 700, 700]
+headingFontSizes = ["2.5rem", "1.5rem", "1rem"]
