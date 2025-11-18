@@ -47,13 +47,17 @@ def unique_months():
 @st.cache_data
 def bpi_rapid_kl():
     df = pd.read_csv("dataset/BPI_Rapid_KL_relative.csv")
-    bpi_rapid_kl = df[['route_short_name', 'route_long_name','mae_ratio','otp', 'month', 'I_hat']].rename(columns={'I_hat': 'BPI', 'mae_ratio':'Deviation from schedule','otp':'OTP'})
+    bpi_rapid_kl = df[['route_short_name', 'route_long_name','mae_ratio','otp', 'month', 'I_hat']].rename(columns={'I_hat': 'BPI', 'mae_ratio':'rMAE','otp':'OTP'})
+
+    bpi_rapid_kl['rMAE'] = bpi_rapid_kl['rMAE'].clip(upper=1)
 
     return bpi_rapid_kl
 
 @st.cache_data
 def bpi_mrt_feeder():
     df = pd.read_csv("dataset/BPI_MRT_Feeder_relative.csv")
-    bpi_mrt_feeder = df[['route_id', 'mae_ratio','otp', 'month', 'I_hat']].rename(columns={'I_hat': 'BPI', 'mae_ratio':'Deviation from schedule','otp':'OTP' })
+    bpi_mrt_feeder = df[['route_id', 'mae_ratio','otp', 'month', 'I_hat']].rename(columns={'I_hat': 'BPI', 'mae_ratio':'rMAE','otp':'OTP' })
+
+    bpi_mrt_feeder['rMAE'] = bpi_mrt_feeder['rMAE'].clip(upper=1)
 
     return bpi_mrt_feeder

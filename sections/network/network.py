@@ -10,6 +10,27 @@ from dataset.BPI_dt import ratio_rapid_kl, unique_months, ratio_mrt_feeder, bpi_
 from graphs.Ternary_plots import month_slider, get_ternary_rapid_kl, get_ternary_mrt_feeder
 from graphs.Violin_plots import get_violin
 
+def get_severity_color(value: float) -> str:
+    value = max(0, min(100, value))
+
+    # Exponential scaling for stronger separation near high values
+    if value >= 70:
+        # Normalize 70–100 → 0–1
+        t = (value - 70) / 30
+        t = t ** 10   # nonlinear emphasis
+        hue = 120
+    else:
+        # Normalize 70→0 → 0–1
+        t = (70 - value) / 70
+        t = t ** 10
+        hue = 0
+
+    # Make saturation & lightness more extreme
+    saturation = 55 + (45 * t)   # 55% → 100%
+    lightness  = 65 - (30 * t)   # 65% → 35%
+
+    return f"hsl({hue}, {saturation}%, {lightness}%)"
+
 def render_network():
 
     with st.container(border=True):
@@ -78,7 +99,7 @@ def render_network():
             with st.container(border=True):
                 st.markdown("""<h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 1.5rem; line-height: 1.3; text-align: center;">Rapid KL Bus</h3>""", unsafe_allow_html=True)
                 value_num1 = float(avg_data[0].strip('%'))
-                color1 = "red" if value_num1 <= 70 else "green"
+                color1 = get_severity_color(value_num1)
                 
                 # Nested container specifically for the numeric value
                 with st.container(border=True):
@@ -99,7 +120,7 @@ def render_network():
             with st.container(border=True):
                 st.markdown("""<h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 1.5rem; line-height: 1.3; text-align: center;">MRT Feeder</h3>""", unsafe_allow_html=True)
                 value_num2 = float(avg_data[1].strip('%')) if '%' in avg_data[1] else 100
-                color2 = "red" if value_num2 <= 70 else "green"
+                color2 =  get_severity_color(value_num2)
                 # Nested container specifically for the numeric value
 
                 with st.container(border=True):
@@ -132,7 +153,11 @@ def render_network():
 
         st.markdown("""
         <h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 2.25rem; line-height: 1.15; text-align: center">Best Performing Routes</h3>""", unsafe_allow_html=True)
-        st.caption("Note: BPI close to 1 implies that most of the bus arrive on-time and the deviation from schedule is minimum if it's not on-time.")
+        st.caption(
+            "Note:\n"
+            "1. BPI close to 1 indicates that most buses arrive on time with minimal deviation from the schedule.\n"
+            "2. rMAE is the relative Mean Absolute Error (0–1), where lower values indicate smaller deviations from scheduled arrival times."
+        )
         
         col1, col2 = st.columns(2)
 
@@ -147,7 +172,7 @@ def render_network():
                 bpi_filtered_display['Route'] = bpi_filtered_display['route_short_name'] + " (" + bpi_filtered_display['route_long_name'] + ")"
 
                 # Keep only the combined column and BPI
-                bpi_filtered_display = bpi_filtered_display[['Route', 'BPI','OTP','Deviation from schedule']]
+                bpi_filtered_display = bpi_filtered_display[['Route', 'BPI','OTP','rMAE']]
 
                 # Sort by BPI descending
                 bpi_filtered_sorted = bpi_filtered_display.sort_values(by='BPI', ascending=False)
@@ -186,7 +211,7 @@ def render_network():
                     bpi_filtered_sorted.style
                         .map(color_bpi, subset=['BPI'])
                         .map(color_otp, subset=['OTP'])
-                        .map(color_mae, subset=['Deviation from schedule'])
+                        .map(color_mae, subset=['rMAE'])
                 )
   
                 st.dataframe(styled_df)
@@ -197,7 +222,7 @@ def render_network():
             with st.container(border=True):
                 st.markdown("""<h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 1.5rem; line-height: 1.3; text-align: center;">MRT Feeder</h3>""", unsafe_allow_html=True)
 
-                bpi1_filtered_display = bpi1_filtered[['route_id', 'BPI','OTP', 'Deviation from schedule']].rename(columns={'route_id': 'Route'})
+                bpi1_filtered_display = bpi1_filtered[['route_id', 'BPI','OTP', 'rMAE']].rename(columns={'route_id': 'Route'})
 
     
                 # Sort by BPI descending
@@ -229,105 +254,10 @@ def render_network():
                     bpi1_filtered_sorted.style
                         .map(color_bpi, subset=['BPI'])
                         .map(color_otp, subset=['OTP'])
-                        .map(color_mae, subset=['Deviation from schedule'])
-                )
-  
-                st.dataframe(styled_df)
-
-    with st.container(border=True):
-
-        st.markdown("""<h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 2.25rem; line-height: 1.15; text-align: center">Least Performing Routes</h3>""", unsafe_allow_html=True)
-        st.caption("Note: BPI close to 0 implies that either most of the bus doesn't arrive on-time or the deviation from schedule is more than the schedule itself if it's not on-time.")
-
-        col1, col2 = st.columns(2)
-
-        with col1:
-
-            with st.container(border=True):
-
-                st.markdown("""<h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 1.5rem; line-height: 1.3; text-align: center;">Rapid KL Bus</h3>""", unsafe_allow_html=True)
-
-                # Combine short and long names
-                bpi_filtered_display = bpi_filtered.copy()
-                bpi_filtered_display['Route'] = bpi_filtered_display['route_short_name'] + " (" + bpi_filtered_display['route_long_name'] + ")"
-
-                # Keep only the combined column and BPI
-                bpi_filtered_display = bpi_filtered_display[['Route', 'BPI', 'OTP', 'Deviation from schedule']]
-
-                # Sort by BPI ascending
-                bpi_filtered_sorted = bpi_filtered_display.sort_values(by='BPI', ascending=True)
-
-                # Reset index and set it to start from 1
-                bpi_filtered_sorted.reset_index(drop=True, inplace=True)
-                bpi_filtered_sorted.index = range(1, 1 + len(bpi_filtered_sorted))
-
-                # Function to color BPI values
-                def color_otp(val):
-                    if val > 0.7:
-                        color = 'green'
-                    else:
-                        color = 'red'
-                        
-                    return f'color: {color}; font-weight: bold'
-                
-                def color_mae(val):
-                    if val <= 0.5:
-                        color = 'green'
-                    else:
-                        color = 'red'
-                        
-                    return f'color: {color}; font-weight: bold'
-
-                # Apply styling only to BPI column
-                styled_df = (
-                    bpi_filtered_sorted.style
-                        .map(color_bpi, subset=['BPI'])
-                        .map(color_otp, subset=['OTP'])
-                        .map(color_mae, subset=['Deviation from schedule'])
+                        .map(color_mae, subset=['rMAE'])
                 )
   
                 st.dataframe(styled_df)
 
 
-        with col2:
-
-            with st.container(border=True):
-                st.markdown("""<h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 1.5rem; line-height: 1.3; text-align: center;">MRT Feeder</h3>""", unsafe_allow_html=True)
-
-                bpi1_filtered_display = bpi1_filtered[['route_id', 'BPI', 'OTP', 'Deviation from schedule']].rename(columns={'route_id': 'Route'})
-
-    
-                # Sort by BPI ascending
-                bpi1_filtered_sorted = bpi1_filtered_display.sort_values(by='BPI', ascending=True)
-
-                # Reset index and set it to start from 1
-                bpi1_filtered_sorted.reset_index(drop=True, inplace=True)
-                bpi1_filtered_sorted.index = range(1, 1 + len(bpi1_filtered_sorted))
-
-                # Function to color BPI values
-                def color_otp(val):
-                    if val > 0.7:
-                        color = 'green'
-                    else:
-                        color = 'red'
-                        
-                    return f'color: {color}; font-weight: bold'
-                
-                def color_mae(val):
-                    if val <= 0.5:
-                        color = 'green'
-                    else:
-                        color = 'red'
-                        
-                    return f'color: {color}; font-weight: bold'
-
-                # Apply styling only to BPI column
-                styled_df = (
-                    bpi1_filtered_sorted.style
-                        .map(color_bpi, subset=['BPI'])
-                        .map(color_otp, subset=['OTP'])
-                        .map(color_mae, subset=['Deviation from schedule'])
-                )
-  
-                st.dataframe(styled_df)
 
