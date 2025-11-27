@@ -69,7 +69,7 @@ def render_header():
                         "icon": {"color": "white", "font-size": "10px"},
                         "options": {"font-size": "10px"},
                         "nav-link": {
-                            "font-size": "10px",
+                            "font-size": "14px",
                             "text-align": "center",
                             "margin": "0px 0px",
                             "color": "rgba(255,255,255,0.7)",
@@ -78,12 +78,12 @@ def render_header():
                         "nav-link-selected": {
                             "color": "white",
                             "background-color": "#615fff",
-                            "font-size": "10px",
+                            "font-size": "14px",
                         },
                         "nav-link:hover": {
                             "color": "white",
                             "background-color": "transparent",
-                            "font-size": "10px",
+                            "font-size": "14px",
                         },
 
                     }
