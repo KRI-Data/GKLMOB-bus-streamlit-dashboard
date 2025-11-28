@@ -66,10 +66,10 @@ def render_header():
                     orientation="horizontal",
                     styles={
                         "container": {"padding": "0 0", "background-color": "transparent"},
-                        "icon": {"color": "white", "font-size": "10px"},
+                        "icon": {"color": "white", "font-size": "14px"},
                         "options": {"font-size": "10px"},
                         "nav-link": {
-                            "font-size": "16px",
+                            "font-size": "18px",
                             "text-align": "center",
                             "margin": "0px 0px",
                             "color": "rgba(255,255,255,0.7)",
@@ -78,12 +78,12 @@ def render_header():
                         "nav-link-selected": {
                             "color": "white",
                             "background-color": "#615fff",
-                            "font-size": "16px",
+                            "font-size": "18px",
                         },
                         "nav-link:hover": {
                             "color": "white",
                             "background-color": "transparent",
-                            "font-size": "16px",
+                            "font-size": "18px",
                         },
 
                     }
