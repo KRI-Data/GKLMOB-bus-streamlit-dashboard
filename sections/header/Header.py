@@ -92,7 +92,7 @@ def render_header():
                     orientation="horizontal",
                     styles={
                         "container": {"padding": "0 0", "background-color": "transparent"},
-                        "icon": {"color": "white"; "font": "10px"},
+                        "icon": {"color": "white"},
                         "options": {},
                         "nav-link": {
                             "text-align": "center",
