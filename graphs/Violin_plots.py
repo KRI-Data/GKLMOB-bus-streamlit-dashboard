@@ -92,8 +92,8 @@ def get_violin(df_rapid, df_mrt):
     fig.update_layout(
         legend=dict(
             font=dict(
-                size=13,        # ⭐ change this to whatever size you want
-                color="white"   # optional
+                size=13,        
+                color="white"   
             ),
             bgcolor='#1c293d'
         )

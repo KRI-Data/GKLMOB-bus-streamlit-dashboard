@@ -117,12 +117,15 @@ def get_stop(df):
             x=0,                        
             y=-0.3,                     
             xanchor='left',
-            yanchor='top'
+            yanchor='top',
+            font=dict(
+            size=13
+            )
         ),
         hoverlabel=dict(
             bgcolor='rgba(255,255,255,0.85)',  # white with ~85% opacity
             bordercolor='white',
-            font=dict(color='black')
+            font=dict(size=13, color='black')
         )
     )
 
@@ -170,7 +173,7 @@ def get_time_series(df):
             hoverlabel=dict(
                 bgcolor='rgba(255,255,255,0.95)',  # bright white background
                 bordercolor='rgba(200,200,200,0.8)',  # subtle border
-                font= dict(color='black')
+                font= dict(size=13, color='black')
             )
         )
     
