@@ -79,7 +79,7 @@ def render_header():
                 selected = option_menu(
                     menu_title=None,
                     options=["Network", "Routes", "About"],
-                    icons=[None] * 3,
+                    icons=[None, None, None],
                     default_index=0,
                     orientation="horizontal",
                     styles={
