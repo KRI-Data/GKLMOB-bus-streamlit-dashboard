@@ -13,7 +13,7 @@ st.markdown("""
     /* Base style (mobile-first) */
     div[data-testid="stHorizontalBlock"] .nav-link,
     div[data-testid="stHorizontalBlock"] .option-menu .nav-link {
-        font-size: 12px !important;
+        font-size: 10px !important;
     }
 
     /* Medium screens */
