@@ -8,32 +8,38 @@ from streamlit_option_menu import option_menu
 sys.path.append(str(Path(__file__).resolve().parents[2]))
 
 st.markdown("""
-    <style>
+<style>
 
-    /* Base style (mobile-first) */
-    div[data-testid="stHorizontalBlock"] .nav-link,
-    div[data-testid="stHorizontalBlock"] .option-menu .nav-link {
+    /* --- Base (mobile-first) --- */
+    .nav-link {
         font-size: 14px !important;
-    } .icon {font-size: 9px !important; }
+    }
+    .nav-link > i {
+        font-size: 10px !important;
+    }
 
-    /* Medium screens */
+    /* --- Medium screens (tablets / small laptops) --- */
     @media (min-width: 768px) and (max-width: 1200px) {
-        div[data-testid="stHorizontalBlock"] .nav-link,
-        div[data-testid="stHorizontalBlock"] .option-menu .nav-link {
-        font-size: 16px !important;
+        .nav-link {
+            font-size: 16px !important;
+        }
+        .nav-link > i {
+            font-size: 12px !important;
         }
     }
 
-    /* Large screens */
+    /* --- Large screens (desktops) --- */
     @media (min-width: 1200px) {
-        div[data-testid="stHorizontalBlock"] .nav-link,
-        div[data-testid="stHorizontalBlock"] .option-menu .nav-link {
+        .nav-link {
             font-size: 18px !important;
         }
+        .nav-link > i {
+            font-size: 14px !important;
+        }
     }
 
-    </style>
-    """, unsafe_allow_html=True)
+</style>
+""", unsafe_allow_html=True)
 
 
 from dataset.BPI_dt import (
