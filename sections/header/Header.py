@@ -66,7 +66,7 @@ def render_header():
                     orientation="horizontal",
                     styles={
                         "container": {"padding": "0 0", "background-color": "transparent"},
-                        "icon": {"color": "white", "font-size": "14px"},
+                        "icon": {"color": "white", "font-size": "16px"},
                         "options": {"font-size": "10px"},
                         "nav-link": {
                             "font-size": "18px",
