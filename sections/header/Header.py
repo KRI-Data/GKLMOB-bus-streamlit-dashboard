@@ -24,7 +24,7 @@ st.markdown("""
         .nav-link span {
             font-size: 18px !important;
         }
-        .nav-link icon {
+        .nav-link > i {
             font-size: 14px !important;    
         }
     }
