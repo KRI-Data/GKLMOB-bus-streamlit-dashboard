@@ -8,6 +8,7 @@ sys.path.append(str(Path(__file__).resolve().parents[2]))
 
 st.markdown("""
 <style>
+
 /* Base (mobile) */
 .responsive-note {
     font-size: 12px !important;
@@ -15,12 +16,14 @@ st.markdown("""
     font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif !important;
 }
 
-/* Larger screens / monitors */
+
+/* Large monitors */
 @media (min-width: 700px) {
     .responsive-note {
         font-size: 16px !important;
     }
 }
+
 </style>
 """, unsafe_allow_html=True)
 
