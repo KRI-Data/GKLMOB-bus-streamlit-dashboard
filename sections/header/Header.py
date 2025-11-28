@@ -12,9 +12,6 @@ st.markdown("""
 
     /* --- Base (mobile-first) --- */
     .nav-link {
-        font-size: 10px !important;
-    }
-    .nav-link > i {
         font-size: 9px !important;
     }
 
@@ -22,9 +19,6 @@ st.markdown("""
     @media (min-width: 1200px) {
         .nav-link {
             font-size: 18px !important;
-        }
-        .nav-link > i {
-            font-size: 14px !important;
         }
     }
 
