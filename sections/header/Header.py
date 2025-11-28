@@ -11,13 +11,13 @@ st.markdown("""
 <style>
 
     /* --- Base (mobile-first) --- */
-    .option-menu .nav-link span {
+    .option-menu .nav-link {
         font-size: 10px !important;
     }
 
     /* --- Large screens (desktops) --- */
     @media (min-width: 700px) {
-        .option-menu .nav-link span {
+        .option-menu .nav-link  {
             font-size: 18px !important;
         }
     }
