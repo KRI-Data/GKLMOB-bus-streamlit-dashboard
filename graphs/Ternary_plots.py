@@ -141,13 +141,13 @@ def get_ternary_rapid_kl(df):
             xanchor='left',
             yanchor='top',
             font=dict(
-            size=12
+            size=13
             )
         ),
         hoverlabel=dict(
             bgcolor='rgba(255,255,255,0.25)',  # white with 70% opacity
             bordercolor='white',               # white border (optional)
-            font=dict(size = 12, color='black')           # black text
+            font=dict(size = 13, color='black')           # black text
         )      
     )
         
@@ -261,11 +261,14 @@ def get_ternary_mrt_feeder(df):
             y=-0.3,                      # position: y-axis (below plot)
             xanchor='left',
             yanchor='top',
+            font=dict(
+            size=13
+            )
         ),
         hoverlabel=dict(
             bgcolor='rgba(255,255,255,0.95)',  # white with 70% opacity
             bordercolor='white',               # white border (optional)
-            font=dict(color='black')            # black text
+            font=dict(size=13, color='black')            # black text
         )     
     )
     
