@@ -7,6 +7,75 @@ from streamlit_option_menu import option_menu
 # Add project root to sys.path
 sys.path.append(str(Path(__file__).resolve().parents[2]))
 
+# --- Put responsive CSS here BEFORE calling option_menu ---
+st.markdown(
+    """
+    <style>
+      /* Base: small default so media queries can override */
+      div[role="listbox"] > a {
+        font-size: 14px !important;
+        padding: 6px 12px !important;
+      }
+
+      /* Icons inside menu items */
+      div[role="listbox"] > a i, 
+      div[role="listbox"] > a svg {
+        font-size: 16px !important;
+        vertical-align: middle;
+      }
+
+      /* Selected link style adjustments (if you want extra) */
+      div[role="listbox"] > a[aria-current="true"] {
+        /* Optionally increase the selected label slightly */
+        font-weight: 600;
+      }
+
+      /* ------------------------
+         Desktop (>= 1200px)
+         ------------------------ */
+      @media screen and (min-width: 1200px) {
+        div[role="listbox"] > a {
+          font-size: 18px !important;
+          padding: 10px 18px !important;
+        }
+        div[role="listbox"] > a i,
+        div[role="listbox"] > a svg {
+          font-size: 18px !important;
+        }
+      }
+
+      /* ------------------------
+         Tablet (768px - 1199px)
+         ------------------------ */
+      @media screen and (min-width: 768px) and (max-width: 1199px) {
+        div[role="listbox"] > a {
+          font-size: 16px !important;
+          padding: 8px 14px !important;
+        }
+        div[role="listbox"] > a i,
+        div[role="listbox"] > a svg {
+          font-size: 16px !important;
+        }
+      }
+
+      /* ------------------------
+         Mobile (< 768px)
+         ------------------------ */
+      @media screen and (max-width: 767px) {
+        div[role="listbox"] > a {
+          font-size: 13px !important;
+          padding: 6px 10px !important;
+        }
+        div[role="listbox"] > a i,
+        div[role="listbox"] > a svg {
+          font-size: 14px !important;
+        }
+      }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 from dataset.BPI_dt import (
     ratio_rapid_kl,
     unique_months,
@@ -66,10 +135,10 @@ def render_header():
                     orientation="horizontal",
                     styles={
                         "container": {"padding": "0 0", "background-color": "transparent"},
-                        "icon": {"color": "white", "font-size": "17px"},
+                        "icon": {"color": "white", "font-size": "10px"},
                         "options": {"font-size": "10px"},
                         "nav-link": {
-                            "font-size": "19px",
+                            "font-size": "14px",
                             "text-align": "center",
                             "margin": "0px 0px",
                             "color": "rgba(255,255,255,0.7)",
@@ -78,12 +147,12 @@ def render_header():
                         "nav-link-selected": {
                             "color": "white",
                             "background-color": "#615fff",
-                            "font-size": "19px",
+                            "font-size": "14px",
                         },
                         "nav-link:hover": {
                             "color": "white",
                             "background-color": "transparent",
-                            "font-size": "19px",
+                            "font-size": "14px",
                         },
 
                     }
