@@ -15,7 +15,7 @@ st.markdown("""
         font-size: 14px !important;
     }
     .nav-link > i {
-        font-size: 10px !important;
+        font-size: 9px !important;
     }
 
     /* --- Medium screens (tablets / small laptops) --- */
