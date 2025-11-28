@@ -12,17 +12,20 @@ st.markdown("""
 
     /* --- Base (mobile-first) --- */
     .option-menu .nav-link span {
-        font-size: 10px !important;
+        font-size: 9px !important;
     }
 
     .option-menu .nav-link > i {
-        font-size: 10px !important;
+        font-size: 9px !important;
     }
 
     /* --- Large screens (desktops) --- */
     @media (min-width: 1200px) {
-        .nav-link {
+        .nav-link span {
             font-size: 18px !important;
+        }
+        .nav-link icon {
+            font-size: 14px !important;    
         }
     }
 
