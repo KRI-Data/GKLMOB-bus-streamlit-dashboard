@@ -12,7 +12,7 @@ st.markdown("""
 
     /* --- Base (mobile-first) --- */
     .option-menu .nav-link span {
-        font-size: 16px !important;
+        font-size: 10px !important;
     }
 
     /* --- Large screens (desktops) --- */
@@ -54,7 +54,7 @@ def render_header():
                 f"""
                 <div style="text-align: left;">
                     <a href="https://www.krinstitute.org/">
-                        <img src="data:image/png;base64,{img_base64}" width="100" >
+                        <img src="data:image/png;base64,{img_base64}" width="150" >
                     </a>
                 </div>
                 """,
