@@ -7,6 +7,35 @@ from streamlit_option_menu import option_menu
 # Add project root to sys.path
 sys.path.append(str(Path(__file__).resolve().parents[2]))
 
+st.markdown("""
+    <style>
+
+    /* Base style (mobile-first) */
+    div[data-testid="stHorizontalBlock"] .nav-link,
+    div[data-testid="stHorizontalBlock"] .option-menu .nav-link {
+        font-size: 14px !important;
+    }
+
+    /* Medium screens */
+    @media (min-width: 700px) and (max-width: 1200px) {
+        div[data-testid="stHorizontalBlock"] .nav-link,
+        div[data-testid="stHorizontalBlock"] .option-menu .nav-link {
+        font-size: 16px !important;
+        }
+    }
+
+    /* Large screens */
+    @media (min-width: 1200px) {
+        div[data-testid="stHorizontalBlock"] .nav-link,
+        div[data-testid="stHorizontalBlock"] .option-menu .nav-link {
+            font-size: 18px !important;
+        }
+    }
+
+    </style>
+    """, unsafe_allow_html=True)
+
+
 from dataset.BPI_dt import (
     ratio_rapid_kl,
     unique_months,
