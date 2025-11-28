@@ -15,13 +15,6 @@ st.markdown("""
     font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif !important;
 }
 
-/* Optional explicit small screens (max-width) — ensures mobile rule is applied */
-@media (max-width: 699px) {
-    .responsive-note {
-        font-size: 12px !important;
-    }
-}
-
 /* Larger screens / monitors */
 @media (min-width: 700px) {
     .responsive-note {
