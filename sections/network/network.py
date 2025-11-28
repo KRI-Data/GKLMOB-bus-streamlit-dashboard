@@ -192,7 +192,7 @@ def render_network():
                 <p class="responsive-note"; style="color: rgba(146, 154, 168, 0.7)">
                     Note:<br>
                     1. BPI close to 1 indicates that most buses arrive on time with minimal deviation from the schedule.<br>
-                    2. rMAE is the relative Mean Absolute Error (0–1), where lower values indicate smaller deviations from scheduled arrival times.
+                    2. r\u0303MAE is the relative Mean Absolute Error (0–1), where lower values indicate smaller deviations from scheduled arrival times.
                 </p>
             """,
                 unsafe_allow_html=True
@@ -204,20 +204,6 @@ def render_network():
 
             with st.container(border=True):
 
-                st.markdown("""
-                    <style>
-                        .custom-df [data-testid="stDataFrame"] div {
-                            font-size: 14px !important;        /* Change font size here */
-                        }
-                        .custom-df [data-testid="stDataFrame"] table {
-                            font-size: 14px !important;        /* Backup for older versions */
-                        }
-                    </style>
-                """, unsafe_allow_html=True)
-
-                # Add wrapper class
-                st.markdown('<div class="custom-df">', unsafe_allow_html=True)
-
                 st.markdown("""<h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 1.5rem; line-height: 1.3; text-align: center;">Rapid KL Bus</h3>""", unsafe_allow_html=True)
 
                 # Combine short and long names
@@ -225,7 +211,7 @@ def render_network():
                 bpi_filtered_display['Route'] = bpi_filtered_display['route_short_name'] + " (" + bpi_filtered_display['route_long_name'] + ")"
 
                 # Keep only the combined column and BPI
-                bpi_filtered_display = bpi_filtered_display[['Route', 'BPI','OTP','rMAE']].rename(columns={'rMAE': 'r̃MAE'})
+                bpi_filtered_display = bpi_filtered_display[['Route', 'BPI','OTP','rMAE']].rename(columns={'rMAE': 'r\u0303MAE'})
 
                 # Sort by BPI descending
                 bpi_filtered_sorted = bpi_filtered_display.sort_values(by='BPI', ascending=False)
@@ -264,12 +250,10 @@ def render_network():
                     bpi_filtered_sorted.style
                         .map(color_bpi, subset=['BPI'])
                         .map(color_otp, subset=['OTP'])
-                        .map(color_mae, subset=['r̃MAE'])
+                        .map(color_mae, subset=['r\u0303MAE'])
                 )
   
                 st.dataframe(styled_df)
-
-                st.markdown('</div>', unsafe_allow_html=True)
 
 
         with col2:
@@ -277,7 +261,7 @@ def render_network():
             with st.container(border=True):
                 st.markdown("""<h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 1.5rem; line-height: 1.3; text-align: center;">MRT Feeder</h3>""", unsafe_allow_html=True)
 
-                bpi1_filtered_display = bpi1_filtered[['route_id', 'BPI','OTP', 'rMAE']].rename(columns={'route_id': 'Route'})
+                bpi1_filtered_display = bpi1_filtered[['route_id', 'BPI','OTP', 'rMAE']].rename(columns={'route_id': 'Route', 'rMAE': 'rMAE': 'r\u0303MAE'})
 
     
                 # Sort by BPI descending
@@ -309,7 +293,7 @@ def render_network():
                     bpi1_filtered_sorted.style
                         .map(color_bpi, subset=['BPI'])
                         .map(color_otp, subset=['OTP'])
-                        .map(color_mae, subset=['rMAE'])
+                        .map(color_mae, subset=['r\u0303MAE'])
                 )
   
                 st.dataframe(styled_df)
