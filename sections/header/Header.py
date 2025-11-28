@@ -12,7 +12,7 @@ st.markdown("""
 
     /* --- Base (mobile-first) --- */
     .nav-link {
-        font-size: 14px !important;
+        font-size: 10px !important;
     }
     .nav-link > i {
         font-size: 9px !important;
