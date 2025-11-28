@@ -7,6 +7,29 @@ from datetime import datetime
 # Add parent directory to sys.path
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
+st.markdown("""
+<style>
+
+/* --- Default (mobile) --- */
+.plotly .legend text {
+    font-size: 10px !important;
+}
+.plotly .hovertext text {
+    font-size: 10px !important;
+}
+
+@media (min-width: 700px) {
+    .plotly .legend text {
+        font-size: 14px !important;
+    }
+    .plotly .hovertext text {
+        font-size: 14px !important;
+    }
+}
+
+</style>
+""", unsafe_allow_html=True)
+
 # --- Reusable slider function ---
 def month_slider(unique_months_list, label="Select Month:", key=None):
     """
@@ -139,10 +162,7 @@ def get_ternary_rapid_kl(df):
             x=0,                         # position: x-axis (0=left)
             y=-0.3,                      # position: y-axis (below plot)
             xanchor='left',
-            yanchor='top',
-            font=dict(
-            size=14
-            )
+            yanchor='top'
         ),
         hoverlabel=dict(
             bgcolor='rgba(255,255,255,0.25)',  # white with 70% opacity
@@ -261,14 +281,11 @@ def get_ternary_mrt_feeder(df):
             y=-0.3,                      # position: y-axis (below plot)
             xanchor='left',
             yanchor='top',
-            font=dict(
-            size=14
-            )
         ),
         hoverlabel=dict(
             bgcolor='rgba(255,255,255,0.95)',  # white with 70% opacity
             bordercolor='white',               # white border (optional)
-            font=dict(color='black')           # black text
+            font=dict(color='black')            # black text
         )     
     )
     
