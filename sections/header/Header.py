@@ -79,7 +79,6 @@ def render_header():
                 selected = option_menu(
                     menu_title=None,
                     options=["Network", "Routes", "About"],
-                    menu_icon="cast",
                     default_index=0,
                     orientation="horizontal",
                     styles={
