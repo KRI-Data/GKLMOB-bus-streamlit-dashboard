@@ -28,7 +28,7 @@ st.markdown("""
     @media (min-width: 1200px) {
         div[data-testid="stHorizontalBlock"] .nav-link,
         div[data-testid="stHorizontalBlock"] .option-menu .nav-link {
-            font-size: 18px !important;
+            font-size: 14px !important;
         }
     }
 
