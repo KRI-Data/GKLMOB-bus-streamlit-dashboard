@@ -8,81 +8,32 @@ from streamlit_option_menu import option_menu
 sys.path.append(str(Path(__file__).resolve().parents[2]))
 
 st.markdown("""
-<style>
-/* --- Broad targeting: cover several possible structures --- */
-div[class*="option-menu"] .nav-link,
-div[class*="option-menu"] a.nav-link,
-a.nav-link,
-.nav-link,
-ul.nav .nav-link,
-div[data-testid="stHorizontalBlock"] .nav-link,
-div[data-testid="stHorizontalBlock"] a.nav-link,
-div[data-testid="stContainer"] .nav-link {
-    /* label text */
-    font-size: 14px !important;
-    line-height: 1 !important;
-    font-family: inherit !important;
-}
+    <style>
 
-/* icons: <i>, <svg>, <span class*="icon"> */
-div[class*="option-menu"] .nav-link i,
-div[class*="option-menu"] .nav-link svg,
-a.nav-link i,
-a.nav-link svg,
-.nav-link i,
-.nav-link svg,
-.nav-link .icon {
-    font-size: 10px !important;   /* mobile default */
-    width: auto !important;
-    height: auto !important;
-}
-
-/* medium screens */
-@media (min-width: 700px) and (max-width: 1199px) {
-    div[class*="option-menu"] .nav-link,
-    a.nav-link,
-    .nav-link {
-        font-size: 16px !important;
-    }
-    div[class*="option-menu"] .nav-link i,
-    .nav-link i,
-    .nav-link svg {
+    /* Base style (mobile-first) */
+    div[data-testid="stHorizontalBlock"] .nav-link,
+    div[data-testid="stHorizontalBlock"] .option-menu .nav-link {
         font-size: 12px !important;
     }
-}
 
-/* large screens */
-@media (min-width: 1200px) {
-    div[class*="option-menu"] .nav-link,
-    a.nav-link,
-    .nav-link {
-        font-size: 18px !important;
+    /* Medium screens */
+    @media (min-width: 700px) and (max-width: 1200px) {
+        div[data-testid="stHorizontalBlock"] .nav-link,
+        div[data-testid="stHorizontalBlock"] .option-menu .nav-link {
+        font-size: 16px !important;
+        }
     }
-    div[class*="option-menu"] .nav-link i,
-    .nav-link i,
-    .nav-link svg {
-        font-size: 14px !important;
+
+    /* Large screens */
+    @media (min-width: 1200px) {
+        div[data-testid="stHorizontalBlock"] .nav-link,
+        div[data-testid="stHorizontalBlock"] .option-menu .nav-link {
+            font-size: 18px !important;
+        }
     }
-}
 
-/* selected & hover keep sizes */
-.nav-link.nav-link-selected,
-.nav-link:hover {
-    font-size: inherit !important;
-}
-
-/* If the option_menu writes inline styles on a <span> label */
-.nav-link span, .nav-link .ms-Label {
-    font-size: inherit !important;
-}
-
-/* Small spacing tweak so larger icons don't push layout */
-.nav-link i, .nav-link svg {
-    vertical-align: middle !important;
-    margin-right: 6px !important;
-}
-</style>
-""", unsafe_allow_html=True)
+    </style>
+    """, unsafe_allow_html=True)
 
 
 from dataset.BPI_dt import (
