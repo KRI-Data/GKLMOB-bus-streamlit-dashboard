@@ -135,11 +135,14 @@ def get_ternary_rapid_kl(df):
         font=dict(color='white'),
         margin=dict(l=40, r=40, t=40, b=40),
         legend=dict(
-            bgcolor='#1c293d',      
+            bgcolor='#1c293d',            
             x=0,                         # position: x-axis (0=left)
             y=-0.3,                      # position: y-axis (below plot)
             xanchor='left',
-            yanchor='top'
+            yanchor='top',
+            font=dict(
+            size=14
+            )
         ),
         hoverlabel=dict(
             bgcolor='rgba(255,255,255,0.25)',  # white with 70% opacity
@@ -257,7 +260,10 @@ def get_ternary_mrt_feeder(df):
             x=0,                         # position: x-axis (0=left)
             y=-0.3,                      # position: y-axis (below plot)
             xanchor='left',
-            yanchor='top'
+            yanchor='top',
+            font=dict(
+            size=14
+            )
         ),
         hoverlabel=dict(
             bgcolor='rgba(255,255,255,0.95)',  # white with 70% opacity
