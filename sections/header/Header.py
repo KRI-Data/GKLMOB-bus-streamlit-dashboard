@@ -21,10 +21,10 @@ st.markdown("""
 
     /* --- Large screens (desktops) --- */
     @media (min-width: 1200px) {
-        .nav-link span {
+        .option-menu .nav-link span {
             font-size: 18px !important;
         }
-        .nav-link > i {
+        .option-menu .nav-link > i {
             font-size: 14px !important;    
         }
     }
