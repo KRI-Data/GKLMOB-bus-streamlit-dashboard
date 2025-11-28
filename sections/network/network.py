@@ -261,7 +261,7 @@ def render_network():
             with st.container(border=True):
                 st.markdown("""<h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 1.5rem; line-height: 1.3; text-align: center;">MRT Feeder</h3>""", unsafe_allow_html=True)
 
-                bpi1_filtered_display = bpi1_filtered[['route_id', 'BPI','OTP', 'rMAE']].rename(columns={'route_id': 'Route', 'rMAE': 'rMAE': 'r\u0303MAE'})
+                bpi1_filtered_display = bpi1_filtered[['route_id', 'BPI','OTP', 'rMAE']].rename(columns={'route_id': 'Route', 'rMAE': 'r\u0303MAE'})
 
     
                 # Sort by BPI descending
