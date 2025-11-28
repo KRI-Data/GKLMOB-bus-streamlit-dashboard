@@ -12,7 +12,7 @@ st.markdown("""
 
     /* --- Base (mobile-first) --- */
     .option-menu .nav-link span {
-        font-size: 10px !important;
+        font-size: 14px !important;
     }
 
     /* --- Large screens (desktops) --- */
@@ -85,7 +85,7 @@ def render_header():
                     orientation="horizontal",
                     styles={
                         "container": {"padding": "0 0", "background-color": "transparent"},
-                        "icon": {"color": "white", "font-size": "9px !important"},
+                        "icon": {"color": "white", "font-size": "10px !important"},
                         "options": {},
                         "nav-link": {
                             "text-align": "center",
