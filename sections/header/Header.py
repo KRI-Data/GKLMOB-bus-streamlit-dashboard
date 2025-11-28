@@ -18,16 +18,6 @@ st.markdown("""
         font-size: 9px !important;
     }
 
-    /* --- Medium screens (tablets / small laptops) --- */
-    @media (min-width: 768px) and (max-width: 1200px) {
-        .nav-link {
-            font-size: 16px !important;
-        }
-        .nav-link > i {
-            font-size: 12px !important;
-        }
-    }
-
     /* --- Large screens (desktops) --- */
     @media (min-width: 1200px) {
         .nav-link {
