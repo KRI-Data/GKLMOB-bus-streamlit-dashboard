@@ -8,21 +8,24 @@ sys.path.append(str(Path(__file__).resolve().parents[2]))
 
 st.markdown("""
 <style>
+
 /* Base (mobile) */
-div[data-testid="stCaptionContainer"] {
+.responsive-note {
     font-size: 12px !important;
-    color: #555555 !important;
+    color: #929aa8 !important;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif !important;
 }
 
-/* Medium screens (≥700px) */
+
+/* Large monitors */
 @media (min-width: 700px) {
-    div[data-testid="stCaptionContainer"] {
-        font-size: 16px !important;
+    .responsive-note {
+        font-size: 14px !important;
     }
 }
+
 </style>
 """, unsafe_allow_html=True)
-
 
 from dataset.BPI_dt import ratio_rapid_kl, unique_months, ratio_mrt_feeder, bpi_mrt_feeder, bpi_rapid_kl
 from graphs.Ternary_plots import month_slider, get_ternary_rapid_kl, get_ternary_mrt_feeder
@@ -64,7 +67,14 @@ def render_network():
         st.markdown("""
         <h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 2.25rem; line-height: 1.15; text-align: center"> On-Time Performance (OTP) </h3>
         """, unsafe_allow_html=True)
-        st.caption("Note: A bus is considered on-time if it arrived not earlier than 1 minute and not later than 5 minutes.")
+        st.markdown(
+            """
+                <p class="responsive-note">
+                    Note: A bus is considered on-time if it arrived not earlier than 1 minute and not later than 5 minutes.
+                </p>
+            """,
+                unsafe_allow_html=True
+            )
 
         # --- Load and filter data ---
         df = ratio_rapid_kl()
@@ -159,7 +169,14 @@ def render_network():
 
         st.markdown("""
         <h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 2.25rem; line-height: 1.15; text-align: center">Bus Performance Index (BPI)</h3>""", unsafe_allow_html=True)
-        st.caption("Note: BPI measured both on-time arrivals and the severity of deviation from schedule when a bus is not punctual.")
+        st.markdown(
+            """
+                <p class="responsive-note">
+                    Note: BPI measured both on-time arrivals and the severity of deviation from schedule when a bus is not punctual.
+                </p>
+            """,
+                unsafe_allow_html=True
+            )
         
         with st.container(border=True):
 
@@ -171,11 +188,16 @@ def render_network():
 
         st.markdown("""
         <h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 2.25rem; line-height: 1.15; text-align: center">Best Performing Routes</h3>""", unsafe_allow_html=True)
-        st.caption(
-            "Note:\n"
-            "1. BPI close to 1 indicates that most buses arrive on time with minimal deviation from the schedule.\n"
-            "2. rMAE is the relative Mean Absolute Error (0–1), where lower values indicate smaller deviations from scheduled arrival times."
-        )
+        st.markdown(
+            """
+                <p class="responsive-note">
+                    Note:<br>
+                    1. BPI close to 1 indicates that most buses arrive on time with minimal deviation from the schedule.<br>
+                    2. rMAE is the relative Mean Absolute Error (0–1), where lower values indicate smaller deviations from scheduled arrival times.
+                </p>
+            """,
+                unsafe_allow_html=True
+            )
         
         col1, col2 = st.columns(2)
 
