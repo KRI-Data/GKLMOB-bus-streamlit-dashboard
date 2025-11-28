@@ -170,7 +170,7 @@ def render_network():
         <h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 2.25rem; line-height: 1.15; text-align: center">Bus Performance Index (BPI)</h3>""", unsafe_allow_html=True)
         st.markdown(
             """
-                <p class="responsive-note">
+                <p class="responsive-note"; style="color: rgba(146, 154, 168, 0.7)">
                     Note: BPI measured both on-time arrivals and the severity of deviation from schedule when a bus is not punctual.
                 </p>
             """,
@@ -189,7 +189,7 @@ def render_network():
         <h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 2.25rem; line-height: 1.15; text-align: center">Best Performing Routes</h3>""", unsafe_allow_html=True)
         st.markdown(
             """
-                <p class="responsive-note">
+                <p class="responsive-note"; style="color: rgba(146, 154, 168, 0.7)">
                     Note:<br>
                     1. BPI close to 1 indicates that most buses arrive on time with minimal deviation from the schedule.<br>
                     2. rMAE is the relative Mean Absolute Error (0–1), where lower values indicate smaller deviations from scheduled arrival times.
