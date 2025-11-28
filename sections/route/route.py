@@ -7,6 +7,26 @@ from pathlib import Path
 # Add project root to sys.path
 sys.path.append(str(Path(__file__).resolve().parents[2]))
 
+st.markdown("""
+<style>
+
+/* Base (mobile) */
+.responsive-note {
+    font-size: 12px !important;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif !important;
+}
+
+
+/* Large monitors */
+@media (min-width: 700px) {
+    .responsive-note {
+        font-size: 16px !important;
+    }
+}
+
+</style>
+""", unsafe_allow_html=True)
+
 from graphs.Ternary_plots import month_slider
 from graphs.Stop_plots import route_selector, get_stop, get_time_series
 from dataset.BPI_dt import unique_months
@@ -51,7 +71,14 @@ def render_route():
         if not combined_df.empty and "route_id" in combined_df.columns:
             st.markdown("""<h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 2.25rem; line-height: 1.15; text-align: center">Bus Stop On-Time Performance Breakdown</h3>""", unsafe_allow_html=True)
             st.plotly_chart(get_stop(combined_df), use_container_width=True, key="stop_ternary")
-            st.caption("Note: Click a route in the legend once to toggle it on or off. Double-click a route to isolate it or show all routes")
+            st.markdown(
+            """
+                <p class="responsive-note"; style="color: rgba(146, 154, 168, 0.7)">
+                    Note: Click a route in the legend once to toggle it on or off. Double-click a route to isolate it or show all routes.
+                </p>
+            """,
+                unsafe_allow_html=True
+            )
 
             if selected_routes:
 
@@ -158,7 +185,14 @@ def render_route():
 
             st.markdown("""<h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 2.25rem; line-height: 1.15; text-align: center">BPI Time Series</h3>""", unsafe_allow_html=True)
             st.plotly_chart(get_time_series(daily_combined), use_container_width=True, key="daily_bpi")
-            st.caption("Note: The observation period are differ for both MRT and Rapid KL due to ocassional General Transit Feed Specifications (GTFS) interuption.")
+            st.markdown(
+            """
+                <p class="responsive-note"; style="color: rgba(146, 154, 168, 0.7)">
+                    Note: The observation period are differ for both MRT and Rapid KL due to ocassional General Transit Feed Specifications (GTFS) interuption.
+                </p>
+            """,
+                unsafe_allow_html=True
+            )
 
             pivot_df = daily_combined.pivot_table(
                 index='Date',
