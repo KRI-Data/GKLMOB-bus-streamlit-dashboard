@@ -13,6 +13,7 @@ st.markdown("""
 .responsive-note {
     font-size: 12px !important;
     color: #929aa8 !important;
+    opacity: 80% !important;
     font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif !important;
 }
 
