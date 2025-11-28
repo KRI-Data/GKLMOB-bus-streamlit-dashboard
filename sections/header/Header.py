@@ -12,7 +12,7 @@ st.markdown("""
 
     /* --- Base (mobile-first) --- */
     .option-menu .nav-link {
-        font-size: 10px !important;
+        font-size: 8px !important;
     }
 
     /* --- Large screens (desktops) --- */
