@@ -225,7 +225,7 @@ def render_network():
                 bpi_filtered_display['Route'] = bpi_filtered_display['route_short_name'] + " (" + bpi_filtered_display['route_long_name'] + ")"
 
                 # Keep only the combined column and BPI
-                bpi_filtered_display = bpi_filtered_display[['Route', 'BPI','OTP','r̃MAE']]
+                bpi_filtered_display = bpi_filtered_display[['Route', 'BPI','OTP','rMAE']].rename(columns={'rMAE': 'r̃MAE'})
 
                 # Sort by BPI descending
                 bpi_filtered_sorted = bpi_filtered_display.sort_values(by='BPI', ascending=False)
