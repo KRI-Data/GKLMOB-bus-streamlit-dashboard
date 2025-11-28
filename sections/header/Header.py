@@ -8,32 +8,50 @@ from streamlit_option_menu import option_menu
 sys.path.append(str(Path(__file__).resolve().parents[2]))
 
 st.markdown("""
-    <style>
+<style>
 
-    /* Base style (mobile-first) */
-    div[data-testid="stHorizontalBlock"] .nav-link,
-    div[data-testid="stHorizontalBlock"] .option-menu .nav-link {
+/* -------------------------- */
+/* Base: Mobile (<700px)     */
+/* -------------------------- */
+.nav-link { 
+    font-size: 14px !important;      /* LABEL TEXT */
+}
+.nav-link i {
+    font-size: 10px !important;      /* ICON (bigger than text) */
+}
+
+/* -------------------------- */
+/* Medium screens 700–1199px */
+/* -------------------------- */
+@media (min-width: 700px) and (max-width: 1199px) {
+    .nav-link { 
+        font-size: 16px !important;
+    }
+    .nav-link i {
+        font-size: 12px !important;
+    }
+}
+
+/* -------------------------- */
+/* Large screens ≥1200px     */
+/* -------------------------- */
+@media (min-width: 1200px) {
+    .nav-link { 
+        font-size: 18px !important;
+    }
+    .nav-link i {
         font-size: 14px !important;
     }
+}
 
-    /* Medium screens */
-    @media (min-width: 700px) and (max-width: 1200px) {
-        div[data-testid="stHorizontalBlock"] .nav-link,
-        div[data-testid="stHorizontalBlock"] .option-menu .nav-link {
-        font-size: 16px !important;
-        }
-    }
+/* Keep selected & hover consistent */
+.nav-link.nav-link-selected,
+.nav-link:hover {
+    font-size: inherit !important;
+}
 
-    /* Large screens */
-    @media (min-width: 1200px) {
-        div[data-testid="stHorizontalBlock"] .nav-link,
-        div[data-testid="stHorizontalBlock"] .option-menu .nav-link {
-            font-size: 18px !important;
-        }
-    }
-
-    </style>
-    """, unsafe_allow_html=True)
+</style>
+""", unsafe_allow_html=True)
 
 
 from dataset.BPI_dt import (
