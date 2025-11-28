@@ -12,20 +12,13 @@ st.markdown("""
 
     /* --- Base (mobile-first) --- */
     .option-menu .nav-link span {
-        font-size: 8px !important;
-    }
-
-    .option-menu .nav-link > i {
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
 
     /* --- Large screens (desktops) --- */
     @media (min-width: 1200px) {
         .option-menu .nav-link span {
             font-size: 18px !important;
-        }
-        .option-menu .nav-link > i {
-            font-size: 14px !important;    
         }
     }
 
@@ -92,7 +85,7 @@ def render_header():
                     orientation="horizontal",
                     styles={
                         "container": {"padding": "0 0", "background-color": "transparent"},
-                        "icon": {"color": "white"},
+                        "icon": {"color": "white", "font-size": "10px !important"},
                         "options": {},
                         "nav-link": {
                             "text-align": "center",
