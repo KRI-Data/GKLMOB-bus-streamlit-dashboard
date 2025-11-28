@@ -95,12 +95,7 @@ def get_violin(df_rapid, df_mrt):
                 size=13,        # ⭐ change this to whatever size you want
                 color="white"   # optional
             ),
-            bgcolor='#1c293d',
-            orientation="h",   # optional: horizontal legend
-            x=0,
-            y=1.15,
-            xanchor='left',
-            yanchor='bottom'
+            bgcolor='#1c293d'
         )
     )
 
