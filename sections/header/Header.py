@@ -14,7 +14,7 @@ st.markdown("""
     div[data-testid="stHorizontalBlock"] .nav-link,
     div[data-testid="stHorizontalBlock"] .option-menu .nav-link {
         font-size: 14px !important;
-    }
+    } .items {font-size: 10px !important; }
 
     /* Medium screens */
     @media (min-width: 768px) and (max-width: 1200px) {
