@@ -63,7 +63,7 @@ def get_violin(df_rapid, df_mrt):
         hoverlabel=dict(
             bgcolor='rgba(255,255,255,0.95)',  # bright white background
             bordercolor='rgba(200,200,200,0.8)',  # subtle border
-            font= dict(color='black')
+            font= dict(size= 13, color='black')
         )
     )
 
@@ -88,6 +88,20 @@ def get_violin(df_rapid, df_mrt):
         title_font=dict(color='white'),
         tickfont=dict(color='white'),
         range=[0, 1]
+    )
+    fig.update_layout(
+        legend=dict(
+            font=dict(
+                size=13,        # ⭐ change this to whatever size you want
+                color="white"   # optional
+            ),
+            bgcolor='#1c293d',
+            orientation="h",   # optional: horizontal legend
+            x=0,
+            y=1.15,
+            xanchor='left',
+            yanchor='bottom'
+        )
     )
 
     return fig
