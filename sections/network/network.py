@@ -12,7 +12,6 @@ st.markdown("""
 /* Base (mobile) */
 .responsive-note {
     font-size: 12px !important;
-    color: rgba(146, 154, 168, 0.7) !important;
     font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif !important;
 }
 
@@ -69,7 +68,7 @@ def render_network():
         """, unsafe_allow_html=True)
         st.markdown(
             """
-                <p class="responsive-note">
+                <p class="responsive-note"; style="color: rgba(146, 154, 168, 0.7)">
                     Note: A bus is considered on-time if it arrived not earlier than 1 minute and not later than 5 minutes.
                 </p>
             """,
