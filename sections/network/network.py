@@ -12,8 +12,7 @@ st.markdown("""
 /* Base (mobile) */
 .responsive-note {
     font-size: 12px !important;
-    color: #929aa8 !important;
-    opacity: 80% !important;
+    rgba(146, 154, 168, 0.6);
     font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif !important;
 }
 
