@@ -31,9 +31,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-</style>
-""", unsafe_allow_html=True)
-
 from dataset.BPI_dt import ratio_rapid_kl, unique_months, ratio_mrt_feeder, bpi_mrt_feeder, bpi_rapid_kl
 from graphs.Ternary_plots import month_slider, get_ternary_rapid_kl, get_ternary_mrt_feeder
 from graphs.Violin_plots import get_violin
