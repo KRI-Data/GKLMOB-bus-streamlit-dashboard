@@ -264,7 +264,7 @@ def render_network():
                     bpi_filtered_sorted.style
                         .map(color_bpi, subset=['BPI'])
                         .map(color_otp, subset=['OTP'])
-                        .map(color_mae, subset=['rMAE'])
+                        .map(color_mae, subset=['r̃MAE'])
                 )
   
                 st.dataframe(styled_df)
