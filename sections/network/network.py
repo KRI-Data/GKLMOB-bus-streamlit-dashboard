@@ -204,6 +204,20 @@ def render_network():
 
             with st.container(border=True):
 
+                st.markdown("""
+                    <style>
+                        .custom-df [data-testid="stDataFrame"] div {
+                            font-size: 14px !important;        /* Change font size here */
+                        }
+                        .custom-df [data-testid="stDataFrame"] table {
+                            font-size: 14px !important;        /* Backup for older versions */
+                        }
+                    </style>
+                """, unsafe_allow_html=True)
+
+                # Add wrapper class
+                st.markdown('<div class="custom-df">', unsafe_allow_html=True)
+
                 st.markdown("""<h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 1.5rem; line-height: 1.3; text-align: center;">Rapid KL Bus</h3>""", unsafe_allow_html=True)
 
                 # Combine short and long names
@@ -211,7 +225,7 @@ def render_network():
                 bpi_filtered_display['Route'] = bpi_filtered_display['route_short_name'] + " (" + bpi_filtered_display['route_long_name'] + ")"
 
                 # Keep only the combined column and BPI
-                bpi_filtered_display = bpi_filtered_display[['Route', 'BPI','OTP','rMAE']]
+                bpi_filtered_display = bpi_filtered_display[['Route', 'BPI','OTP','r̃MAE']]
 
                 # Sort by BPI descending
                 bpi_filtered_sorted = bpi_filtered_display.sort_values(by='BPI', ascending=False)
@@ -254,6 +268,8 @@ def render_network():
                 )
   
                 st.dataframe(styled_df)
+
+                st.markdown('</div>', unsafe_allow_html=True)
 
 
         with col2:
