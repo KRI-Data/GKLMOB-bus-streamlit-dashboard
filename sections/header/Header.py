@@ -79,11 +79,11 @@ def render_header():
                 selected = option_menu(
                     menu_title=None,
                     options=["Network", "Routes", "About"],
-                    icons=[None, None, None],
                     default_index=0,
                     orientation="horizontal",
                     styles={
                         "container": {"padding": "0 0", "background-color": "transparent"},
+                        "icon": {"display": "none"},
                         "options": {},
                         "nav-link": {
                             "text-align": "center",
