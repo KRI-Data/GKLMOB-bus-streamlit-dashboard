@@ -16,7 +16,7 @@ st.markdown("""
     }
 
     .option-menu .nav-link > i {
-        font-size: 8px !important;
+        font-size: 16px !important;
     }
 
     /* --- Large screens (desktops) --- */
