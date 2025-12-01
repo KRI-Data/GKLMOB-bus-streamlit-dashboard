@@ -17,9 +17,9 @@ st.markdown("""
 
 
 /* Large monitors */
-@media (min-width: 700px) {
+@media (min-width: 1200px) {
     .responsive-note {
-        font-size: 18px !important;
+        font-size: 20px !important;
     }
 }
 
