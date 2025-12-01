@@ -189,7 +189,7 @@ def render_network():
         <h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 2.25rem; line-height: 1.15; text-align: center">Best Performing Routes</h3>""", unsafe_allow_html=True)
         st.markdown(
             """
-                <p class="responsive-note" style="color: white font-size: 1.25rem">
+                <p class="responsive-note" style="color: white; font-size: 1.25rem">
                     Note:<br>
                     1. BPI close to 1 indicates that most buses arrive on time with minimal deviation from the schedule.<br>
                     2. r\u0303MAE is the relative Mean Absolute Error (0–1), where lower values indicate smaller deviations from scheduled arrival times.
