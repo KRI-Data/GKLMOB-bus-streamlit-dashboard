@@ -93,7 +93,7 @@ def get_violin(df_rapid, df_mrt):
         legend=dict(
             font=dict(
                 size=13,        
-                color="white"   
+                color="white"   # optional
             ),
             bgcolor='#1c293d'
         )

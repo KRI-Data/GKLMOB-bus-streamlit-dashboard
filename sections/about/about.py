@@ -46,8 +46,8 @@ def render_about():
         """
         <div class="about-box">
             <div class="about-box-content">
-                <h1 style="font-weight: 700; font-family:'Crimson Pro', serif; font-size: 3.5rem; line-height: 1.1; text-align: left">KRI Data Visualisation</h1>
-                <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1rem; line-height: 1.7;">A research narrative combines data with context and human stories, making findings clearer, more relatable, and impactful.</p>
+                <h1 style="font-weight: 700; font-family:'Crimson Pro', serif; font-size: 3.0rem; line-height: 1.1; text-align: left">KRI Data Visualisation</h1>
+                <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1.5rem; line-height: 1.7;">A research narrative combines data with context and human stories, making findings clearer, more relatable, and impactful.</p>
             </div>
         </div>
         """,
@@ -62,11 +62,11 @@ def render_about():
             """
             <div>
                 <h2 style="font-weight: 600; font-family:'Inter', san-serif; font-size: 1.25rem; line-height: 1.6;">About KRI Data Visualisation</h2>
-                <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1rem; line-height: 1.7; text-align: justify;">Our research delivers rigorous analysis through working papers (preliminary findings), discussion papers (policy-focused insights), and comprehensive reports, 
+                <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1.2rem; line-height: 1.7; text-align: justify;">Our research delivers rigorous analysis through working papers (preliminary findings), discussion papers (policy-focused insights), and comprehensive reports, 
                 all essential reading for policymakers navigating Malaysia's strategic challenges. Through data visualisation, we advocate for the knowledge we acquire, making 
                 insights accessible and encouraging informed public discourse.</p>
-                <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1rem; line-height: 1.7; text-align: justify;">Our commentary features expert opinions on current issues, offering timely perspectives (views expressed are individual, not institutional).</p>
-                <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1rem; line-height: 1.7; text-align: justify;">Together, these publications shape informed policy decisions and public discourse, translating complex data into actionable knowledge for Malaysia's progress.</p>
+                <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1.2rem; line-height: 1.7; text-align: justify;">Our commentary features expert opinions on current issues, offering timely perspectives (views expressed are individual, not institutional).</p>
+                <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1.2rem; line-height: 1.7; text-align: justify;">Together, these publications shape informed policy decisions and public discourse, translating complex data into actionable knowledge for Malaysia's progress.</p>
             </div>
             """,
             unsafe_allow_html=True
@@ -78,7 +78,7 @@ def render_about():
             <div>
 
                 <h2 style="font-weight: 600; font-family:'Inter', san-serif; font-size: 1.25rem; line-height: 1.6;">Further Reading</h2>
-                <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1rem; line-height: 1.7; text-align: justify;">
+                <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1.2rem; line-height: 1.7; text-align: justify;">
                 For a comprehensive explanation of the data, please refer to this
                 <a href="https://www.krinstitute.org/publication/working-paper" target="_blank" 
                 style="color: ##e2e8f0; text-decoration: underline;">
@@ -86,7 +86,7 @@ def render_about():
                 </a> .This dashboard offers a visual representation of that information.
                 </p>
 
-                <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1rem; line-height: 1.7; text-align: justify;">
+                <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1.2rem; line-height: 1.7; text-align: justify;">
                 For an interactive experience, please also check out this
                 <a href="https://www.krinstitute.org/publication/working-paper" target="_blank" 
                 style="color: ##e2e8f0; text-decoration: underline;">
