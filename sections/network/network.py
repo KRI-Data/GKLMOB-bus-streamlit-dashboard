@@ -48,7 +48,7 @@ def render_network():
         """, unsafe_allow_html=True)
         st.markdown(
             """
-                <p class="responsive-note"; style="color: white; font-size: 15px">
+                <p class="responsive-note"; style="color: white; font-size: 15px; opacity: 0.8">
                     Note: A bus is considered on-time if it arrived not earlier than 1 minute and not later than 5 minutes.
                 </p>
             """,
@@ -150,7 +150,7 @@ def render_network():
         <h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 2.25rem; line-height: 1.15; text-align: center">Bus Performance Index (BPI)</h3>""", unsafe_allow_html=True)
         st.markdown(
             """
-                <p class="responsive-note"; style="color: white; font-size: 15px">
+                <p class="responsive-note"; style="color: white; font-size: 15px; opacity: 0.8">
                     Note: BPI measured both on-time arrivals and the severity of deviation from schedule when a bus is not punctual.
                 </p>
             """,
