@@ -6,26 +6,6 @@ from pathlib import Path
 # Add project root to sys.path
 sys.path.append(str(Path(__file__).resolve().parents[2]))
 
-st.markdown("""
-<style>
-
-/* Base (mobile) */
-.responsive-note {
-    font-size: 12px !important;
-    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif !important;
-}
-
-
-/* Large monitors */
-@media (min-width: 700px) {
-    .responsive-note {
-        font-size: 1.55rem !important;
-    }
-}
-
-</style>
-""", unsafe_allow_html=True)
-
 from dataset.BPI_dt import ratio_rapid_kl, unique_months, ratio_mrt_feeder, bpi_mrt_feeder, bpi_rapid_kl
 from graphs.Ternary_plots import month_slider, get_ternary_rapid_kl, get_ternary_mrt_feeder
 from graphs.Violin_plots import get_violin
@@ -68,7 +48,7 @@ def render_network():
         """, unsafe_allow_html=True)
         st.markdown(
             """
-                <p class="responsive-note"; style="color: rgba(146, 154, 168, 0.7)">
+                <p class="responsive-note"; style="color: white; font-size: 15px">
                     Note: A bus is considered on-time if it arrived not earlier than 1 minute and not later than 5 minutes.
                 </p>
             """,
@@ -170,7 +150,7 @@ def render_network():
         <h3 style="font-weight: 600; font-family: 'Crimson Pro', serif; font-size: 2.25rem; line-height: 1.15; text-align: center">Bus Performance Index (BPI)</h3>""", unsafe_allow_html=True)
         st.markdown(
             """
-                <p class="responsive-note"; style="color: rgba(146, 154, 168, 0.7)">
+                <p class="responsive-note"; style="color: white; font-size: 15px">
                     Note: BPI measured both on-time arrivals and the severity of deviation from schedule when a bus is not punctual.
                 </p>
             """,
