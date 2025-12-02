@@ -47,7 +47,7 @@ def render_about():
         <div class="about-box">
             <div class="about-box-content">
                 <h1 style="font-weight: 700; font-family:'Crimson Pro', serif; font-size: 2.5rem; line-height: 1.1; text-align: left">KRI Data Visualisation</h1>
-                <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1.25rem; line-height: 1.7;">A research narrative combines data with context and human stories, making findings clearer, more relatable, and impactful.</p>
+                <p style="font-weight: 500; font-family:'Inter', san-serif; font-size: 1.25rem; line-height: 1.7;">A research narrative combines data with context and human stories, making findings clearer, more relatable, and impactful.</p>
             </div>
         </div>
         """,
