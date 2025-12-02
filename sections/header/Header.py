@@ -52,7 +52,7 @@ def render_header():
         with col1:
             st.markdown(
                 f"""
-                <div style="text-align: left;">
+                <div style="text-align: left; align-items: bottom;">
                     <a href="https://www.krinstitute.org/">
                         <img src="data:image/png;base64,{img_base64}" width="150" >
                     </a>
