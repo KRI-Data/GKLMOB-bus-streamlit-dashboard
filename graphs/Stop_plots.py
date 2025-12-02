@@ -154,11 +154,12 @@ def get_time_series(df):
         x='Date',
         y='BPI',
         color='Route',
+        hover_name='Route'
         labels={'BPI':'Bus Performance Index (BPI)', 'date':'Date'}
     )
 
     fig.update_traces(
-        hovertemplate='<b>%{customdata[0]}</b><br>Date: %{x}<br>BPI: %{y:.2f}<extra></extra>',
+        hovertemplate='<b>%{hovertext}</b><br>Date: %{x}<br>BPI: %{y:.2f}<extra></extra>',
         customdata=df[['Route']]  # Use customdata for bold Route
     )
 
