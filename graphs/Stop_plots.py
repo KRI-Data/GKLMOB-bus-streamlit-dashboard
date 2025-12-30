@@ -62,9 +62,9 @@ def get_stop(df):
 
         # Add route stops (main points)
         fig.add_scatterternary(
-            a=group["ratio_late"],
+            a=group["ratio_on_time"],
             b=group["ratio_early"],
-            c=group["ratio_on_time"],
+            c=group["ratio_late"],
             mode='markers',
             name=f"Route {route_id}",
             customdata=(
@@ -81,9 +81,9 @@ def get_stop(df):
 
         # Add route average (star)
         fig.add_scatterternary(
-            a=[avg_ratios["ratio_late"]],
+            a=[avg_ratios["ratio_on_time"]],
             b=[avg_ratios["ratio_early"]],
-            c=[avg_ratios["ratio_on_time"]],
+            c=[avg_ratios["ratio_late"]],
             mode='markers',
             marker=dict(symbol='star', size=14, line=dict(width=1.5, color='white')),
             hoverinfo='text',
@@ -106,9 +106,9 @@ def get_stop(df):
         plot_bgcolor='#1c293d',
         ternary=dict(
             bgcolor='#1c293d',
-            aaxis=dict(title=dict(text='Late', font=dict(color='white')), tickcolor='white'),
+            aaxis=dict(title=dict(text='On Time', font=dict(color='white')), tickcolor='white'),
             baxis=dict(title=dict(text='Early', font=dict(color='white')), tickcolor='white'),
-            caxis=dict(title=dict(text='On Time', font=dict(color='white')), tickcolor='white')
+            caxis=dict(title=dict(text='Late', font=dict(color='white')), tickcolor='white')
         ),
         font=dict(color='white'),
         margin=dict(l=40, r=40, t=40, b=40),

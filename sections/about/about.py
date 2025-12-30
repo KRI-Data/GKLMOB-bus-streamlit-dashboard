@@ -62,11 +62,8 @@ def render_about():
             """
             <div>
                 <h2 style="font-weight: 600; font-family:'Inter', san-serif; font-size: 1.25rem; line-height: 1.6;">About KRI Data Visualisation</h2>
-                <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1.2rem; line-height: 1.7; text-align: justify;">Our research delivers rigorous analysis through working papers (preliminary findings), discussion papers (policy-focused insights), and comprehensive reports, 
-                all essential reading for policymakers navigating Malaysia's strategic challenges. Through data visualisation, we advocate for the knowledge we acquire, making 
-                insights accessible and encouraging informed public discourse.</p>
-                <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1.2rem; line-height: 1.7; text-align: justify;">Our commentary features expert opinions on current issues, offering timely perspectives (views expressed are individual, not institutional).</p>
-                <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1.2rem; line-height: 1.7; text-align: justify;">Together, these publications shape informed policy decisions and public discourse, translating complex data into actionable knowledge for Malaysia's progress.</p>
+                <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1.2rem; line-height: 1.7; text-align: justify;">At Khazanah Research Institute (KRI), we believe that data comes alive when it is seen and understood. Through clear, compelling, and interactive data visualisations, we turn complex research findings into stories that are accessible, relatable, and actionable. </p>
+                <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1.2rem; line-height: 1.7; text-align: justify;">Our visualisations highlight the patterns, trends, and human dimensions behind Malaysia’s most pressing economic, social, and structural challenges, helping policymakers, communities, and the public make informed decisions that strengthen families, uplift communities, and drive inclusive national progress.</p>
             </div>
             """,
             unsafe_allow_html=True
