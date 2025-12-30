@@ -65,16 +65,16 @@ def get_ternary_rapid_kl(df):
 
     fig = px.scatter_ternary(
         df,
-        a="ratio_late",
-        b="ratio_early",
-        c="ratio_on_time",
+        a= "ratio_on_time",
+        b= "ratio_early", 
+        c= "ratio_late",
         labels={"ratio_early": "Early", "ratio_late": "Late", "ratio_on_time": "On Time"}
     )
 
     fig.add_scatterternary(
-        a=[0.0, 0.3, 0.0, 0.0],
-        b=[0.3, 0.0, 0.0, 0.3],
-        c=[0.7, 0.7, 1.0, 0.7],
+        a= [0.7, 0.7, 1.0, 0.7], 
+        b=[0.3, 0.0, 0.0, 0.3], 
+        c=[0.0, 0.3, 0.0, 0.0],
         mode='none',
         fill='toself',
         fillcolor='rgba(0, 255, 0, 0.12)',  # soft green transparent overlay
@@ -84,9 +84,9 @@ def get_ternary_rapid_kl(df):
     )
 
     fig.add_scatterternary(
-        a=[1.0, 0.0, 0.0, 0.3],
-        b=[0.0, 1.0, 0.3, 0.0],
-        c=[0.0, 0.0, 0.7, 0.7],
+        a=[0.0, 0.0, 0.7, 0.7], 
+        b=[1.0, 0.0, 0.0, 0.3],
+        c=[0.0, 1.0, 0.3, 0.0],
         mode='none',
         fill='toself',
         fillcolor='rgba(255,0,0,0.10)',  # soft red transparent overlay
@@ -111,9 +111,9 @@ def get_ternary_rapid_kl(df):
 
     # Add network average as a star
     fig.add_scatterternary(
-        a=[avg_ratios["ratio_late"]],
+        a=[avg_ratios["ratio_on_time"]], 
         b=[avg_ratios["ratio_early"]],
-        c=[avg_ratios["ratio_on_time"]],
+        c=[avg_ratios["ratio_late"]],
         mode='markers',
         marker=dict(symbol='star', size=14, color= "#FF671B"),
         hoverinfo='text',
@@ -128,9 +128,9 @@ def get_ternary_rapid_kl(df):
         plot_bgcolor= '#1c293d',
         ternary=dict(
             bgcolor='#1c293d',     # inside triangle background
-            aaxis=dict(title=dict(text='Late', font=dict(color='white')), tickcolor='white', gridcolor='#2d313e'),
+            aaxis=dict(title=dict(text='On Time', font=dict(color='white')), tickcolor='white', gridcolor='#2d313e'),
             baxis=dict(title=dict(text='Early', font=dict(color='white')), tickcolor='white', gridcolor='#2d313e'),
-            caxis=dict(title=dict(text='On Time', font=dict(color='white')), tickcolor='white', gridcolor='#2d313e')
+            caxis=dict(title=dict(text='Late', font=dict(color='white')), tickcolor='white', gridcolor='#2d313e')
         ),
         font=dict(color='white'),
         margin=dict(l=40, r=40, t=40, b=40),
@@ -186,9 +186,9 @@ def get_ternary_mrt_feeder(df):
 
     fig = px.scatter_ternary(
         df,
-        a="ratio_late",
-        b="ratio_early",
-        c="ratio_on_time",
+        a= "ratio_on_time",
+        b= "ratio_early", 
+        c= "ratio_late",
         labels={"ratio_early": "Early", "ratio_late": "Late", "ratio_on_time": "On Time"}
     )
 
@@ -199,9 +199,9 @@ def get_ternary_mrt_feeder(df):
     )
 
     fig.add_scatterternary(
-        a=[0.0, 0.3, 0.0, 0.0],
-        b=[0.3, 0.0, 0.0, 0.3],
-        c=[0.7, 0.7, 1.0, 0.7],
+        a=[0.7, 0.7, 1.0, 0.7], 
+        b=[0.3, 0.0, 0.0, 0.3], 
+        c=[0.0, 0.3, 0.0, 0.0],
         mode='none',
         fill='toself',
         fillcolor='rgba(0, 255, 0, 0.12)',  # soft green transparent overlay
@@ -211,9 +211,9 @@ def get_ternary_mrt_feeder(df):
     )
 
     fig.add_scatterternary(
-        a=[1.0, 0.0, 0.0, 0.3],
-        b=[0.0, 1.0, 0.3, 0.0],
-        c=[0.0, 0.0, 0.7, 0.7],
+        a=[0.0, 0.0, 0.7, 0.7], 
+        b=[1.0, 0.0, 0.0, 0.3],
+        c=[0.0, 1.0, 0.3, 0.0],
         mode='none',
         fill='toself',
         fillcolor='rgba(255,0,0,0.10)',  # soft red transparent overlay
@@ -232,9 +232,9 @@ def get_ternary_mrt_feeder(df):
 
     # Add network average as a star
     fig.add_scatterternary(
-        a=[avg_ratios["ratio_late"]],
+        a=[avg_ratios["ratio_on_time"]], 
         b=[avg_ratios["ratio_early"]],
-        c=[avg_ratios["ratio_on_time"]],
+        c=[avg_ratios["ratio_late"]],
         mode='markers',
         marker=dict(symbol='star', size=14, color= "#8FAAE5"),
         hoverinfo='text',
