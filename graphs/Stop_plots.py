@@ -22,7 +22,7 @@ def route_selector(label="Select route(s):", key=None, max_choices=6):
     selected_routes = st.multiselect(
         label,
         routes,
-        default=['851 (Hab Pasar Seni ~ Kompleks Mahkamah Jalan Duta)', 'AJ03 (Stesen LRT Cempaka ~ Bukit Teratai)',  'T789 (Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark)'],
+        default=['190 (Desa Sri Hartamas ~ Lin Ho Jln Lekiu)', '821 (Pantai Hill Park ~ Hab Pasar Seni)',  'T789 (Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark)'],
         key=key,
     )
 
