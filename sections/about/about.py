@@ -77,7 +77,7 @@ def render_about():
                 <h2 style="font-weight: 600; font-family:'Inter', san-serif; font-size: 1.25rem; line-height: 1.6;">Further Reading</h2>
                 <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1.2rem; line-height: 1.7; text-align: justify;">
                 For a comprehensive explanation of the data, please refer to our
-                <a href="https://www.krinstitute.org/publication/working-paper" target="_blank" 
+                <a href="https://www.krinstitute.org/publications/assessing-bus-performance-in-greater-kuala-lumpur" target="_blank" 
                 style="color: ##e2e8f0; text-decoration: underline;">
                     paper
                 </a> .This dashboard offers a visual representation of that information.
@@ -85,7 +85,7 @@ def render_about():
 
                 <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1.2rem; line-height: 1.7; text-align: justify;">
                 For an interactive experience, please also check out our
-                <a href="https://www.krinstitute.org/publication/working-paper" target="_blank" 
+                <a href="https://www.krinstitute.org/publications/data-bus-scrollytelling" target="_blank" 
                 style="color: ##e2e8f0; text-decoration: underline;">
                      scrollytelling
                 </a> .
