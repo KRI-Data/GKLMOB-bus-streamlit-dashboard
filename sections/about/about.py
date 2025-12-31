@@ -76,7 +76,7 @@ def render_about():
 
                 <h2 style="font-weight: 600; font-family:'Inter', san-serif; font-size: 1.25rem; line-height: 1.6;">Further Reading</h2>
                 <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1.2rem; line-height: 1.7; text-align: justify;">
-                For a comprehensive explanation of the data, please refer to this
+                For a comprehensive explanation of the data, please refer to our
                 <a href="https://www.krinstitute.org/publication/working-paper" target="_blank" 
                 style="color: ##e2e8f0; text-decoration: underline;">
                     paper
@@ -84,10 +84,10 @@ def render_about():
                 </p>
 
                 <p style="font-weight: 400; font-family:'Inter', san-serif; font-size: 1.2rem; line-height: 1.7; text-align: justify;">
-                For an interactive experience, please also check out this
+                For an interactive experience, please also check out our
                 <a href="https://www.krinstitute.org/publication/working-paper" target="_blank" 
                 style="color: ##e2e8f0; text-decoration: underline;">
-                     scorllytelling
+                     scrollytelling
                 </a> .
                 </p>
             </div>
