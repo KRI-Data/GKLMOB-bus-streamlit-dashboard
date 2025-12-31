@@ -99,4 +99,18 @@ def get_violin(df_rapid, df_mrt):
         )
     )
 
+    # Add horizontal reference line at y = 0.7
+    fig.add_hline(
+        y=0.7,
+        line_dash="dash",
+        line_color="red",
+        line_width=2,
+        annotation_text="0.7",
+        annotation_position="top right",
+        annotation_font=dict(
+            color="red",
+            size=13
+        )
+    )
+
     return fig
