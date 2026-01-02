@@ -249,9 +249,9 @@ def get_ternary_mrt_feeder(df):
         plot_bgcolor= '#1c293d',
         ternary=dict(
             bgcolor='#1c293d',     # inside triangle background
-            aaxis=dict(title=dict(text='Late', font=dict(color='white')), tickcolor='white', gridcolor='#2d313e'),
+            aaxis=dict(title=dict(text='On Time', font=dict(color='white')), tickcolor='white', gridcolor='#2d313e'),
             baxis=dict(title=dict(text='Early', font=dict(color='white')), tickcolor='white', gridcolor='#2d313e'),
-            caxis=dict(title=dict(text='On Time', font=dict(color='white')), tickcolor='white', gridcolor='#2d313e')
+            caxis=dict(title=dict(text='Late', font=dict(color='white')), tickcolor='white', gridcolor='#2d313e')
         ),
         font=dict(color='white'),
         margin=dict(l=40, r=40, t=40, b=40),
