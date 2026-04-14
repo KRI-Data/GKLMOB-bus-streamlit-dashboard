@@ -182,7 +182,7 @@ def render_route():
 
             route_columns = pivot_df.columns.drop('Date')
 
-            styled_pivot_df = pivot_df.style.applymap(
+            styled_pivot_df = pivot_df.style.map(
                 lambda val: 'color: green; font-weight: bold' if val > 0.7 else 'color: red; font-weight: bold',
                 subset=route_columns
                 )
