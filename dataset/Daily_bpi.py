@@ -21,13 +21,13 @@ def daily_rapid_kl():
     daily_rapid_kl_new['route_id'] = daily_rapid_kl_new['route_short_name'] + " (" + daily_rapid_kl_new['route_long_name'] + ")"
     daily_rapid_kl_new = daily_rapid_kl_new[['route_id', 'date', 'month', 'I_hat']].rename(columns={'I_hat':'BPI', 'route_id':'Route', 'date': 'Date'})
 
-    daily_rapid_kl_202512['route_id'] = daily_rapid_kl_202512['route_short_name'] + " (" + daily_rapid_kl['route_long_name'] + ")"
+    daily_rapid_kl_202512['route_id'] = daily_rapid_kl_202512['route_short_name'] + " (" + daily_rapid_kl_202512['route_long_name'] + ")"
     daily_rapid_kl_202512 = daily_rapid_kl_202512[['route_id', 'date', 'month', 'BPI']].rename(columns={'route_id':'Route', 'date': 'Date'})
 
-    daily_rapid_kl_202601['route_id'] = daily_rapid_kl_202602['route_short_name'] + " (" + daily_rapid_kl['route_long_name'] + ")"
+    daily_rapid_kl_202601['route_id'] = daily_rapid_kl_202601['route_short_name'] + " (" + daily_rapid_kl_202601['route_long_name'] + ")"
     daily_rapid_kl_202601 = daily_rapid_kl_202601[['route_id', 'date', 'month', 'BPI']].rename(columns={'route_id':'Route', 'date': 'Date'})
 
-    daily_rapid_kl_202602['route_id'] = daily_rapid_kl_202602['route_short_name'] + " (" + daily_rapid_kl['route_long_name'] + ")"
+    daily_rapid_kl_202602['route_id'] = daily_rapid_kl_202602['route_short_name'] + " (" + daily_rapid_kl_202602['route_long_name'] + ")"
     daily_rapid_kl_202602 = daily_rapid_kl_202602[['route_id', 'date', 'month', 'BPI']].rename(columns={'route_id':'Route', 'date': 'Date'})
 
     combined = pd.concat([daily_rapid_kl, daily_rapid_kl_new, daily_rapid_kl_202512, daily_rapid_kl_202601, daily_rapid_kl_202602], ignore_index=True)
