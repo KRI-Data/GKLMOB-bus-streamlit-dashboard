@@ -198,9 +198,9 @@ def bpi_mrt_feeder():
 
     bpi_mrt_feeder = df[['route_id', 'mae_ratio','otp', 'month', 'I_hat']].rename(columns={'I_hat': 'BPI', 'mae_ratio':'rMAE','otp':'OTP' })
     bpi_mrt_feeder_new = df_new[['route_id', 'mae_ratio','otp', 'month', 'I_hat']].rename(columns={'I_hat': 'BPI', 'mae_ratio':'rMAE','otp':'OTP' })
-    bpi_mrt_202512 = df_202512[['route_id', 'mae_ratio','otp', 'month', 'I_hat']].rename(columns={'mae_ratio':'rMAE','otp':'OTP'})
-    bpi_mrt_202601 = df_202601[['route_id', 'mae_ratio','otp', 'month', 'I_hat']].rename(columns={'mae_ratio':'rMAE','otp':'OTP'})
-    bpi_mrt_202602 = df_202602[['route_id', 'mae_ratio','otp', 'month', 'I_hat']].rename(columns={'mae_ratio':'rMAE','otp':'OTP'})
+    bpi_mrt_202512 = df_202512[['route_id', 'mae_ratio','otp', 'month', 'BPI']].rename(columns={'mae_ratio':'rMAE','otp':'OTP'})
+    bpi_mrt_202601 = df_202601[['route_id', 'mae_ratio','otp', 'month', 'BPI']].rename(columns={'mae_ratio':'rMAE','otp':'OTP'})
+    bpi_mrt_202602 = df_202602[['route_id', 'mae_ratio','otp', 'month', 'BPI']].rename(columns={'mae_ratio':'rMAE','otp':'OTP'})
 
     bpi_mrt_feeder['rMAE'] = bpi_mrt_feeder['rMAE'].clip(upper=1)
     bpi_mrt_feeder_new['rMAE'] = bpi_mrt_feeder_new['rMAE'].clip(upper=1)
