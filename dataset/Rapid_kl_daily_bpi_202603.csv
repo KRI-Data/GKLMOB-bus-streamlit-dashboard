@@ -1,0 +1,1532 @@
+route_id,date,month,BPI,route_short_name,route_long_name
+S6060,2026-03-02,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-02,2026-03,0.5009,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-02,2026-03,0.8787,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2020,2026-03-02,2026-03,0.9684,T202,Stesen LRT Taman Melati ~ Taman Melewar
+T2220,2026-03-02,2026-03,0.6998,T222,Stesen LRT Sri Rampai ~ UKAY Perdana
+T2230,2026-03-02,2026-03,0.8965,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2510,2026-03-02,2026-03,0.8787,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-02,2026-03,0,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-02,2026-03,0.9597,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-02,2026-03,0.8313,T302,Hutan Lipur Ampang ~ Ampang Point
+T3030,2026-03-02,2026-03,0.7131,T303,Ampang Point ~ Stesen LRT Pandan Indah
+T3048,2026-03-02,2026-03,0,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T3500,2026-03-02,2026-03,0.748,T350,Stesen LRT Cempaka ~ Taman Mawar
+T3510,2026-03-02,2026-03,0.9692,T351,Stesen LRT Cempaka ~ Taman Bukit Permai
+T4068,2026-03-02,2026-03,0.7506,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-02,2026-03,0.5972,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-02,2026-03,0.5903,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-02,2026-03,0.82,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-02,2026-03,0.6075,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-02,2026-03,0.9695,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-02,2026-03,0.8759,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-02,2026-03,0.8989,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-02,2026-03,0.9068,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-02,2026-03,0.4147,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-02,2026-03,0.6679,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-02,2026-03,0.3425,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-02,2026-03,0,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-02,2026-03,0.4411,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-02,2026-03,0.9416,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7800,2026-03-02,2026-03,0.8079,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7810,2026-03-02,2026-03,0.7558,T781,Stesen LRT Kelana Jaya ~ Kelana Centre Point
+T7820,2026-03-02,2026-03,0.9839,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-02,2026-03,0.6566,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-02,2026-03,0.9432,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7890,2026-03-02,2026-03,0.9195,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T7900,2026-03-02,2026-03,0.7116,T790,Stesen LRT Paramount ~ Mid Valley
+T8510,2026-03-02,2026-03,0.3205,T851,KL Sentral ~ Parlimen
+U1710,2026-03-02,2026-03,0.7496,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-02,2026-03,0.7828,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-02,2026-03,0.7375,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-02,2026-03,0.8269,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2020,2026-03-02,2026-03,0.7953,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-02,2026-03,0.6785,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-02,2026-03,0,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-02,2026-03,0.9026,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2538,2026-03-02,2026-03,0.4713,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U2548,2026-03-02,2026-03,0.7626,254,Ayer Panas ~ Titiwangsa via Chowkit
+U3000,2026-03-02,2026-03,0.7704,300,Terminal Maluri ~ Lebuh Ampang
+U3020,2026-03-02,2026-03,0.6905,302,Titiwangsa ~ KLCC
+U3030,2026-03-02,2026-03,0,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-02,2026-03,1,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4200,2026-03-02,2026-03,0.9054,420,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4210,2026-03-02,2026-03,0.6786,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-02,2026-03,0.8352,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-02,2026-03,0.1162,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-02,2026-03,0.6928,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-02,2026-03,0.5567,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-02,2026-03,0.6047,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-02,2026-03,0.5935,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-02,2026-03,0.7978,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-02,2026-03,0.8353,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-02,2026-03,0.7972,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-02,2026-03,0.3151,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-02,2026-03,0.8582,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-02,2026-03,0.8331,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-02,2026-03,0.6719,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-02,2026-03,0.7232,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7538,2026-03-02,2026-03,0.9613,753,Hentian Bandar Shah Alam ~ UiTM Puncak Alam
+U7548,2026-03-02,2026-03,0.8348,754,Sekysen 13 Shah Alam ~ UITM Puncak Perdana
+U7700,2026-03-02,2026-03,0.718,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-02,2026-03,0.8692,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-02,2026-03,0.7656,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-02,2026-03,0.9146,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-02,2026-03,0.8702,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-02,2026-03,0.4786,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-02,2026-03,0.8274,821,Pantai Hill Park ~ Hab Pasar Seni
+S5010,2026-03-03,2026-03,0,MENARA PRASARANA,LRT Lembah Subang ~ Menara Prasarana
+S6060,2026-03-03,2026-03,0.0485,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-03,2026-03,0.6653,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-03,2026-03,0.8598,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2020,2026-03-03,2026-03,0.8702,T202,Stesen LRT Taman Melati ~ Taman Melewar
+T2220,2026-03-03,2026-03,0.6567,T222,Stesen LRT Sri Rampai ~ UKAY Perdana
+T2230,2026-03-03,2026-03,0.9259,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2500,2026-03-03,2026-03,0.8771,T250,Stesen LRT Wangsa Maju ~ Setapak Sentral
+T2510,2026-03-03,2026-03,0.7794,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-03,2026-03,0.3627,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-03,2026-03,0.9219,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-03,2026-03,0.675,T302,Hutan Lipur Ampang ~ Ampang Point
+T3030,2026-03-03,2026-03,0.5606,T303,Ampang Point ~ Stesen LRT Pandan Indah
+T3048,2026-03-03,2026-03,0.4636,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T3500,2026-03-03,2026-03,0.7019,T350,Stesen LRT Cempaka ~ Taman Mawar
+T3510,2026-03-03,2026-03,0.7994,T351,Stesen LRT Cempaka ~ Taman Bukit Permai
+T4068,2026-03-03,2026-03,0.4896,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-03,2026-03,0.7518,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-03,2026-03,0.5258,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-03,2026-03,0,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-03,2026-03,0.6027,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-03,2026-03,0.94,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-03,2026-03,0.622,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-03,2026-03,0.7991,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-03,2026-03,0.901,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-03,2026-03,0.5387,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-03,2026-03,0.762,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-03,2026-03,0,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-03,2026-03,0,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-03,2026-03,0.8099,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-03,2026-03,1,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7760,2026-03-03,2026-03,0.7528,T776,Stesen LRT USJ 7 ~ Subang Mewah
+T7800,2026-03-03,2026-03,0.5775,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7810,2026-03-03,2026-03,0.5938,T781,Stesen LRT Kelana Jaya ~ Kelana Centre Point
+T7820,2026-03-03,2026-03,0.8333,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-03,2026-03,0.7563,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-03,2026-03,0.908,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7880,2026-03-03,2026-03,0,T788,Stesen LRT Universiti ~ Mid Valley
+T7890,2026-03-03,2026-03,0.898,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T7900,2026-03-03,2026-03,0.8523,T790,Stesen LRT Paramount ~ Mid Valley
+T8510,2026-03-03,2026-03,0.279,T851,KL Sentral ~ Parlimen
+U1710,2026-03-03,2026-03,0.773,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-03,2026-03,0,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-03,2026-03,0.7789,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-03,2026-03,0.8933,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2020,2026-03-03,2026-03,0.8013,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-03,2026-03,0.5577,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-03,2026-03,0.8045,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-03,2026-03,0.7662,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2538,2026-03-03,2026-03,0.5689,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U2548,2026-03-03,2026-03,0.6468,254,Ayer Panas ~ Titiwangsa via Chowkit
+U3000,2026-03-03,2026-03,0,300,Terminal Maluri ~ Lebuh Ampang
+U3020,2026-03-03,2026-03,0.7356,302,Titiwangsa ~ KLCC
+U3030,2026-03-03,2026-03,0.5136,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-03,2026-03,0.4025,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4210,2026-03-03,2026-03,0,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-03,2026-03,0.8278,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-03,2026-03,0.1498,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-03,2026-03,0.8416,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-03,2026-03,0.5098,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-03,2026-03,0.5496,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-03,2026-03,0.5958,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-03,2026-03,0.7578,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-03,2026-03,0.4893,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-03,2026-03,0.7868,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-03,2026-03,0.4243,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-03,2026-03,0.8022,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-03,2026-03,0.8516,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-03,2026-03,0.5507,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-03,2026-03,0.8035,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7538,2026-03-03,2026-03,0.97,753,Hentian Bandar Shah Alam ~ UiTM Puncak Alam
+U7548,2026-03-03,2026-03,0.7853,754,Sekysen 13 Shah Alam ~ UITM Puncak Perdana
+U7700,2026-03-03,2026-03,0.6298,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-03,2026-03,0.897,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-03,2026-03,0.7484,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-03,2026-03,0.5005,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-03,2026-03,0.6925,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-03,2026-03,0.5001,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-03,2026-03,0.8011,821,Pantai Hill Park ~ Hab Pasar Seni
+S5010,2026-03-04,2026-03,1,MENARA PRASARANA,LRT Lembah Subang ~ Menara Prasarana
+S6060,2026-03-04,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-04,2026-03,0,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-04,2026-03,0.914,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2020,2026-03-04,2026-03,0.9593,T202,Stesen LRT Taman Melati ~ Taman Melewar
+T2220,2026-03-04,2026-03,0.6482,T222,Stesen LRT Sri Rampai ~ UKAY Perdana
+T2230,2026-03-04,2026-03,0.9607,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2500,2026-03-04,2026-03,1,T250,Stesen LRT Wangsa Maju ~ Setapak Sentral
+T2510,2026-03-04,2026-03,0.1039,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-04,2026-03,0.0121,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-04,2026-03,0.9036,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-04,2026-03,0.8686,T302,Hutan Lipur Ampang ~ Ampang Point
+T3048,2026-03-04,2026-03,0.3157,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T3510,2026-03-04,2026-03,0.7242,T351,Stesen LRT Cempaka ~ Taman Bukit Permai
+T4068,2026-03-04,2026-03,0.5876,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-04,2026-03,0.7336,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-04,2026-03,0.3059,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-04,2026-03,0.5503,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-04,2026-03,0.6374,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-04,2026-03,0.9457,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-04,2026-03,0,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-04,2026-03,0.8537,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-04,2026-03,0.9518,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-04,2026-03,0.6755,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-04,2026-03,0.8569,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-04,2026-03,0.8191,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-04,2026-03,0,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-04,2026-03,0.4208,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-04,2026-03,0.7657,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7800,2026-03-04,2026-03,0.76,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7810,2026-03-04,2026-03,0.5917,T781,Stesen LRT Kelana Jaya ~ Kelana Centre Point
+T7820,2026-03-04,2026-03,0,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-04,2026-03,0.4302,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-04,2026-03,0.9092,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7880,2026-03-04,2026-03,0,T788,Stesen LRT Universiti ~ Mid Valley
+T7890,2026-03-04,2026-03,1,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T8500,2026-03-04,2026-03,1,T850,Stesen LRT Bangsar ~ Stesen MRT Semantan
+T8510,2026-03-04,2026-03,0.3971,T851,KL Sentral ~ Parlimen
+U1510,2026-03-04,2026-03,0.5657,151,Bandar Baru Selayang ~ Hab Lebuh Pudu
+U1710,2026-03-04,2026-03,0.7611,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-04,2026-03,0.8513,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-04,2026-03,0.7731,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-04,2026-03,0.9042,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2020,2026-03-04,2026-03,0.8137,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-04,2026-03,0.3011,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-04,2026-03,0.8688,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-04,2026-03,0.8589,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2538,2026-03-04,2026-03,0.3526,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U2548,2026-03-04,2026-03,0.6434,254,Ayer Panas ~ Titiwangsa via Chowkit
+U3000,2026-03-04,2026-03,0.9481,300,Terminal Maluri ~ Lebuh Ampang
+U3020,2026-03-04,2026-03,0.7987,302,Titiwangsa ~ KLCC
+U3030,2026-03-04,2026-03,0.8793,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-04,2026-03,0.1732,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4210,2026-03-04,2026-03,0.7852,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-04,2026-03,0.8101,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-04,2026-03,0.4235,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-04,2026-03,0.8865,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-04,2026-03,0.5438,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-04,2026-03,0.7,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-04,2026-03,0.6183,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-04,2026-03,0.7964,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-04,2026-03,0.6569,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-04,2026-03,0.8419,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-04,2026-03,0.5964,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-04,2026-03,0.9086,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-04,2026-03,0.7648,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-04,2026-03,0.5985,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-04,2026-03,0.8256,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7538,2026-03-04,2026-03,1,753,Hentian Bandar Shah Alam ~ UiTM Puncak Alam
+U7548,2026-03-04,2026-03,0.6543,754,Sekysen 13 Shah Alam ~ UITM Puncak Perdana
+U7700,2026-03-04,2026-03,0.6977,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-04,2026-03,0.9105,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-04,2026-03,0.6984,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-04,2026-03,0.9091,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-04,2026-03,0.7722,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-04,2026-03,0.7542,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-04,2026-03,0.8479,821,Pantai Hill Park ~ Hab Pasar Seni
+S6060,2026-03-05,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-05,2026-03,0.6785,T200,Stesen LRT Gombak ~ UIA Gombak
+T2020,2026-03-05,2026-03,0,T202,Stesen LRT Taman Melati ~ Taman Melewar
+T2220,2026-03-05,2026-03,0.6995,T222,Stesen LRT Sri Rampai ~ UKAY Perdana
+T2230,2026-03-05,2026-03,1,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2500,2026-03-05,2026-03,0.6857,T250,Stesen LRT Wangsa Maju ~ Setapak Sentral
+T2510,2026-03-05,2026-03,0.7915,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-05,2026-03,0,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-05,2026-03,0.9656,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-05,2026-03,0.7087,T302,Hutan Lipur Ampang ~ Ampang Point
+T3048,2026-03-05,2026-03,0.0447,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T4068,2026-03-05,2026-03,0.7129,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-05,2026-03,0.6458,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-05,2026-03,0.6795,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-05,2026-03,0.7985,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-05,2026-03,0.6001,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-05,2026-03,0.9673,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-05,2026-03,0.7961,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-05,2026-03,0.9116,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-05,2026-03,0.9444,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-05,2026-03,0.7754,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-05,2026-03,0.8499,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-05,2026-03,0.8874,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-05,2026-03,0,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-05,2026-03,0.8906,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-05,2026-03,0.8807,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7800,2026-03-05,2026-03,0.7462,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7810,2026-03-05,2026-03,0.8852,T781,Stesen LRT Kelana Jaya ~ Kelana Centre Point
+T7820,2026-03-05,2026-03,0.8827,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-05,2026-03,0.9785,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-05,2026-03,0.9418,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7890,2026-03-05,2026-03,1,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T7910,2026-03-05,2026-03,0.9107,T791,Stesen LRT Kerinchi ~ Pantai Hill Park
+T8500,2026-03-05,2026-03,1,T850,Stesen LRT Bangsar ~ Stesen MRT Semantan
+T8510,2026-03-05,2026-03,0.2834,T851,KL Sentral ~ Parlimen
+U1710,2026-03-05,2026-03,0.8542,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-05,2026-03,0.3105,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-05,2026-03,0.8381,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-05,2026-03,0.8702,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2020,2026-03-05,2026-03,0.8221,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-05,2026-03,0.6032,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-05,2026-03,0.6646,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-05,2026-03,0.9007,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2538,2026-03-05,2026-03,0.3094,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U2548,2026-03-05,2026-03,0.5146,254,Ayer Panas ~ Titiwangsa via Chowkit
+U3020,2026-03-05,2026-03,0.9062,302,Titiwangsa ~ KLCC
+U3030,2026-03-05,2026-03,0.8299,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-05,2026-03,0.7344,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4200,2026-03-05,2026-03,0.0071,420,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4210,2026-03-05,2026-03,0.7211,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-05,2026-03,0.8489,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-05,2026-03,0.7554,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-05,2026-03,0.8158,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-05,2026-03,0.4852,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-05,2026-03,0.9362,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-05,2026-03,0.6013,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-05,2026-03,0.8022,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-05,2026-03,0.8318,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-05,2026-03,0.832,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-05,2026-03,0.348,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-05,2026-03,0.8608,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-05,2026-03,0.8173,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-05,2026-03,0.6785,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-05,2026-03,0.8268,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7548,2026-03-05,2026-03,0.9118,754,Sekysen 13 Shah Alam ~ UITM Puncak Perdana
+U7700,2026-03-05,2026-03,0.6008,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-05,2026-03,0,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-05,2026-03,0.7347,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-05,2026-03,0.5305,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-05,2026-03,0.8421,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-05,2026-03,0.7926,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-05,2026-03,0.8357,821,Pantai Hill Park ~ Hab Pasar Seni
+S6060,2026-03-06,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-06,2026-03,0,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-06,2026-03,0.9166,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2020,2026-03-06,2026-03,0.8652,T202,Stesen LRT Taman Melati ~ Taman Melewar
+T2220,2026-03-06,2026-03,0.5652,T222,Stesen LRT Sri Rampai ~ UKAY Perdana
+T2230,2026-03-06,2026-03,0.9584,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2510,2026-03-06,2026-03,0.6746,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-06,2026-03,0,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-06,2026-03,0.9499,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-06,2026-03,0.7455,T302,Hutan Lipur Ampang ~ Ampang Point
+T3048,2026-03-06,2026-03,0.6363,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T4068,2026-03-06,2026-03,0.7891,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-06,2026-03,0.4516,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-06,2026-03,0.6449,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-06,2026-03,0,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-06,2026-03,0.6172,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-06,2026-03,0.946,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-06,2026-03,0.4335,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-06,2026-03,0.9323,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-06,2026-03,0.9721,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-06,2026-03,0.729,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-06,2026-03,0.8334,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-06,2026-03,0,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-06,2026-03,0,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-06,2026-03,0.838,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-06,2026-03,0.3878,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7800,2026-03-06,2026-03,0.5312,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7810,2026-03-06,2026-03,0.9012,T781,Stesen LRT Kelana Jaya ~ Kelana Centre Point
+T7820,2026-03-06,2026-03,0.8526,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-06,2026-03,0.7712,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-06,2026-03,0.9583,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7890,2026-03-06,2026-03,0.9095,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T7910,2026-03-06,2026-03,0.9055,T791,Stesen LRT Kerinchi ~ Pantai Hill Park
+T8510,2026-03-06,2026-03,0.3406,T851,KL Sentral ~ Parlimen
+U1710,2026-03-06,2026-03,0.7255,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-06,2026-03,0.8904,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-06,2026-03,0.7802,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-06,2026-03,0.8921,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2000,2026-03-06,2026-03,0.5025,200,UIA Gombak ~ SOGO KL
+U2020,2026-03-06,2026-03,0.762,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-06,2026-03,0.6559,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-06,2026-03,0.6862,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-06,2026-03,0.8884,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2510,2026-03-06,2026-03,0.7972,251,AU3 Jentayu ~ Chow Kit
+U2538,2026-03-06,2026-03,0.5245,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U3000,2026-03-06,2026-03,0.4969,300,Terminal Maluri ~ Lebuh Ampang
+U3020,2026-03-06,2026-03,0.8698,302,Titiwangsa ~ KLCC
+U3030,2026-03-06,2026-03,0,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-06,2026-03,0.8403,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4200,2026-03-06,2026-03,0.9547,420,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4210,2026-03-06,2026-03,0,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-06,2026-03,0.763,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-06,2026-03,0.0424,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-06,2026-03,0.7004,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-06,2026-03,0.5335,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-06,2026-03,0.9282,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-06,2026-03,0.601,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-06,2026-03,0.8706,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-06,2026-03,0.7015,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-06,2026-03,0.8218,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-06,2026-03,0.7124,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-06,2026-03,0.9501,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-06,2026-03,0.8053,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-06,2026-03,0.7182,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-06,2026-03,0.8111,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7538,2026-03-06,2026-03,0.9494,753,Hentian Bandar Shah Alam ~ UiTM Puncak Alam
+U7548,2026-03-06,2026-03,0.5355,754,Sekysen 13 Shah Alam ~ UITM Puncak Perdana
+U7700,2026-03-06,2026-03,0.6773,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-06,2026-03,0,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-06,2026-03,0.7664,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-06,2026-03,0.5486,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-06,2026-03,0.7224,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-06,2026-03,0.6821,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-06,2026-03,0,821,Pantai Hill Park ~ Hab Pasar Seni
+P1010,2026-03-09,2026-03,0.8971,P101,Kompleks F ~ Presint 5
+P1060,2026-03-09,2026-03,0.9621,P106,Presint 4 ~ Kompleks E
+S5010,2026-03-09,2026-03,1,MENARA PRASARANA,LRT Lembah Subang ~ Menara Prasarana
+S6060,2026-03-09,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-09,2026-03,0.6076,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-09,2026-03,0.9162,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2020,2026-03-09,2026-03,0.0711,T202,Stesen LRT Taman Melati ~ Taman Melewar
+T2220,2026-03-09,2026-03,0.7299,T222,Stesen LRT Sri Rampai ~ UKAY Perdana
+T2230,2026-03-09,2026-03,0.971,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2500,2026-03-09,2026-03,1,T250,Stesen LRT Wangsa Maju ~ Setapak Sentral
+T2510,2026-03-09,2026-03,0.7994,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-09,2026-03,0.6424,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-09,2026-03,0.9141,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-09,2026-03,0.728,T302,Hutan Lipur Ampang ~ Ampang Point
+T3048,2026-03-09,2026-03,0.6563,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T3500,2026-03-09,2026-03,0.7158,T350,Stesen LRT Cempaka ~ Taman Mawar
+T3510,2026-03-09,2026-03,0.7618,T351,Stesen LRT Cempaka ~ Taman Bukit Permai
+T4068,2026-03-09,2026-03,0.6911,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-09,2026-03,0.933,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-09,2026-03,0.6889,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-09,2026-03,0.7845,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-09,2026-03,0.6448,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-09,2026-03,0.9856,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-09,2026-03,0.7431,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-09,2026-03,0.8726,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-09,2026-03,0.9776,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-09,2026-03,0.665,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-09,2026-03,0.2313,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-09,2026-03,0.8282,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-09,2026-03,0,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-09,2026-03,0.8548,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-09,2026-03,0.3282,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7760,2026-03-09,2026-03,0.8519,T776,Stesen LRT USJ 7 ~ Subang Mewah
+T7800,2026-03-09,2026-03,0.5152,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7810,2026-03-09,2026-03,0.5346,T781,Stesen LRT Kelana Jaya ~ Kelana Centre Point
+T7820,2026-03-09,2026-03,0.8337,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-09,2026-03,0.9406,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-09,2026-03,0.9195,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7890,2026-03-09,2026-03,1,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T7910,2026-03-09,2026-03,0,T791,Stesen LRT Kerinchi ~ Pantai Hill Park
+T8500,2026-03-09,2026-03,0.3589,T850,Stesen LRT Bangsar ~ Stesen MRT Semantan
+T8510,2026-03-09,2026-03,0.2947,T851,KL Sentral ~ Parlimen
+U1510,2026-03-09,2026-03,0.5996,151,Bandar Baru Selayang ~ Hab Lebuh Pudu
+U1710,2026-03-09,2026-03,0.8852,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-09,2026-03,0.9341,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-09,2026-03,0.7647,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-09,2026-03,0,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2000,2026-03-09,2026-03,0,200,UIA Gombak ~ SOGO KL
+U2020,2026-03-09,2026-03,0.811,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-09,2026-03,0,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-09,2026-03,0.7837,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-09,2026-03,0.8702,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2510,2026-03-09,2026-03,0.6993,251,AU3 Jentayu ~ Chow Kit
+U2538,2026-03-09,2026-03,0.5863,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U2548,2026-03-09,2026-03,0.5558,254,Ayer Panas ~ Titiwangsa via Chowkit
+U3020,2026-03-09,2026-03,0.9084,302,Titiwangsa ~ KLCC
+U3030,2026-03-09,2026-03,0.9897,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-09,2026-03,0,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4210,2026-03-09,2026-03,0,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-09,2026-03,0.8266,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-09,2026-03,0.4008,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-09,2026-03,0,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-09,2026-03,0,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-09,2026-03,0.7517,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-09,2026-03,0.6484,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-09,2026-03,0.84,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-09,2026-03,0.7958,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-09,2026-03,0.5882,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-09,2026-03,0.6569,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-09,2026-03,0.9393,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-09,2026-03,0.9115,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-09,2026-03,0.6816,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-09,2026-03,0.8434,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7538,2026-03-09,2026-03,0,753,Hentian Bandar Shah Alam ~ UiTM Puncak Alam
+U7548,2026-03-09,2026-03,0.8993,754,Sekysen 13 Shah Alam ~ UITM Puncak Perdana
+U7700,2026-03-09,2026-03,0.676,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-09,2026-03,1,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-09,2026-03,0.7875,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-09,2026-03,0.9443,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-09,2026-03,0.755,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-09,2026-03,0.6758,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-09,2026-03,0.8414,821,Pantai Hill Park ~ Hab Pasar Seni
+U8220,2026-03-09,2026-03,0,822,Stesen LRT Bangsar ~ Bangsar Shopping Centre
+S6060,2026-03-10,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-10,2026-03,0,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-10,2026-03,0.9375,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2020,2026-03-10,2026-03,0.716,T202,Stesen LRT Taman Melati ~ Taman Melewar
+T2220,2026-03-10,2026-03,0.629,T222,Stesen LRT Sri Rampai ~ UKAY Perdana
+T2230,2026-03-10,2026-03,0.9589,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2500,2026-03-10,2026-03,1,T250,Stesen LRT Wangsa Maju ~ Setapak Sentral
+T2510,2026-03-10,2026-03,0.7616,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-10,2026-03,0.4617,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-10,2026-03,0.9604,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-10,2026-03,0.8001,T302,Hutan Lipur Ampang ~ Ampang Point
+T3048,2026-03-10,2026-03,0,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T3500,2026-03-10,2026-03,0.4189,T350,Stesen LRT Cempaka ~ Taman Mawar
+T3510,2026-03-10,2026-03,0.946,T351,Stesen LRT Cempaka ~ Taman Bukit Permai
+T4068,2026-03-10,2026-03,0.7979,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-10,2026-03,0.8114,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-10,2026-03,0.5425,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-10,2026-03,0.8447,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-10,2026-03,0.5605,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-10,2026-03,0.9461,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-10,2026-03,0.7866,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-10,2026-03,0.9197,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-10,2026-03,0.9666,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-10,2026-03,0.6977,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-10,2026-03,0.8861,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-10,2026-03,0.8837,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-10,2026-03,0.9723,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-10,2026-03,0.9587,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-10,2026-03,1,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7800,2026-03-10,2026-03,0.9089,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7810,2026-03-10,2026-03,0.9275,T781,Stesen LRT Kelana Jaya ~ Kelana Centre Point
+T7820,2026-03-10,2026-03,1,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-10,2026-03,0.9257,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-10,2026-03,0.9593,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7890,2026-03-10,2026-03,0.9023,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T7900,2026-03-10,2026-03,0,T790,Stesen LRT Paramount ~ Mid Valley
+T7910,2026-03-10,2026-03,0.8715,T791,Stesen LRT Kerinchi ~ Pantai Hill Park
+T8510,2026-03-10,2026-03,0.2458,T851,KL Sentral ~ Parlimen
+U1510,2026-03-10,2026-03,0.6452,151,Bandar Baru Selayang ~ Hab Lebuh Pudu
+U1710,2026-03-10,2026-03,0.8241,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-10,2026-03,0.9231,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-10,2026-03,0.8089,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-10,2026-03,0.8731,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2000,2026-03-10,2026-03,0.6851,200,UIA Gombak ~ SOGO KL
+U2020,2026-03-10,2026-03,0.8148,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-10,2026-03,0.51,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-10,2026-03,0.7637,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-10,2026-03,0.9332,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2510,2026-03-10,2026-03,0,251,AU3 Jentayu ~ Chow Kit
+U2538,2026-03-10,2026-03,0.6201,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U2548,2026-03-10,2026-03,0.6009,254,Ayer Panas ~ Titiwangsa via Chowkit
+U3000,2026-03-10,2026-03,0.9757,300,Terminal Maluri ~ Lebuh Ampang
+U3020,2026-03-10,2026-03,0.8251,302,Titiwangsa ~ KLCC
+U3030,2026-03-10,2026-03,0.9745,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-10,2026-03,0.7411,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4200,2026-03-10,2026-03,0,420,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4210,2026-03-10,2026-03,0.7433,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-10,2026-03,0.8643,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-10,2026-03,0,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-10,2026-03,0.4136,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-10,2026-03,0.466,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-10,2026-03,0.7915,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-10,2026-03,0.5918,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-10,2026-03,0.8526,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-10,2026-03,0.8462,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-10,2026-03,0.8238,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-10,2026-03,0.2001,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-10,2026-03,0.8774,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-10,2026-03,0.8478,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-10,2026-03,0.7278,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-10,2026-03,0.7943,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7538,2026-03-10,2026-03,0.4592,753,Hentian Bandar Shah Alam ~ UiTM Puncak Alam
+U7548,2026-03-10,2026-03,0.8615,754,Sekysen 13 Shah Alam ~ UITM Puncak Perdana
+U7700,2026-03-10,2026-03,0.5923,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-10,2026-03,0.9408,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-10,2026-03,0.7447,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-10,2026-03,0.8487,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-10,2026-03,0.7058,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-10,2026-03,0.4291,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-10,2026-03,0.688,821,Pantai Hill Park ~ Hab Pasar Seni
+U8220,2026-03-10,2026-03,0.6794,822,Stesen LRT Bangsar ~ Bangsar Shopping Centre
+S6060,2026-03-11,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-11,2026-03,0.8525,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-11,2026-03,0.9208,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2020,2026-03-11,2026-03,0.8448,T202,Stesen LRT Taman Melati ~ Taman Melewar
+T2220,2026-03-11,2026-03,0.6724,T222,Stesen LRT Sri Rampai ~ UKAY Perdana
+T2230,2026-03-11,2026-03,0.9904,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2500,2026-03-11,2026-03,0.8947,T250,Stesen LRT Wangsa Maju ~ Setapak Sentral
+T2510,2026-03-11,2026-03,0.2902,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-11,2026-03,0.5387,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-11,2026-03,0.9464,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-11,2026-03,0,T302,Hutan Lipur Ampang ~ Ampang Point
+T3048,2026-03-11,2026-03,0.2887,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T3500,2026-03-11,2026-03,0.7725,T350,Stesen LRT Cempaka ~ Taman Mawar
+T3510,2026-03-11,2026-03,0.9261,T351,Stesen LRT Cempaka ~ Taman Bukit Permai
+T4068,2026-03-11,2026-03,0.7923,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-11,2026-03,0.2785,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-11,2026-03,0.8408,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-11,2026-03,0.8769,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-11,2026-03,0.5637,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-11,2026-03,0.9667,T601,Puchong Utama ~ Puchong Prima
+T6040,2026-03-11,2026-03,0.427,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-11,2026-03,0.9786,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-11,2026-03,0.4346,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-11,2026-03,0.8791,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-11,2026-03,0.75,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-11,2026-03,1,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-11,2026-03,0.8211,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-11,2026-03,0.7154,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7800,2026-03-11,2026-03,0.8065,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7810,2026-03-11,2026-03,0.9397,T781,Stesen LRT Kelana Jaya ~ Kelana Centre Point
+T7820,2026-03-11,2026-03,0.8918,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-11,2026-03,0.0967,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-11,2026-03,0.9574,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7890,2026-03-11,2026-03,0.7992,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T7910,2026-03-11,2026-03,0,T791,Stesen LRT Kerinchi ~ Pantai Hill Park
+T8500,2026-03-11,2026-03,1,T850,Stesen LRT Bangsar ~ Stesen MRT Semantan
+T8510,2026-03-11,2026-03,0.4526,T851,KL Sentral ~ Parlimen
+U1510,2026-03-11,2026-03,0.2865,151,Bandar Baru Selayang ~ Hab Lebuh Pudu
+U1710,2026-03-11,2026-03,0.8013,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-11,2026-03,0.8689,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-11,2026-03,0.8125,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-11,2026-03,0.8368,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2000,2026-03-11,2026-03,0.8473,200,UIA Gombak ~ SOGO KL
+U2020,2026-03-11,2026-03,0.7794,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-11,2026-03,0.1757,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-11,2026-03,0.8269,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-11,2026-03,0.8585,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2510,2026-03-11,2026-03,0.8547,251,AU3 Jentayu ~ Chow Kit
+U2538,2026-03-11,2026-03,0.2939,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U2548,2026-03-11,2026-03,1,254,Ayer Panas ~ Titiwangsa via Chowkit
+U3000,2026-03-11,2026-03,0,300,Terminal Maluri ~ Lebuh Ampang
+U3020,2026-03-11,2026-03,0.881,302,Titiwangsa ~ KLCC
+U3030,2026-03-11,2026-03,0.4171,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-11,2026-03,0.904,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4210,2026-03-11,2026-03,0.7374,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-11,2026-03,0.8452,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-11,2026-03,0,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-11,2026-03,0.4474,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-11,2026-03,0.5252,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-11,2026-03,0.9131,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-11,2026-03,0.6075,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-11,2026-03,0.8458,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-11,2026-03,0.8837,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-11,2026-03,0.8421,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-11,2026-03,0.5683,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-11,2026-03,0.8757,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-11,2026-03,0.9078,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-11,2026-03,0.6722,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-11,2026-03,0.8018,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7538,2026-03-11,2026-03,1,753,Hentian Bandar Shah Alam ~ UiTM Puncak Alam
+U7548,2026-03-11,2026-03,0.9466,754,Sekysen 13 Shah Alam ~ UITM Puncak Perdana
+U7700,2026-03-11,2026-03,0.8111,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-11,2026-03,0,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-11,2026-03,0.771,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-11,2026-03,0.9424,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-11,2026-03,0.8618,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-11,2026-03,0.4751,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-11,2026-03,0.8746,821,Pantai Hill Park ~ Hab Pasar Seni
+U8220,2026-03-11,2026-03,0,822,Stesen LRT Bangsar ~ Bangsar Shopping Centre
+S6060,2026-03-12,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-12,2026-03,0,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-12,2026-03,0.9109,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2020,2026-03-12,2026-03,0,T202,Stesen LRT Taman Melati ~ Taman Melewar
+T2220,2026-03-12,2026-03,0,T222,Stesen LRT Sri Rampai ~ UKAY Perdana
+T2230,2026-03-12,2026-03,0.8197,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2500,2026-03-12,2026-03,0.9558,T250,Stesen LRT Wangsa Maju ~ Setapak Sentral
+T2510,2026-03-12,2026-03,0.7443,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-12,2026-03,0.7759,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-12,2026-03,0.9303,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-12,2026-03,0.6878,T302,Hutan Lipur Ampang ~ Ampang Point
+T3048,2026-03-12,2026-03,0.3003,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T3500,2026-03-12,2026-03,0.7567,T350,Stesen LRT Cempaka ~ Taman Mawar
+T3510,2026-03-12,2026-03,0.8839,T351,Stesen LRT Cempaka ~ Taman Bukit Permai
+T4068,2026-03-12,2026-03,0.7512,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-12,2026-03,0.7297,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-12,2026-03,0.6384,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-12,2026-03,0.8786,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-12,2026-03,0.657,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-12,2026-03,0.9536,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-12,2026-03,0.7373,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-12,2026-03,0.9321,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-12,2026-03,0.9865,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-12,2026-03,0.8154,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7538,2026-03-12,2026-03,0.8144,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-12,2026-03,0.9126,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-12,2026-03,0.8322,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-12,2026-03,0.9627,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7800,2026-03-12,2026-03,0.908,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7810,2026-03-12,2026-03,0.9526,T781,Stesen LRT Kelana Jaya ~ Kelana Centre Point
+T7820,2026-03-12,2026-03,0.94,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-12,2026-03,0.7626,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-12,2026-03,0.8947,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7890,2026-03-12,2026-03,0.8791,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T7910,2026-03-12,2026-03,0.9191,T791,Stesen LRT Kerinchi ~ Pantai Hill Park
+T8510,2026-03-12,2026-03,0.2485,T851,KL Sentral ~ Parlimen
+U1510,2026-03-12,2026-03,0.5815,151,Bandar Baru Selayang ~ Hab Lebuh Pudu
+U1710,2026-03-12,2026-03,0.923,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-12,2026-03,0.8104,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-12,2026-03,0.7969,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-12,2026-03,0.9039,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2000,2026-03-12,2026-03,0.6692,200,UIA Gombak ~ SOGO KL
+U2020,2026-03-12,2026-03,0.7675,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-12,2026-03,0.6636,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-12,2026-03,0.7455,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-12,2026-03,0.8707,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2510,2026-03-12,2026-03,0.9855,251,AU3 Jentayu ~ Chow Kit
+U2538,2026-03-12,2026-03,0.6025,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U2548,2026-03-12,2026-03,0,254,Ayer Panas ~ Titiwangsa via Chowkit
+U3020,2026-03-12,2026-03,0.9068,302,Titiwangsa ~ KLCC
+U3030,2026-03-12,2026-03,0.9316,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-12,2026-03,0.9585,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4200,2026-03-12,2026-03,0.223,420,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4210,2026-03-12,2026-03,0.8101,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-12,2026-03,0.8085,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-12,2026-03,0,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-12,2026-03,0.0023,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-12,2026-03,0.4931,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-12,2026-03,0.8148,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-12,2026-03,0.6107,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-12,2026-03,0.85,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-12,2026-03,0.6555,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-12,2026-03,0.8403,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-12,2026-03,0,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-12,2026-03,0.8303,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-12,2026-03,0.668,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-12,2026-03,0.4516,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-12,2026-03,0.7726,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7538,2026-03-12,2026-03,0.9357,753,Hentian Bandar Shah Alam ~ UiTM Puncak Alam
+U7548,2026-03-12,2026-03,0.8977,754,Sekysen 13 Shah Alam ~ UITM Puncak Perdana
+U7700,2026-03-12,2026-03,0.259,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-12,2026-03,0.8132,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-12,2026-03,0.7881,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-12,2026-03,0.7683,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-12,2026-03,0.8535,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-12,2026-03,0.7308,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-12,2026-03,0.8134,821,Pantai Hill Park ~ Hab Pasar Seni
+U8220,2026-03-12,2026-03,0.9458,822,Stesen LRT Bangsar ~ Bangsar Shopping Centre
+S6060,2026-03-13,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-13,2026-03,0.6714,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-13,2026-03,0.8619,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2020,2026-03-13,2026-03,0.8924,T202,Stesen LRT Taman Melati ~ Taman Melewar
+T2220,2026-03-13,2026-03,0.4123,T222,Stesen LRT Sri Rampai ~ UKAY Perdana
+T2230,2026-03-13,2026-03,0.99,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2500,2026-03-13,2026-03,0.8781,T250,Stesen LRT Wangsa Maju ~ Setapak Sentral
+T2510,2026-03-13,2026-03,0.763,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-13,2026-03,0.6195,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-13,2026-03,0.9028,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-13,2026-03,0.8027,T302,Hutan Lipur Ampang ~ Ampang Point
+T3048,2026-03-13,2026-03,0.4802,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T3500,2026-03-13,2026-03,0.7669,T350,Stesen LRT Cempaka ~ Taman Mawar
+T3510,2026-03-13,2026-03,0.7899,T351,Stesen LRT Cempaka ~ Taman Bukit Permai
+T4068,2026-03-13,2026-03,0.5974,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-13,2026-03,0.6925,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-13,2026-03,0.7288,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-13,2026-03,0.7985,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-13,2026-03,0.6428,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-13,2026-03,0.9572,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-13,2026-03,0.8431,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-13,2026-03,0.9319,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-13,2026-03,0.9252,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-13,2026-03,0.7319,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-13,2026-03,0.751,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-13,2026-03,0.8249,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-13,2026-03,0.9513,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-13,2026-03,0.8693,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-13,2026-03,0.9504,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7800,2026-03-13,2026-03,0.506,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7810,2026-03-13,2026-03,0.9119,T781,Stesen LRT Kelana Jaya ~ Kelana Centre Point
+T7820,2026-03-13,2026-03,0.9562,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-13,2026-03,0.7639,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-13,2026-03,0.8857,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7890,2026-03-13,2026-03,0.9819,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T8500,2026-03-13,2026-03,1,T850,Stesen LRT Bangsar ~ Stesen MRT Semantan
+U1510,2026-03-13,2026-03,0.6206,151,Bandar Baru Selayang ~ Hab Lebuh Pudu
+U1710,2026-03-13,2026-03,0.7827,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-13,2026-03,0.6842,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-13,2026-03,0.7712,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-13,2026-03,0.8805,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2000,2026-03-13,2026-03,0.4366,200,UIA Gombak ~ SOGO KL
+U2020,2026-03-13,2026-03,0.8154,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-13,2026-03,0.5311,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-13,2026-03,0.607,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-13,2026-03,0.7456,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2510,2026-03-13,2026-03,0.794,251,AU3 Jentayu ~ Chow Kit
+U2538,2026-03-13,2026-03,0.4529,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U2548,2026-03-13,2026-03,0.7105,254,Ayer Panas ~ Titiwangsa via Chowkit
+U3000,2026-03-13,2026-03,0,300,Terminal Maluri ~ Lebuh Ampang
+U3020,2026-03-13,2026-03,0.9451,302,Titiwangsa ~ KLCC
+U3030,2026-03-13,2026-03,0.9051,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-13,2026-03,0,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4210,2026-03-13,2026-03,0.7172,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-13,2026-03,0.7864,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-13,2026-03,0,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-13,2026-03,0.5971,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-13,2026-03,0.5176,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-13,2026-03,0.8603,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-13,2026-03,0.559,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-13,2026-03,0.8377,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-13,2026-03,0.785,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-13,2026-03,0.8017,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-13,2026-03,0.7648,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-13,2026-03,0.8746,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-13,2026-03,0.8985,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-13,2026-03,0.7396,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-13,2026-03,0.8281,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7538,2026-03-13,2026-03,0.9864,753,Hentian Bandar Shah Alam ~ UiTM Puncak Alam
+U7548,2026-03-13,2026-03,0.731,754,Sekysen 13 Shah Alam ~ UITM Puncak Perdana
+U7700,2026-03-13,2026-03,0.7288,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-13,2026-03,0.9555,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-13,2026-03,0.7695,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-13,2026-03,0.8234,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-13,2026-03,0.8389,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-13,2026-03,0.6253,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-13,2026-03,0.779,821,Pantai Hill Park ~ Hab Pasar Seni
+U8220,2026-03-13,2026-03,0,822,Stesen LRT Bangsar ~ Bangsar Shopping Centre
+S6060,2026-03-16,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-16,2026-03,0,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-16,2026-03,0.8344,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2220,2026-03-16,2026-03,0.6168,T222,Stesen LRT Sri Rampai ~ UKAY Perdana
+T2230,2026-03-16,2026-03,1,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2500,2026-03-16,2026-03,1,T250,Stesen LRT Wangsa Maju ~ Setapak Sentral
+T2510,2026-03-16,2026-03,0.7213,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-16,2026-03,0.6021,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-16,2026-03,0.9307,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-16,2026-03,0.9448,T302,Hutan Lipur Ampang ~ Ampang Point
+T3048,2026-03-16,2026-03,0.617,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T3510,2026-03-16,2026-03,0.9729,T351,Stesen LRT Cempaka ~ Taman Bukit Permai
+T4068,2026-03-16,2026-03,0.7515,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-16,2026-03,0.8045,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-16,2026-03,0.7694,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-16,2026-03,0.7617,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-16,2026-03,0.6197,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-16,2026-03,0.9349,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-16,2026-03,0.6677,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-16,2026-03,0,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-16,2026-03,0.8921,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-16,2026-03,0.4904,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-16,2026-03,0.7035,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-16,2026-03,0.7237,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-16,2026-03,0,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-16,2026-03,1,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-16,2026-03,0.7543,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7800,2026-03-16,2026-03,0.4317,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7810,2026-03-16,2026-03,0.8643,T781,Stesen LRT Kelana Jaya ~ Kelana Centre Point
+T7820,2026-03-16,2026-03,0,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7870,2026-03-16,2026-03,0.8852,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7890,2026-03-16,2026-03,1,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T7910,2026-03-16,2026-03,0.7726,T791,Stesen LRT Kerinchi ~ Pantai Hill Park
+U1510,2026-03-16,2026-03,0.5865,151,Bandar Baru Selayang ~ Hab Lebuh Pudu
+U1710,2026-03-16,2026-03,0.8227,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-16,2026-03,0.5585,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-16,2026-03,0.7719,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-16,2026-03,0.8569,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2000,2026-03-16,2026-03,0,200,UIA Gombak ~ SOGO KL
+U2020,2026-03-16,2026-03,0.6578,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-16,2026-03,0.5646,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-16,2026-03,0.4676,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-16,2026-03,0.8219,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2510,2026-03-16,2026-03,0.6873,251,AU3 Jentayu ~ Chow Kit
+U2538,2026-03-16,2026-03,0.5448,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U2548,2026-03-16,2026-03,0.4159,254,Ayer Panas ~ Titiwangsa via Chowkit
+U3020,2026-03-16,2026-03,0.9396,302,Titiwangsa ~ KLCC
+U3030,2026-03-16,2026-03,0.3752,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-16,2026-03,0.7557,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4210,2026-03-16,2026-03,0.7333,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-16,2026-03,0.6001,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-16,2026-03,0,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-16,2026-03,0,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-16,2026-03,0.5297,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-16,2026-03,1,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-16,2026-03,0.6374,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-16,2026-03,0.8782,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-16,2026-03,0.8107,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-16,2026-03,0.8439,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-16,2026-03,0.4096,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-16,2026-03,0.8594,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-16,2026-03,0.7119,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-16,2026-03,0.5844,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-16,2026-03,0.7581,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7538,2026-03-16,2026-03,0.8747,753,Hentian Bandar Shah Alam ~ UiTM Puncak Alam
+U7700,2026-03-16,2026-03,0.1583,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-16,2026-03,1,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-16,2026-03,0.7161,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-16,2026-03,0.7526,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-16,2026-03,0.6253,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-16,2026-03,0.2335,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-16,2026-03,0.8614,821,Pantai Hill Park ~ Hab Pasar Seni
+U8220,2026-03-16,2026-03,0,822,Stesen LRT Bangsar ~ Bangsar Shopping Centre
+S6060,2026-03-17,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-17,2026-03,0.8979,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-17,2026-03,0.6328,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2220,2026-03-17,2026-03,0.7599,T222,Stesen LRT Sri Rampai ~ UKAY Perdana
+T2230,2026-03-17,2026-03,0.9747,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2500,2026-03-17,2026-03,0.753,T250,Stesen LRT Wangsa Maju ~ Setapak Sentral
+T2510,2026-03-17,2026-03,0.1029,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-17,2026-03,0.562,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-17,2026-03,0.95,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-17,2026-03,0.4607,T302,Hutan Lipur Ampang ~ Ampang Point
+T3048,2026-03-17,2026-03,0.5426,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T3500,2026-03-17,2026-03,0.8035,T350,Stesen LRT Cempaka ~ Taman Mawar
+T3510,2026-03-17,2026-03,0.3208,T351,Stesen LRT Cempaka ~ Taman Bukit Permai
+T4068,2026-03-17,2026-03,0.7502,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-17,2026-03,0.613,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-17,2026-03,0.7398,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-17,2026-03,0.809,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-17,2026-03,0.668,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-17,2026-03,0.9536,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-17,2026-03,0.7936,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-17,2026-03,0.8229,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-17,2026-03,0.9702,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-17,2026-03,0.5005,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-17,2026-03,0.7275,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-17,2026-03,0.8899,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-17,2026-03,0.4421,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-17,2026-03,0.9513,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-17,2026-03,0.3364,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7800,2026-03-17,2026-03,0.5778,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7810,2026-03-17,2026-03,0.839,T781,Stesen LRT Kelana Jaya ~ Kelana Centre Point
+T7820,2026-03-17,2026-03,0.8459,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-17,2026-03,0.3718,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-17,2026-03,0.968,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7880,2026-03-17,2026-03,0.4968,T788,Stesen LRT Universiti ~ Mid Valley
+T7890,2026-03-17,2026-03,1,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T7910,2026-03-17,2026-03,0.8514,T791,Stesen LRT Kerinchi ~ Pantai Hill Park
+T8500,2026-03-17,2026-03,1,T850,Stesen LRT Bangsar ~ Stesen MRT Semantan
+U1510,2026-03-17,2026-03,0.6122,151,Bandar Baru Selayang ~ Hab Lebuh Pudu
+U1710,2026-03-17,2026-03,0.5497,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-17,2026-03,0.6559,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-17,2026-03,0.7584,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-17,2026-03,0.9128,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2000,2026-03-17,2026-03,0.2157,200,UIA Gombak ~ SOGO KL
+U2020,2026-03-17,2026-03,0.7239,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-17,2026-03,0.7922,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-17,2026-03,0,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-17,2026-03,0.5017,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2510,2026-03-17,2026-03,0.68,251,AU3 Jentayu ~ Chow Kit
+U2538,2026-03-17,2026-03,0,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U2548,2026-03-17,2026-03,0.148,254,Ayer Panas ~ Titiwangsa via Chowkit
+U3020,2026-03-17,2026-03,0.7877,302,Titiwangsa ~ KLCC
+U3030,2026-03-17,2026-03,0.957,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-17,2026-03,0.8799,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4200,2026-03-17,2026-03,1,420,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4210,2026-03-17,2026-03,0.628,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-17,2026-03,0.8206,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-17,2026-03,0,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-17,2026-03,0.2989,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-17,2026-03,0.4587,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-17,2026-03,0.1355,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-17,2026-03,0.6305,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-17,2026-03,0.8383,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-17,2026-03,0.7974,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-17,2026-03,0.9075,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-17,2026-03,0.7623,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-17,2026-03,0.893,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-17,2026-03,0.7759,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-17,2026-03,0.7797,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-17,2026-03,0.795,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7538,2026-03-17,2026-03,0.9558,753,Hentian Bandar Shah Alam ~ UiTM Puncak Alam
+U7548,2026-03-17,2026-03,0.8989,754,Sekysen 13 Shah Alam ~ UITM Puncak Perdana
+U7700,2026-03-17,2026-03,0.7858,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-17,2026-03,0.9548,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-17,2026-03,0.7749,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-17,2026-03,0.9081,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-17,2026-03,0.8574,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-17,2026-03,0.7296,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-17,2026-03,0.8522,821,Pantai Hill Park ~ Hab Pasar Seni
+U8220,2026-03-17,2026-03,0,822,Stesen LRT Bangsar ~ Bangsar Shopping Centre
+S6060,2026-03-18,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-18,2026-03,0.4003,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-18,2026-03,0.9051,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2230,2026-03-18,2026-03,0.98,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2500,2026-03-18,2026-03,0.8238,T250,Stesen LRT Wangsa Maju ~ Setapak Sentral
+T2510,2026-03-18,2026-03,0.0245,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-18,2026-03,0.7908,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-18,2026-03,0.9109,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-18,2026-03,0.7542,T302,Hutan Lipur Ampang ~ Ampang Point
+T3048,2026-03-18,2026-03,0.6828,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T3500,2026-03-18,2026-03,0.7543,T350,Stesen LRT Cempaka ~ Taman Mawar
+T3510,2026-03-18,2026-03,0.6799,T351,Stesen LRT Cempaka ~ Taman Bukit Permai
+T4068,2026-03-18,2026-03,0.7264,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-18,2026-03,0.7804,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-18,2026-03,0.8272,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-18,2026-03,0.7797,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-18,2026-03,0.598,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-18,2026-03,0.9193,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-18,2026-03,0.8543,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-18,2026-03,0.967,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-18,2026-03,0.9891,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-18,2026-03,0.7276,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-18,2026-03,0.5367,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-18,2026-03,0.0442,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-18,2026-03,0.8947,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-18,2026-03,0.8348,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-18,2026-03,0.8092,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7800,2026-03-18,2026-03,0.7597,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7810,2026-03-18,2026-03,0.7586,T781,Stesen LRT Kelana Jaya ~ Kelana Centre Point
+T7820,2026-03-18,2026-03,0.8438,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-18,2026-03,0.8704,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-18,2026-03,0.9541,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7890,2026-03-18,2026-03,1,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T7910,2026-03-18,2026-03,0,T791,Stesen LRT Kerinchi ~ Pantai Hill Park
+U1510,2026-03-18,2026-03,0.6062,151,Bandar Baru Selayang ~ Hab Lebuh Pudu
+U1710,2026-03-18,2026-03,0.8134,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-18,2026-03,0.8321,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-18,2026-03,0.7907,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-18,2026-03,0,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2000,2026-03-18,2026-03,0.7199,200,UIA Gombak ~ SOGO KL
+U2020,2026-03-18,2026-03,0.7875,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-18,2026-03,0.3228,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-18,2026-03,0.7548,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-18,2026-03,0.924,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2510,2026-03-18,2026-03,0.9056,251,AU3 Jentayu ~ Chow Kit
+U2538,2026-03-18,2026-03,0.3556,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U2548,2026-03-18,2026-03,0.8745,254,Ayer Panas ~ Titiwangsa via Chowkit
+U3000,2026-03-18,2026-03,1,300,Terminal Maluri ~ Lebuh Ampang
+U3020,2026-03-18,2026-03,0.9246,302,Titiwangsa ~ KLCC
+U3030,2026-03-18,2026-03,0.0378,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-18,2026-03,0.921,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4210,2026-03-18,2026-03,0.7755,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-18,2026-03,0.9308,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-18,2026-03,0.4841,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-18,2026-03,0.1456,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-18,2026-03,0.5202,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-18,2026-03,0.6857,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-18,2026-03,0.5977,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-18,2026-03,0.8473,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-18,2026-03,0.8426,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-18,2026-03,0.7614,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-18,2026-03,0.7958,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-18,2026-03,0.8949,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-18,2026-03,0.8492,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-18,2026-03,0.5916,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-18,2026-03,0.7736,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7700,2026-03-18,2026-03,0.4547,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-18,2026-03,1,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-18,2026-03,0.8159,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-18,2026-03,0.7174,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-18,2026-03,0.731,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-18,2026-03,0.7161,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-18,2026-03,0.8555,821,Pantai Hill Park ~ Hab Pasar Seni
+U8220,2026-03-18,2026-03,0,822,Stesen LRT Bangsar ~ Bangsar Shopping Centre
+S5010,2026-03-19,2026-03,1,MENARA PRASARANA,LRT Lembah Subang ~ Menara Prasarana
+S6060,2026-03-19,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-19,2026-03,0.2903,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-19,2026-03,0.9273,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2220,2026-03-19,2026-03,0.6411,T222,Stesen LRT Sri Rampai ~ UKAY Perdana
+T2230,2026-03-19,2026-03,0.9756,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2500,2026-03-19,2026-03,1,T250,Stesen LRT Wangsa Maju ~ Setapak Sentral
+T2510,2026-03-19,2026-03,0,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-19,2026-03,0.273,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-19,2026-03,0.9456,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-19,2026-03,0.7404,T302,Hutan Lipur Ampang ~ Ampang Point
+T3048,2026-03-19,2026-03,0.2652,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T3500,2026-03-19,2026-03,0.749,T350,Stesen LRT Cempaka ~ Taman Mawar
+T3510,2026-03-19,2026-03,0.6291,T351,Stesen LRT Cempaka ~ Taman Bukit Permai
+T4068,2026-03-19,2026-03,0,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-19,2026-03,0.7486,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-19,2026-03,0.656,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-19,2026-03,0.8148,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-19,2026-03,0.599,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-19,2026-03,0.8556,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-19,2026-03,0.5839,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-19,2026-03,0.9456,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-19,2026-03,0.9525,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-19,2026-03,0.7884,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-19,2026-03,0.7229,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-19,2026-03,0.8317,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-19,2026-03,0,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-19,2026-03,0.9064,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-19,2026-03,0.861,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7800,2026-03-19,2026-03,0.9191,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7810,2026-03-19,2026-03,0.9199,T781,Stesen LRT Kelana Jaya ~ Kelana Centre Point
+T7820,2026-03-19,2026-03,0.8519,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-19,2026-03,0.8377,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-19,2026-03,0.9298,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7890,2026-03-19,2026-03,1,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T7910,2026-03-19,2026-03,0.953,T791,Stesen LRT Kerinchi ~ Pantai Hill Park
+U1510,2026-03-19,2026-03,0.661,151,Bandar Baru Selayang ~ Hab Lebuh Pudu
+U1710,2026-03-19,2026-03,0.6386,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-19,2026-03,0.8386,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-19,2026-03,0.803,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-19,2026-03,0.8832,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2000,2026-03-19,2026-03,0.586,200,UIA Gombak ~ SOGO KL
+U2020,2026-03-19,2026-03,0.718,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-19,2026-03,0.357,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-19,2026-03,0,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-19,2026-03,0.7229,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2510,2026-03-19,2026-03,0.6108,251,AU3 Jentayu ~ Chow Kit
+U2538,2026-03-19,2026-03,0.4468,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U3000,2026-03-19,2026-03,0.4442,300,Terminal Maluri ~ Lebuh Ampang
+U3020,2026-03-19,2026-03,0.9293,302,Titiwangsa ~ KLCC
+U3030,2026-03-19,2026-03,0.9576,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-19,2026-03,0.7391,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4200,2026-03-19,2026-03,1,420,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4210,2026-03-19,2026-03,0.7243,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-19,2026-03,0.7937,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-19,2026-03,0.2859,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-19,2026-03,0.6455,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-19,2026-03,0.4977,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-19,2026-03,0.3869,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-19,2026-03,0.5778,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-19,2026-03,0.8692,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-19,2026-03,0.7503,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-19,2026-03,0.7582,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-19,2026-03,0.5834,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-19,2026-03,0.8639,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-19,2026-03,0.9207,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-19,2026-03,0.7205,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-19,2026-03,0.7828,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7538,2026-03-19,2026-03,0.9725,753,Hentian Bandar Shah Alam ~ UiTM Puncak Alam
+U7548,2026-03-19,2026-03,0.7432,754,Sekysen 13 Shah Alam ~ UITM Puncak Perdana
+U7700,2026-03-19,2026-03,0.692,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-19,2026-03,0,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-19,2026-03,0.7556,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-19,2026-03,0.9521,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-19,2026-03,0.8299,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-19,2026-03,0.7981,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-19,2026-03,0.8543,821,Pantai Hill Park ~ Hab Pasar Seni
+U8220,2026-03-19,2026-03,0.9406,822,Stesen LRT Bangsar ~ Bangsar Shopping Centre
+S6060,2026-03-24,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-24,2026-03,0.6109,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-24,2026-03,0.9096,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2230,2026-03-24,2026-03,0.9172,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2500,2026-03-24,2026-03,1,T250,Stesen LRT Wangsa Maju ~ Setapak Sentral
+T2510,2026-03-24,2026-03,0.791,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-24,2026-03,0.8754,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-24,2026-03,0.9281,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-24,2026-03,0.8491,T302,Hutan Lipur Ampang ~ Ampang Point
+T3048,2026-03-24,2026-03,0,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T3500,2026-03-24,2026-03,0.6379,T350,Stesen LRT Cempaka ~ Taman Mawar
+T4068,2026-03-24,2026-03,0.5811,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-24,2026-03,0.7552,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-24,2026-03,0.3889,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-24,2026-03,0.8049,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-24,2026-03,0.569,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-24,2026-03,0.9449,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-24,2026-03,0.7874,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-24,2026-03,0.9085,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-24,2026-03,0.9772,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-24,2026-03,0.8514,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-24,2026-03,0.7922,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-24,2026-03,0,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-24,2026-03,0,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-24,2026-03,0.9052,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-24,2026-03,0.475,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7800,2026-03-24,2026-03,0.9108,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7820,2026-03-24,2026-03,1,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-24,2026-03,0.9904,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-24,2026-03,0.9253,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7890,2026-03-24,2026-03,1,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+U1510,2026-03-24,2026-03,0.5761,151,Bandar Baru Selayang ~ Hab Lebuh Pudu
+U1710,2026-03-24,2026-03,0.7875,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-24,2026-03,0.793,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-24,2026-03,0.8075,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-24,2026-03,0.8775,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2000,2026-03-24,2026-03,0.0624,200,UIA Gombak ~ SOGO KL
+U2020,2026-03-24,2026-03,0.7173,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-24,2026-03,0.4802,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-24,2026-03,0,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-24,2026-03,0.6703,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2510,2026-03-24,2026-03,0.9454,251,AU3 Jentayu ~ Chow Kit
+U2538,2026-03-24,2026-03,0.5439,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U2548,2026-03-24,2026-03,0.5521,254,Ayer Panas ~ Titiwangsa via Chowkit
+U3020,2026-03-24,2026-03,0.9316,302,Titiwangsa ~ KLCC
+U3030,2026-03-24,2026-03,0.9799,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-24,2026-03,0.8657,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4200,2026-03-24,2026-03,1,420,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4210,2026-03-24,2026-03,0,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-24,2026-03,0.8397,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-24,2026-03,0.024,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-24,2026-03,0.6789,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-24,2026-03,0.4663,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-24,2026-03,0.1888,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-24,2026-03,0.5577,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-24,2026-03,0.8722,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-24,2026-03,0.7093,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-24,2026-03,0.8334,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-24,2026-03,0.6729,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-24,2026-03,0.9622,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-24,2026-03,0.9295,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-24,2026-03,0.6697,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-24,2026-03,0.9128,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7538,2026-03-24,2026-03,0.9804,753,Hentian Bandar Shah Alam ~ UiTM Puncak Alam
+U7548,2026-03-24,2026-03,0.8648,754,Sekysen 13 Shah Alam ~ UITM Puncak Perdana
+U7700,2026-03-24,2026-03,0.5423,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-24,2026-03,0,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-24,2026-03,0.6952,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-24,2026-03,0.9033,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-24,2026-03,0.8225,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-24,2026-03,0.7317,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-24,2026-03,0.7229,821,Pantai Hill Park ~ Hab Pasar Seni
+U8220,2026-03-24,2026-03,0,822,Stesen LRT Bangsar ~ Bangsar Shopping Centre
+S6060,2026-03-25,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-25,2026-03,0.0436,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-25,2026-03,0.8656,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2230,2026-03-25,2026-03,0.9755,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2500,2026-03-25,2026-03,1,T250,Stesen LRT Wangsa Maju ~ Setapak Sentral
+T2510,2026-03-25,2026-03,0.8056,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-25,2026-03,0.5209,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-25,2026-03,0.9697,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-25,2026-03,0.9218,T302,Hutan Lipur Ampang ~ Ampang Point
+T3048,2026-03-25,2026-03,0.4447,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T3500,2026-03-25,2026-03,0,T350,Stesen LRT Cempaka ~ Taman Mawar
+T4068,2026-03-25,2026-03,0.7954,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-25,2026-03,0.708,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-25,2026-03,0.6173,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-25,2026-03,0.7831,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-25,2026-03,0.6093,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-25,2026-03,0.9485,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-25,2026-03,0.7466,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-25,2026-03,0.9492,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-25,2026-03,0.9214,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-25,2026-03,0.8382,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-25,2026-03,0.801,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-25,2026-03,0.764,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-25,2026-03,0,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-25,2026-03,0.7989,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-25,2026-03,0.9463,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7800,2026-03-25,2026-03,0.8927,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7810,2026-03-25,2026-03,0.9287,T781,Stesen LRT Kelana Jaya ~ Kelana Centre Point
+T7820,2026-03-25,2026-03,0.8912,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-25,2026-03,1,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-25,2026-03,0.9326,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7880,2026-03-25,2026-03,1,T788,Stesen LRT Universiti ~ Mid Valley
+T7890,2026-03-25,2026-03,0.9007,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T7900,2026-03-25,2026-03,0,T790,Stesen LRT Paramount ~ Mid Valley
+T7910,2026-03-25,2026-03,1,T791,Stesen LRT Kerinchi ~ Pantai Hill Park
+U1510,2026-03-25,2026-03,0.6058,151,Bandar Baru Selayang ~ Hab Lebuh Pudu
+U1710,2026-03-25,2026-03,0.6722,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-25,2026-03,0.6922,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-25,2026-03,0.8303,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-25,2026-03,0.7774,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2000,2026-03-25,2026-03,0.1239,200,UIA Gombak ~ SOGO KL
+U2020,2026-03-25,2026-03,0.624,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-25,2026-03,0.606,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-25,2026-03,0.7573,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-25,2026-03,0.8094,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2510,2026-03-25,2026-03,0.8226,251,AU3 Jentayu ~ Chow Kit
+U2538,2026-03-25,2026-03,0.6631,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U2548,2026-03-25,2026-03,0.8713,254,Ayer Panas ~ Titiwangsa via Chowkit
+U3020,2026-03-25,2026-03,0.9613,302,Titiwangsa ~ KLCC
+U3030,2026-03-25,2026-03,0.9504,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-25,2026-03,0.9387,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4200,2026-03-25,2026-03,1,420,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4210,2026-03-25,2026-03,0.855,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-25,2026-03,0.8703,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-25,2026-03,0.1887,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-25,2026-03,0,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-25,2026-03,0.5932,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-25,2026-03,1,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-25,2026-03,0.5672,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-25,2026-03,0.8629,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-25,2026-03,0.7196,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-25,2026-03,0.8241,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-25,2026-03,0.7796,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-25,2026-03,0.9419,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-25,2026-03,0.9448,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-25,2026-03,0.6387,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-25,2026-03,0.7733,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7538,2026-03-25,2026-03,0.988,753,Hentian Bandar Shah Alam ~ UiTM Puncak Alam
+U7548,2026-03-25,2026-03,0.964,754,Sekysen 13 Shah Alam ~ UITM Puncak Perdana
+U7700,2026-03-25,2026-03,0.6112,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-25,2026-03,0,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-25,2026-03,0.7602,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-25,2026-03,0.9708,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-25,2026-03,0.8406,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-25,2026-03,0.7775,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-25,2026-03,0.4569,821,Pantai Hill Park ~ Hab Pasar Seni
+U8220,2026-03-25,2026-03,0.8286,822,Stesen LRT Bangsar ~ Bangsar Shopping Centre
+S6060,2026-03-26,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-26,2026-03,0.6306,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-26,2026-03,0.7961,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2230,2026-03-26,2026-03,0.9879,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2500,2026-03-26,2026-03,0.8139,T250,Stesen LRT Wangsa Maju ~ Setapak Sentral
+T2510,2026-03-26,2026-03,0.8047,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-26,2026-03,0.6295,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-26,2026-03,0.9642,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-26,2026-03,0.8228,T302,Hutan Lipur Ampang ~ Ampang Point
+T3048,2026-03-26,2026-03,0.5428,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T3500,2026-03-26,2026-03,0.7452,T350,Stesen LRT Cempaka ~ Taman Mawar
+T4068,2026-03-26,2026-03,0.7959,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-26,2026-03,0.7496,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-26,2026-03,0.8351,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-26,2026-03,0.8073,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-26,2026-03,0.5904,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-26,2026-03,0.9686,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-26,2026-03,0.7922,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-26,2026-03,0.9159,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-26,2026-03,0.9842,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-26,2026-03,0.8041,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-26,2026-03,0.5883,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-26,2026-03,0.7723,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-26,2026-03,0.9807,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-26,2026-03,0.7966,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-26,2026-03,0.5134,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7800,2026-03-26,2026-03,0,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7820,2026-03-26,2026-03,1,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-26,2026-03,0.9682,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-26,2026-03,0.9427,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7890,2026-03-26,2026-03,1,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T7910,2026-03-26,2026-03,0.7976,T791,Stesen LRT Kerinchi ~ Pantai Hill Park
+U1510,2026-03-26,2026-03,0.6636,151,Bandar Baru Selayang ~ Hab Lebuh Pudu
+U1710,2026-03-26,2026-03,0.799,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-26,2026-03,0.9043,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-26,2026-03,0.8184,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-26,2026-03,0.877,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2000,2026-03-26,2026-03,0.6646,200,UIA Gombak ~ SOGO KL
+U2020,2026-03-26,2026-03,0,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-26,2026-03,0.2015,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-26,2026-03,0.7245,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-26,2026-03,0.8999,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2510,2026-03-26,2026-03,0.7257,251,AU3 Jentayu ~ Chow Kit
+U2538,2026-03-26,2026-03,0.6452,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U2548,2026-03-26,2026-03,0.6897,254,Ayer Panas ~ Titiwangsa via Chowkit
+U3000,2026-03-26,2026-03,1,300,Terminal Maluri ~ Lebuh Ampang
+U3020,2026-03-26,2026-03,0.9384,302,Titiwangsa ~ KLCC
+U3030,2026-03-26,2026-03,0.6148,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-26,2026-03,0.9716,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4210,2026-03-26,2026-03,0.8354,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-26,2026-03,0.8225,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-26,2026-03,0.3349,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-26,2026-03,0,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-26,2026-03,0.5247,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-26,2026-03,0.881,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-26,2026-03,0.6095,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-26,2026-03,0.8852,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-26,2026-03,0.7711,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-26,2026-03,0.8297,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-26,2026-03,0.7027,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-26,2026-03,0.9298,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-26,2026-03,0.8873,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-26,2026-03,0.6495,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-26,2026-03,0.8068,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7538,2026-03-26,2026-03,0,753,Hentian Bandar Shah Alam ~ UiTM Puncak Alam
+U7548,2026-03-26,2026-03,0.8719,754,Sekysen 13 Shah Alam ~ UITM Puncak Perdana
+U7700,2026-03-26,2026-03,0.691,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-26,2026-03,0,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-26,2026-03,0.8299,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-26,2026-03,0.8491,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-26,2026-03,0.8508,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-26,2026-03,0,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-26,2026-03,0.8441,821,Pantai Hill Park ~ Hab Pasar Seni
+U8220,2026-03-26,2026-03,0,822,Stesen LRT Bangsar ~ Bangsar Shopping Centre
+S6060,2026-03-27,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-27,2026-03,0.2436,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-27,2026-03,0.9705,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2230,2026-03-27,2026-03,0.9437,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2500,2026-03-27,2026-03,0.8522,T250,Stesen LRT Wangsa Maju ~ Setapak Sentral
+T2510,2026-03-27,2026-03,0.7014,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-27,2026-03,0.4575,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-27,2026-03,0.8759,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-27,2026-03,0.8564,T302,Hutan Lipur Ampang ~ Ampang Point
+T3048,2026-03-27,2026-03,0.6521,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T4068,2026-03-27,2026-03,0.7714,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-27,2026-03,0.6009,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-27,2026-03,0.8152,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-27,2026-03,0.8719,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-27,2026-03,0.6087,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-27,2026-03,0.9213,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-27,2026-03,0.1402,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-27,2026-03,0.8771,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-27,2026-03,0.9838,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-27,2026-03,0.8186,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-27,2026-03,0.6589,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-27,2026-03,0,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-27,2026-03,0,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-27,2026-03,0.8495,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-27,2026-03,1,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7800,2026-03-27,2026-03,0.8599,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7820,2026-03-27,2026-03,0,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-27,2026-03,0.6482,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-27,2026-03,0.9156,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7880,2026-03-27,2026-03,0,T788,Stesen LRT Universiti ~ Mid Valley
+T7890,2026-03-27,2026-03,0.9838,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T7900,2026-03-27,2026-03,0.6964,T790,Stesen LRT Paramount ~ Mid Valley
+T7910,2026-03-27,2026-03,0.9814,T791,Stesen LRT Kerinchi ~ Pantai Hill Park
+U1510,2026-03-27,2026-03,0.6036,151,Bandar Baru Selayang ~ Hab Lebuh Pudu
+U1710,2026-03-27,2026-03,0.7342,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-27,2026-03,0.9271,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-27,2026-03,0.8162,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-27,2026-03,0.9106,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2000,2026-03-27,2026-03,0,200,UIA Gombak ~ SOGO KL
+U2020,2026-03-27,2026-03,0.6308,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-27,2026-03,0.7049,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-27,2026-03,0.7393,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-27,2026-03,0.9213,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2510,2026-03-27,2026-03,0.6164,251,AU3 Jentayu ~ Chow Kit
+U2538,2026-03-27,2026-03,0.497,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U2548,2026-03-27,2026-03,0.7646,254,Ayer Panas ~ Titiwangsa via Chowkit
+U3020,2026-03-27,2026-03,0.914,302,Titiwangsa ~ KLCC
+U3030,2026-03-27,2026-03,0.9134,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-27,2026-03,0.7808,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4210,2026-03-27,2026-03,0.5614,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-27,2026-03,0.8115,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-27,2026-03,0,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-27,2026-03,0.603,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-27,2026-03,0.5255,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-27,2026-03,0.9767,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-27,2026-03,0.5684,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-27,2026-03,0.8465,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-27,2026-03,0.0891,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-27,2026-03,0.8213,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-27,2026-03,0.5454,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-27,2026-03,0.9088,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-27,2026-03,0.8863,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-27,2026-03,0.5919,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-27,2026-03,0.8573,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7538,2026-03-27,2026-03,0.5971,753,Hentian Bandar Shah Alam ~ UiTM Puncak Alam
+U7548,2026-03-27,2026-03,0.8164,754,Sekysen 13 Shah Alam ~ UITM Puncak Perdana
+U7700,2026-03-27,2026-03,0.5938,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-27,2026-03,0.9221,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-27,2026-03,0.786,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-27,2026-03,0.833,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-27,2026-03,0,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-27,2026-03,0.7142,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-27,2026-03,0.8461,821,Pantai Hill Park ~ Hab Pasar Seni
+U8220,2026-03-27,2026-03,0,822,Stesen LRT Bangsar ~ Bangsar Shopping Centre
+S6060,2026-03-30,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-30,2026-03,0,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-30,2026-03,0.8802,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2220,2026-03-30,2026-03,0.6206,T222,Stesen LRT Sri Rampai ~ UKAY Perdana
+T2230,2026-03-30,2026-03,1,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2500,2026-03-30,2026-03,0.9282,T250,Stesen LRT Wangsa Maju ~ Setapak Sentral
+T2510,2026-03-30,2026-03,0.9459,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-30,2026-03,0.8636,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3018,2026-03-30,2026-03,1,T301,Taman Mulia Jaya ~ Ampang Point via Jalan Merdeka
+T3028,2026-03-30,2026-03,0.9264,T302,Hutan Lipur Ampang ~ Ampang Point
+T3048,2026-03-30,2026-03,0.1217,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T3500,2026-03-30,2026-03,0.4554,T350,Stesen LRT Cempaka ~ Taman Mawar
+T4068,2026-03-30,2026-03,0.7676,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-30,2026-03,0.7704,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-30,2026-03,0.6256,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-30,2026-03,0.6489,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-30,2026-03,0.6285,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-30,2026-03,0.9225,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-30,2026-03,0.8436,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-30,2026-03,0.9396,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-30,2026-03,0.9805,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-30,2026-03,0.6948,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-30,2026-03,0.819,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-30,2026-03,0.8304,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-30,2026-03,0,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-30,2026-03,0.7516,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-30,2026-03,0.6824,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7800,2026-03-30,2026-03,0.9124,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7810,2026-03-30,2026-03,0.4823,T781,Stesen LRT Kelana Jaya ~ Kelana Centre Point
+T7820,2026-03-30,2026-03,0,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-30,2026-03,0.6367,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-30,2026-03,0.9318,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7880,2026-03-30,2026-03,1,T788,Stesen LRT Universiti ~ Mid Valley
+T7890,2026-03-30,2026-03,0.911,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T7910,2026-03-30,2026-03,0.9564,T791,Stesen LRT Kerinchi ~ Pantai Hill Park
+U1510,2026-03-30,2026-03,0.7133,151,Bandar Baru Selayang ~ Hab Lebuh Pudu
+U1710,2026-03-30,2026-03,0.8238,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-30,2026-03,0.8062,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-30,2026-03,0.7645,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-30,2026-03,0.8679,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2000,2026-03-30,2026-03,0,200,UIA Gombak ~ SOGO KL
+U2020,2026-03-30,2026-03,0.8072,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-30,2026-03,0.6275,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-30,2026-03,0.8083,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-30,2026-03,0.8168,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2510,2026-03-30,2026-03,0.8515,251,AU3 Jentayu ~ Chow Kit
+U2538,2026-03-30,2026-03,0.444,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U2548,2026-03-30,2026-03,0.6799,254,Ayer Panas ~ Titiwangsa via Chowkit
+U3000,2026-03-30,2026-03,0.2087,300,Terminal Maluri ~ Lebuh Ampang
+U3020,2026-03-30,2026-03,0.81,302,Titiwangsa ~ KLCC
+U3030,2026-03-30,2026-03,0.9654,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-30,2026-03,1,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4210,2026-03-30,2026-03,0.8584,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-30,2026-03,0.8363,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-30,2026-03,0,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-30,2026-03,0.4154,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-30,2026-03,0.3281,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-30,2026-03,0.7666,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-30,2026-03,0.604,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-30,2026-03,0.9024,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-30,2026-03,0.8422,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-30,2026-03,0.6095,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-30,2026-03,0.7526,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-30,2026-03,0.9542,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-30,2026-03,0.9484,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-30,2026-03,0.5863,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-30,2026-03,0.8732,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7538,2026-03-30,2026-03,0.9236,753,Hentian Bandar Shah Alam ~ UiTM Puncak Alam
+U7548,2026-03-30,2026-03,0.1095,754,Sekysen 13 Shah Alam ~ UITM Puncak Perdana
+U7700,2026-03-30,2026-03,0.7494,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-30,2026-03,0.1111,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-30,2026-03,0.8627,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-30,2026-03,0.8825,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-30,2026-03,0.7567,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-30,2026-03,0.7394,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-30,2026-03,0.787,821,Pantai Hill Park ~ Hab Pasar Seni
+U8220,2026-03-30,2026-03,1,822,Stesen LRT Bangsar ~ Bangsar Shopping Centre
+S6060,2026-03-31,2026-03,0,PAVILION BUKIT JALIL (PAVBJ),Stesen LRT Awan Besar ~ Pavilion Bukit Jalil
+T2000,2026-03-31,2026-03,0.8412,T200,Stesen LRT Gombak ~ UIA Gombak
+T2010,2026-03-31,2026-03,0.9106,T201,Stesen LRT Gombak ~ Hab Wira Damai
+T2220,2026-03-31,2026-03,0.7084,T222,Stesen LRT Sri Rampai ~ UKAY Perdana
+T2230,2026-03-31,2026-03,0.9669,T223,"Stesen LRT Setiawangsa ~ AU3, Jentayu, Keramat"
+T2500,2026-03-31,2026-03,0.6485,T250,Stesen LRT Wangsa Maju ~ Setapak Sentral
+T2510,2026-03-31,2026-03,0.7553,T251,Stesen LRT Sri Rampai ~ Seksyen 10 Wangsa Maju
+T3008,2026-03-31,2026-03,0,T300,Bukit Indah ~ Ampang Point via Jalan Rasmi
+T3028,2026-03-31,2026-03,0.885,T302,Hutan Lipur Ampang ~ Ampang Point
+T3048,2026-03-31,2026-03,0.5366,T304,Bukit Indah ~ Ampang Point via Jalan Ampang
+T3500,2026-03-31,2026-03,0.7761,T350,Stesen LRT Cempaka ~ Taman Mawar
+T4068,2026-03-31,2026-03,0.7343,T406,Cheras Batu 10 ~ Pangsun
+T5718,2026-03-31,2026-03,0.7518,T571,Stesen KTM Serdang ~ Taman Sri Pulai
+T5800,2026-03-31,2026-03,0.6499,T580,Stesen LRT Awan Besar ~ TPM via Stesen LRT Bukit Jalil
+T5810,2026-03-31,2026-03,0,T581,Stesen LRT Alam Sutera ~ PPR Pinggiran Bukit Jalil
+T6000,2026-03-31,2026-03,0.5747,T600,Stesen LRT IOI Puchong ~ Taman Wawasan
+T6010,2026-03-31,2026-03,0.9262,T601,Puchong Utama ~ Puchong Prima
+T6030,2026-03-31,2026-03,0.538,T603,Stesen LRT Puchong Prima ~ Taman Mas Sepang
+T6040,2026-03-31,2026-03,0.9341,T604,Stesen LRT Perindustrian Puchong ~ Taman Kinrara
+T6050,2026-03-31,2026-03,0.9549,T605,Stesen LRT Bandar Puteri ~ Taman Wawasan
+T6400,2026-03-31,2026-03,0.698,T640,Stesen LRT Taman Jaya ~ Taman Sri Sentosa
+T7158,2026-03-31,2026-03,0.7736,T715,UiTM Puncak Alam ~ Bandar Puncak Alam
+T7538,2026-03-31,2026-03,0.7573,T753,"Hentian Bandar Shah Alam ~ Sekysen 11, 9, 8, 6, 5"
+T7548,2026-03-31,2026-03,0,T754,Hentian Bandar Shah Alam ~ Terminal Seksyen 17
+T7568,2026-03-31,2026-03,0.8909,T756,Kemuning Business Park ~ Hentian Bandar via Taman Muda
+T7740,2026-03-31,2026-03,0.7067,T774,"Stesen LRT Glenmarie ~ MSU, Stadium Shah Alam"
+T7800,2026-03-31,2026-03,0.9145,T780,Stesen LRT Kelana Jaya ~ Taman Mayang
+T7810,2026-03-31,2026-03,0.0365,T781,Stesen LRT Kelana Jaya ~ Kelana Centre Point
+T7820,2026-03-31,2026-03,0.9333,T782,Stesen LRT Lembah Subang ~ Ara Damansara
+T7860,2026-03-31,2026-03,0.3036,T786,Stesen LRT Asia Jaya ~ Stesen MRT Phileo Damansara
+T7870,2026-03-31,2026-03,0.9607,T787,Stesen LRT Asia Jaya ~ Seksyen 14 & 18
+T7880,2026-03-31,2026-03,1,T788,Stesen LRT Universiti ~ Mid Valley
+T7890,2026-03-31,2026-03,0.9472,T789,Stesen LRT Universiti ~ Universiti Malaya via Pantai Hillpark
+T7910,2026-03-31,2026-03,0.9216,T791,Stesen LRT Kerinchi ~ Pantai Hill Park
+U1510,2026-03-31,2026-03,0.62,151,Bandar Baru Selayang ~ Hab Lebuh Pudu
+U1710,2026-03-31,2026-03,0.849,171,Hab Wira Damai ~ Lebuh Ampang via Sentul
+U1730,2026-03-31,2026-03,0.5944,173,Taman Jasa Utama ~ Lebuh Ampang
+U1800,2026-03-31,2026-03,0.7774,180,Taman Dato' Senu ~ Hab Pasar Seni
+U1900,2026-03-31,2026-03,0.8808,190,Desa Sri Hartamas ~ Lin Ho Jln Lekiu
+U2000,2026-03-31,2026-03,0.4373,200,UIA Gombak ~ SOGO KL
+U2020,2026-03-31,2026-03,0.7767,202,Hub Wira Damai ~ Lebuh Ampang via Gombak
+U2200,2026-03-31,2026-03,0.5913,220,Taman Melawati ~ Lebuh Ampang
+U2220,2026-03-31,2026-03,0.7047,222,Taman Melawati ~ Stesen LRT Wangsa Maju
+U2500,2026-03-31,2026-03,0.8825,250,Stesen LRT Wangsa Maju ~ Lebuh Ampang
+U2510,2026-03-31,2026-03,0.9309,251,AU3 Jentayu ~ Chow Kit
+U2538,2026-03-31,2026-03,0,253,Stesen LRT Wangsa Maju ~ Ampang Point
+U2548,2026-03-31,2026-03,0,254,Ayer Panas ~ Titiwangsa via Chowkit
+U3000,2026-03-31,2026-03,0,300,Terminal Maluri ~ Lebuh Ampang
+U3020,2026-03-31,2026-03,0.8498,302,Titiwangsa ~ KLCC
+U3030,2026-03-31,2026-03,0.5194,303,Taman Mulia Jaya ~ Lebuh Ampang
+U4000,2026-03-31,2026-03,0.867,400,Damai Perdana ~ Hab Lebuh Pudu via Bukit Bintang
+U4210,2026-03-31,2026-03,0.7972,421,Hentian Taman Dagang ~ Menara Maybank via Bukit Bintang
+U4500,2026-03-31,2026-03,0.8107,450,Hentian Kajang ~ Hab Lebuh Pudu
+U5410,2026-03-31,2026-03,0.3121,541,Stesen MRT Taman Equine ~ Stesen LRT BK 5
+U5800,2026-03-31,2026-03,0,580,Desa Petaling ~ Pasar Seni via Stesen LRT Salak Selatan
+U5810,2026-03-31,2026-03,0.4443,581,Desa Tasik ~ Stesen LRT Bandar Tasik Selatan
+U5900,2026-03-31,2026-03,0.7822,590,Bandar Sungai Long ~ Hab Pasar Seni
+U6000,2026-03-31,2026-03,0.5959,600,Puchong Utama ~ Hab Pasar Seni
+U6400,2026-03-31,2026-03,0.8439,640,Hab Bas Sri Manja ~ Hab Pasar Seni
+U6418,2026-03-31,2026-03,0.7661,641,Stesen LRT Subang Jaya ~ Pearl Point
+U6500,2026-03-31,2026-03,0.8697,650,Taman Desa ~ Hab Pasar Seni
+U6510,2026-03-31,2026-03,0.6254,651,Stesen LRT Muhibbah ~Pearl Point
+U6520,2026-03-31,2026-03,0.9381,652,Stesen LRT Awan Besar ~Batu 3 Jalan Klang Lama
+U7508,2026-03-31,2026-03,0.8449,750,Hab Sekysen 2 ~ Hab Pasar Seni
+U7510,2026-03-31,2026-03,0.6725,751,Taman Sri Muda ~ Hab Pasar Seni
+U7520,2026-03-31,2026-03,0.835,752,Stesen LRT Putra Height ~ Hentian Bandar Shah Alam
+U7538,2026-03-31,2026-03,0.9534,753,Hentian Bandar Shah Alam ~ UiTM Puncak Alam
+U7548,2026-03-31,2026-03,0.5447,754,Sekysen 13 Shah Alam ~ UITM Puncak Perdana
+U7700,2026-03-31,2026-03,0.7198,770,Subang Mewah USJ 1 ~ Hab Pasar Seni
+U7718,2026-03-31,2026-03,0.9191,771,Subang Mewah USJ 1 ~ Desa Mentari via Persiaran Tujuan
+U7720,2026-03-31,2026-03,0.7494,772,Subang Suria Mah Sing ~ Hab Pasar Seni
+U7800,2026-03-31,2026-03,0.9125,780,Kota Damansara ~ Hab Pasar Seni
+U7828,2026-03-31,2026-03,0.8098,782,Hentian PJ Old Town ~ Hab Pasar Seni
+U7830,2026-03-31,2026-03,0.5108,783,Stesen LRT Kelana Jaya ~ Subang Parade
+U8210,2026-03-31,2026-03,0.8526,821,Pantai Hill Park ~ Hab Pasar Seni
