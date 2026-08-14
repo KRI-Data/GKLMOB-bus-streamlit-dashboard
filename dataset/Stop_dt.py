@@ -21,6 +21,15 @@ def stop_mrt_feeder():
     df_202603 = pd.read_csv("dataset/MRT_bus_stop_otp_202603.csv")
     stop_mrt_feeder_202603 = df_202603[['route_id', 'stop_name', 'month', 'on time', 'early', 'late']]
 
+    df_202604 = pd.read_csv("dataset/MRT_bus_stop_otp_202604.csv")
+    stop_mrt_feeder_202604 = df_202604[['route_id', 'stop_name', 'month', 'on time', 'early', 'late']]
+
+    df_202605 = pd.read_csv("dataset/MRT_bus_stop_otp_202605.csv")
+    stop_mrt_feeder_202605 = df_202605[['route_id', 'stop_name', 'month', 'on time', 'early', 'late']]
+
+    df_202606 = pd.read_csv("dataset/MRT_bus_stop_otp_202606.csv")
+    stop_mrt_feeder_202606 = df_202606[['route_id', 'stop_name', 'month', 'on time', 'early', 'late']]
+
     stop_mrt_feeder['total'] = stop_mrt_feeder['on time'] + stop_mrt_feeder['late'] + stop_mrt_feeder['early']
     stop_mrt_feeder['ratio_on_time'] = stop_mrt_feeder['on time'] / stop_mrt_feeder['total']
     stop_mrt_feeder['ratio_early'] = stop_mrt_feeder['early'] / stop_mrt_feeder['total']
@@ -87,7 +96,42 @@ def stop_mrt_feeder():
         'ratio_early': 4
     })
 
-    combined = pd.concat([stop_mrt_feeder, stop_mrt_feeder_new, stop_mrt_feeder_202512, stop_mrt_feeder_202601, stop_mrt_feeder_202602, stop_mrt_feeder_202603], ignore_index=True)
+    stop_mrt_feeder_202604['total'] = stop_mrt_feeder_202604['on time'] + stop_mrt_feeder_202604['late'] + stop_mrt_feeder_202604['early']
+    stop_mrt_feeder_202604['ratio_on_time'] = stop_mrt_feeder_202604['on time'] / stop_mrt_feeder_202604['total']
+    stop_mrt_feeder_202604['ratio_early'] = stop_mrt_feeder_202604['early'] / stop_mrt_feeder_202604['total']
+    stop_mrt_feeder_202604['ratio_late'] = stop_mrt_feeder_202604['late'] / stop_mrt_feeder_202604['total']
+
+    stop_mrt_feeder_202604 = stop_mrt_feeder_202604.round({
+        'ratio_on_time': 4,
+        'ratio_late': 4,
+        'ratio_early': 4
+    })
+
+    stop_mrt_feeder_202605['total'] = stop_mrt_feeder_202605['on time'] + stop_mrt_feeder_202605['late'] + stop_mrt_feeder_202605['early']
+    stop_mrt_feeder_202605['ratio_on_time'] = stop_mrt_feeder_202605['on time'] / stop_mrt_feeder_202605['total']
+    stop_mrt_feeder_202605['ratio_early'] = stop_mrt_feeder_202605['early'] / stop_mrt_feeder_202605['total']
+    stop_mrt_feeder_202605['ratio_late'] = stop_mrt_feeder_202605['late'] / stop_mrt_feeder_202605['total']
+
+    stop_mrt_feeder_202605 = stop_mrt_feeder_202605.round({
+        'ratio_on_time': 4,
+        'ratio_late': 4,
+        'ratio_early': 4
+    })
+
+    stop_mrt_feeder_202606['total'] = stop_mrt_feeder_202606['on time'] + stop_mrt_feeder_202606['late'] + stop_mrt_feeder_202606['early']
+    stop_mrt_feeder_202606['ratio_on_time'] = stop_mrt_feeder_202606['on time'] / stop_mrt_feeder_202606['total']
+    stop_mrt_feeder_202606['ratio_early'] = stop_mrt_feeder_202606['early'] / stop_mrt_feeder_202606['total']
+    stop_mrt_feeder_202606['ratio_late'] = stop_mrt_feeder_202606['late'] / stop_mrt_feeder_202606['total']
+
+    stop_mrt_feeder_202606 = stop_mrt_feeder_202606.round({
+        'ratio_on_time': 4,
+        'ratio_late': 4,
+        'ratio_early': 4
+    })
+
+    combined = pd.concat([stop_mrt_feeder, stop_mrt_feeder_new, stop_mrt_feeder_202512, 
+                          stop_mrt_feeder_202601, stop_mrt_feeder_202602, stop_mrt_feeder_202603,
+                          stop_mrt_feeder_202604, stop_mrt_feeder_202605, stop_mrt_feeder_202606], ignore_index=True)
 
     return combined
 
@@ -195,7 +239,60 @@ def stop_rapid_kl():
         'ratio_early': 4
     })
 
-    combined = pd.concat([stop_rapid_kl, stop_rapid_kl_new, stop_rapid_kl_202512, stop_rapid_kl_202601, stop_rapid_kl_202602, stop_rapid_kl_202603], ignore_index=True)
+    df_202604 = pd.read_csv("dataset/Rapid_kl_bus_stop_otp_202604.csv")
+    stop_rapid_kl_202604 = df_202604[['route_short_name','route_long_name', 'stop_name', 'month', 'on time', 'early', 'late']]
+
+    stop_rapid_kl_202604['route_id'] = stop_rapid_kl_202604['route_short_name'] + " (" + stop_rapid_kl_202604['route_long_name'] + ")"
+    stop_rapid_kl_202604 = stop_rapid_kl_202604[['route_id', 'stop_name', 'month', 'on time', 'early', 'late']]
+
+    stop_rapid_kl_202604['total'] = stop_rapid_kl_202604['on time'] + stop_rapid_kl_202604['late'] + stop_rapid_kl_202604['early']
+    stop_rapid_kl_202604['ratio_on_time'] = stop_rapid_kl_202604['on time'] / stop_rapid_kl_202604['total']
+    stop_rapid_kl_202604['ratio_early'] = stop_rapid_kl_202604['early'] / stop_rapid_kl_202604['total']
+    stop_rapid_kl_202604['ratio_late'] = stop_rapid_kl_202604['late'] / stop_rapid_kl_202604['total']
+
+    stop_rapid_kl_202604 = stop_rapid_kl_202604.round({
+        'ratio_on_time': 4,
+        'ratio_late': 4,
+        'ratio_early': 4
+    })
+
+    df_202605 = pd.read_csv("dataset/Rapid_kl_bus_stop_otp_202605.csv")
+    stop_rapid_kl_202605 = df_202605[['route_short_name','route_long_name', 'stop_name', 'month', 'on time', 'early', 'late']]
+
+    stop_rapid_kl_202605['route_id'] = stop_rapid_kl_202605['route_short_name'] + " (" + stop_rapid_kl_202605['route_long_name'] + ")"
+    stop_rapid_kl_202605 = stop_rapid_kl_202605[['route_id', 'stop_name', 'month', 'on time', 'early', 'late']]
+
+    stop_rapid_kl_202605['total'] = stop_rapid_kl_202605['on time'] + stop_rapid_kl_202605['late'] + stop_rapid_kl_202605['early']
+    stop_rapid_kl_202605['ratio_on_time'] = stop_rapid_kl_202605['on time'] / stop_rapid_kl_202605['total']
+    stop_rapid_kl_202605['ratio_early'] = stop_rapid_kl_202605['early'] / stop_rapid_kl_202605['total']
+    stop_rapid_kl_202605['ratio_late'] = stop_rapid_kl_202605['late'] / stop_rapid_kl_202605['total']
+
+    stop_rapid_kl_202605 = stop_rapid_kl_202605.round({
+        'ratio_on_time': 4,
+        'ratio_late': 4,
+        'ratio_early': 4
+    })
+
+    df_202606 = pd.read_csv("dataset/Rapid_kl_bus_stop_otp_202606.csv")
+    stop_rapid_kl_202606 = df_202606[['route_short_name','route_long_name', 'stop_name', 'month', 'on time', 'early', 'late']]
+
+    stop_rapid_kl_202606['route_id'] = stop_rapid_kl_202606['route_short_name'] + " (" + stop_rapid_kl_202606['route_long_name'] + ")"
+    stop_rapid_kl_202606 = stop_rapid_kl_202606[['route_id', 'stop_name', 'month', 'on time', 'early', 'late']]
+
+    stop_rapid_kl_202606['total'] = stop_rapid_kl_202606['on time'] + stop_rapid_kl_202606['late'] + stop_rapid_kl_202606['early']
+    stop_rapid_kl_202606['ratio_on_time'] = stop_rapid_kl_202606['on time'] / stop_rapid_kl_202606['total']
+    stop_rapid_kl_202606['ratio_early'] = stop_rapid_kl_202606['early'] / stop_rapid_kl_202606['total']
+    stop_rapid_kl_202606['ratio_late'] = stop_rapid_kl_202606['late'] / stop_rapid_kl_202606['total']
+
+    stop_rapid_kl_202606 = stop_rapid_kl_202606.round({
+        'ratio_on_time': 4,
+        'ratio_late': 4,
+        'ratio_early': 4
+    })
+
+    combined = pd.concat([stop_rapid_kl, stop_rapid_kl_new, stop_rapid_kl_202512, 
+                          stop_rapid_kl_202601, stop_rapid_kl_202602, stop_rapid_kl_202603,
+                          stop_rapid_kl_202604, stop_rapid_kl_202605, stop_rapid_kl_202606], ignore_index=True)
 
     return combined
 
