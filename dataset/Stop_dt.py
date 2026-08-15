@@ -30,6 +30,9 @@ def stop_mrt_feeder():
     df_202606 = pd.read_csv("dataset/MRT_bus_stop_otp_202606.csv")
     stop_mrt_feeder_202606 = df_202606[['route_id', 'stop_name', 'month', 'on time', 'early', 'late']]
 
+    df_202607 = pd.read_csv("dataset/MRT_bus_stop_otp_202607.csv")
+    stop_mrt_feeder_202607 = df_202607[['route_id', 'stop_name', 'month', 'on time', 'early', 'late']]
+
     stop_mrt_feeder['total'] = stop_mrt_feeder['on time'] + stop_mrt_feeder['late'] + stop_mrt_feeder['early']
     stop_mrt_feeder['ratio_on_time'] = stop_mrt_feeder['on time'] / stop_mrt_feeder['total']
     stop_mrt_feeder['ratio_early'] = stop_mrt_feeder['early'] / stop_mrt_feeder['total']
@@ -129,9 +132,21 @@ def stop_mrt_feeder():
         'ratio_early': 4
     })
 
+    stop_mrt_feeder_202607['total'] = stop_mrt_feeder_202607['on time'] + stop_mrt_feeder_202607['late'] + stop_mrt_feeder_202607['early']
+    stop_mrt_feeder_202607['ratio_on_time'] = stop_mrt_feeder_202607['on time'] / stop_mrt_feeder_202607['total']
+    stop_mrt_feeder_202607['ratio_early'] = stop_mrt_feeder_202607['early'] / stop_mrt_feeder_202607['total']
+    stop_mrt_feeder_202607['ratio_late'] = stop_mrt_feeder_202607['late'] / stop_mrt_feeder_202607['total']
+
+    stop_mrt_feeder_202607 = stop_mrt_feeder_202607.round({
+        'ratio_on_time': 4,
+        'ratio_late': 4,
+        'ratio_early': 4
+    })
+
     combined = pd.concat([stop_mrt_feeder, stop_mrt_feeder_new, stop_mrt_feeder_202512, 
                           stop_mrt_feeder_202601, stop_mrt_feeder_202602, stop_mrt_feeder_202603,
-                          stop_mrt_feeder_202604, stop_mrt_feeder_202605, stop_mrt_feeder_202606], ignore_index=True)
+                          stop_mrt_feeder_202604, stop_mrt_feeder_202605, stop_mrt_feeder_202606,
+                          stop_mrt_feeder_202607], ignore_index=True)
 
     return combined
 
@@ -290,9 +305,27 @@ def stop_rapid_kl():
         'ratio_early': 4
     })
 
+    df_202607 = pd.read_csv("dataset/Rapid_kl_bus_stop_otp_202607.csv")
+    stop_rapid_kl_202607 = df_202607[['route_short_name','route_long_name', 'stop_name', 'month', 'on time', 'early', 'late']]
+
+    stop_rapid_kl_202607['route_id'] = stop_rapid_kl_202607['route_short_name'] + " (" + stop_rapid_kl_202607['route_long_name'] + ")"
+    stop_rapid_kl_202607 = stop_rapid_kl_202607[['route_id', 'stop_name', 'month', 'on time', 'early', 'late']]
+
+    stop_rapid_kl_202607['total'] = stop_rapid_kl_202607['on time'] + stop_rapid_kl_202607['late'] + stop_rapid_kl_202607['early']
+    stop_rapid_kl_202607['ratio_on_time'] = stop_rapid_kl_202607['on time'] / stop_rapid_kl_202607['total']
+    stop_rapid_kl_202607['ratio_early'] = stop_rapid_kl_202607['early'] / stop_rapid_kl_202607['total']
+    stop_rapid_kl_202607['ratio_late'] = stop_rapid_kl_202607['late'] / stop_rapid_kl_202607['total']
+
+    stop_rapid_kl_202607 = stop_rapid_kl_202607.round({
+        'ratio_on_time': 4,
+        'ratio_late': 4,
+        'ratio_early': 4
+    })
+
     combined = pd.concat([stop_rapid_kl, stop_rapid_kl_new, stop_rapid_kl_202512, 
                           stop_rapid_kl_202601, stop_rapid_kl_202602, stop_rapid_kl_202603,
-                          stop_rapid_kl_202604, stop_rapid_kl_202605, stop_rapid_kl_202606], ignore_index=True)
+                          stop_rapid_kl_202604, stop_rapid_kl_202605, stop_rapid_kl_202606,
+                          stop_rapid_kl_202607], ignore_index=True)
 
     return combined
 
@@ -300,8 +333,8 @@ import pandas as pd
 
 def list_route():
     # Read datasets
-    df_mrt = pd.read_csv("dataset/MRT_bus_stop_otp_202606.csv")
-    df_kl = pd.read_csv("dataset/Rapid_kl_bus_stop_otp_202606.csv")
+    df_mrt = pd.read_csv("dataset/MRT_bus_stop_otp_202607.csv")
+    df_kl = pd.read_csv("dataset/Rapid_kl_bus_stop_otp_202607.csv")
 
     # Ensure route_id exists for Rapid KL datasets
     df_kl["route_id"] = df_kl["route_short_name"] + " (" + df_kl["route_long_name"] + ")"
