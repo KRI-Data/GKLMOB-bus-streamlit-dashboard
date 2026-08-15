@@ -9,6 +9,10 @@ def daily_rapid_kl():
     df_202601 = pd.read_csv("dataset/Rapid_kl_daily_bpi_202601.csv")
     df_202602 = pd.read_csv("dataset/Rapid_kl_daily_bpi_202602.csv")
     df_202603 = pd.read_csv("dataset/Rapid_kl_daily_bpi_202603.csv")
+    df_202604 = pd.read_csv("dataset/Rapid_kl_daily_bpi_202604.csv")
+    df_202605 = pd.read_csv("dataset/Rapid_kl_daily_bpi_202605.csv")
+    df_202606 = pd.read_csv("dataset/Rapid_kl_daily_bpi_202606.csv")
+    df_202607 = pd.read_csv("dataset/Rapid_kl_daily_bpi_202607.csv")
 
     daily_rapid_kl = df[['route_short_name','route_long_name', 'date', 'month', 'I_hat']]
     daily_rapid_kl_new = df_new[['route_short_name','route_long_name', 'date', 'month', 'I_hat']]
@@ -16,6 +20,10 @@ def daily_rapid_kl():
     daily_rapid_kl_202601 = df_202601[['route_short_name','route_long_name', 'date', 'month', 'BPI']]
     daily_rapid_kl_202602 = df_202602[['route_short_name','route_long_name', 'date', 'month', 'BPI']]
     daily_rapid_kl_202603 = df_202603[['route_short_name','route_long_name', 'date', 'month', 'BPI']]
+    daily_rapid_kl_202604 = df_202604[['route_short_name','route_long_name', 'date', 'month', 'BPI']]
+    daily_rapid_kl_202605 = df_202605[['route_short_name','route_long_name', 'date', 'month', 'BPI']]
+    daily_rapid_kl_202606 = df_202606[['route_short_name','route_long_name', 'date', 'month', 'BPI']]
+    daily_rapid_kl_202607 = df_202607[['route_short_name','route_long_name', 'date', 'month', 'BPI']]
 
     daily_rapid_kl['route_id'] = daily_rapid_kl['route_short_name'] + " (" + daily_rapid_kl['route_long_name'] + ")"
     daily_rapid_kl = daily_rapid_kl[['route_id', 'date', 'month', 'I_hat']].rename(columns={'I_hat':'BPI', 'route_id':'Route', 'date': 'Date'})
@@ -35,7 +43,22 @@ def daily_rapid_kl():
     daily_rapid_kl_202603['route_id'] = daily_rapid_kl_202603['route_short_name'] + " (" + daily_rapid_kl_202603['route_long_name'] + ")"
     daily_rapid_kl_202603 = daily_rapid_kl_202603[['route_id', 'date', 'month', 'BPI']].rename(columns={'route_id':'Route', 'date': 'Date'})
 
-    combined = pd.concat([daily_rapid_kl, daily_rapid_kl_new, daily_rapid_kl_202512, daily_rapid_kl_202601, daily_rapid_kl_202602, daily_rapid_kl_202603], ignore_index=True)
+    daily_rapid_kl_202604['route_id'] = daily_rapid_kl_202604['route_short_name'] + " (" + daily_rapid_kl_202604['route_long_name'] + ")"
+    daily_rapid_kl_202604 = daily_rapid_kl_202604[['route_id', 'date', 'month', 'BPI']].rename(columns={'route_id':'Route', 'date': 'Date'})
+
+    daily_rapid_kl_202605['route_id'] = daily_rapid_kl_202605['route_short_name'] + " (" + daily_rapid_kl_202605['route_long_name'] + ")"
+    daily_rapid_kl_202605 = daily_rapid_kl_202605[['route_id', 'date', 'month', 'BPI']].rename(columns={'route_id':'Route', 'date': 'Date'})
+
+    daily_rapid_kl_202606['route_id'] = daily_rapid_kl_202606['route_short_name'] + " (" + daily_rapid_kl_202606['route_long_name'] + ")"
+    daily_rapid_kl_202606 = daily_rapid_kl_202606[['route_id', 'date', 'month', 'BPI']].rename(columns={'route_id':'Route', 'date': 'Date'})
+
+    daily_rapid_kl_202607['route_id'] = daily_rapid_kl_202607['route_short_name'] + " (" + daily_rapid_kl_202607['route_long_name'] + ")"
+    daily_rapid_kl_202607 = daily_rapid_kl_202607[['route_id', 'date', 'month', 'BPI']].rename(columns={'route_id':'Route', 'date': 'Date'})
+
+    combined = pd.concat([daily_rapid_kl, daily_rapid_kl_new, daily_rapid_kl_202512,
+                          daily_rapid_kl_202601, daily_rapid_kl_202602, daily_rapid_kl_202603,
+                          daily_rapid_kl_202604, daily_rapid_kl_202605, daily_rapid_kl_202606,
+                          daily_rapid_kl_202607], ignore_index=True)
 
     return combined
 
@@ -47,6 +70,10 @@ def daily_mrt_feeder():
     df_202601 = pd.read_csv("dataset/MRT_daily_bpi_202601.csv")
     df_202602 = pd.read_csv("dataset/MRT_daily_bpi_202602.csv")
     df_202603 = pd.read_csv("dataset/MRT_daily_bpi_202603.csv")
+    df_202604 = pd.read_csv("dataset/MRT_daily_bpi_202604.csv")
+    df_202605 = pd.read_csv("dataset/MRT_daily_bpi_202605.csv")
+    df_202606 = pd.read_csv("dataset/MRT_daily_bpi_202606.csv")
+    df_202607 = pd.read_csv("dataset/MRT_daily_bpi_202607.csv")
     
     daily_mrt_feeder = df[['route_id', 'date', 'month', 'I_hat']]
     daily_mrt_feeder_new = df_new[['route_id', 'date', 'month', 'I_hat']]
@@ -57,7 +84,14 @@ def daily_mrt_feeder():
     daily_mrt_feeder_202601 = df_202601[['route_id', 'date', 'month', 'BPI']].rename(columns={'route_id':'Route', 'date': 'Date'})
     daily_mrt_feeder_202602 = df_202602[['route_id', 'date', 'month', 'BPI']].rename(columns={'route_id':'Route', 'date': 'Date'})
     daily_mrt_feeder_202603 = df_202603[['route_id', 'date', 'month', 'BPI']].rename(columns={'route_id':'Route', 'date': 'Date'})
+    daily_mrt_feeder_202604 = df_202604[['route_id', 'date', 'month', 'BPI']].rename(columns={'route_id':'Route', 'date': 'Date'})
+    daily_mrt_feeder_202605 = df_202605[['route_id', 'date', 'month', 'BPI']].rename(columns={'route_id':'Route', 'date': 'Date'})
+    daily_mrt_feeder_202606 = df_202606[['route_id', 'date', 'month', 'BPI']].rename(columns={'route_id':'Route', 'date': 'Date'})
+    daily_mrt_feeder_202607 = df_202607[['route_id', 'date', 'month', 'BPI']].rename(columns={'route_id':'Route', 'date': 'Date'})
 
-    combined = pd.concat([daily_mrt_feeder, daily_mrt_feeder_new, daily_mrt_feeder_202512, daily_mrt_feeder_202601, daily_mrt_feeder_202602, daily_mrt_feeder_202603], ignore_index=True)
+    combined = pd.concat([daily_mrt_feeder, daily_mrt_feeder_new, daily_mrt_feeder_202512, 
+                          daily_mrt_feeder_202601, daily_mrt_feeder_202602, daily_mrt_feeder_202603,
+                          daily_mrt_feeder_202604, daily_mrt_feeder_202605, daily_mrt_feeder_202606,
+                          daily_mrt_feeder_202607], ignore_index=True)
 
     return combined
