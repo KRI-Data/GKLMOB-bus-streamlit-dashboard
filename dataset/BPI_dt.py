@@ -248,7 +248,7 @@ def ratio_mrt_feeder():
     ratio_mrt_feeder_202608['ratio_late'] = ratio_mrt_feeder_202608['n_late'] / ratio_mrt_feeder_202608['n']
 
     df_202609 = pd.read_csv("dataset/MRT_monthly_bpi_202609.csv")
-    ratio_mrt_feeder_202609 = df_202608[['route_id', 'month', 'n', 'n_on_time', 'n_early', 'n_late']]
+    ratio_mrt_feeder_202609 = df_202609[['route_id', 'month', 'n', 'n_on_time', 'n_early', 'n_late']]
 
     ratio_mrt_feeder_202609['ratio_on_time'] = ratio_mrt_feeder_202609['n_on_time'] / ratio_mrt_feeder_202609['n']
     ratio_mrt_feeder_202609['ratio_early'] = ratio_mrt_feeder_202609['n_early'] / ratio_mrt_feeder_202609['n']
