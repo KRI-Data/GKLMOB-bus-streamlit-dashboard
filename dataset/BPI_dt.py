@@ -73,6 +73,20 @@ def ratio_rapid_kl():
     ratio_rapid_kl_202607['ratio_early'] = ratio_rapid_kl_202607['n_early'] / ratio_rapid_kl_202607['n']
     ratio_rapid_kl_202607['ratio_late'] = ratio_rapid_kl_202607['n_late'] / ratio_rapid_kl_202607['n']
 
+    df_202608 = pd.read_csv("dataset/Rapid_kl_monthly_bpi_202608.csv")
+    ratio_rapid_kl_202608 = df_202608[['route_short_name', 'route_long_name', 'month', 'n', 'n_on_time', 'n_early', 'n_late']]
+
+    ratio_rapid_kl_202608['ratio_on_time'] = ratio_rapid_kl_202608['n_on_time'] / ratio_rapid_kl_202608['n']
+    ratio_rapid_kl_202608['ratio_early'] = ratio_rapid_kl_202608['n_early'] / ratio_rapid_kl_202608['n']
+    ratio_rapid_kl_202608['ratio_late'] = ratio_rapid_kl_202608['n_late'] / ratio_rapid_kl_202608['n']
+
+    df_202609 = pd.read_csv("dataset/Rapid_kl_monthly_bpi_202609.csv")
+    ratio_rapid_kl_202609 = df_202609[['route_short_name', 'route_long_name', 'month', 'n', 'n_on_time', 'n_early', 'n_late']]
+
+    ratio_rapid_kl_202609['ratio_on_time'] = ratio_rapid_kl_202609['n_on_time'] / ratio_rapid_kl_202609['n']
+    ratio_rapid_kl_202609['ratio_early'] = ratio_rapid_kl_202609['n_early'] / ratio_rapid_kl_202609['n']
+    ratio_rapid_kl_202609['ratio_late'] = ratio_rapid_kl_202609['n_late'] / ratio_rapid_kl_202609['n'
+
     ratio_rapid_kl = ratio_rapid_kl.round({
         'ratio_on_time': 4,
         'ratio_late': 4,
@@ -133,10 +147,22 @@ def ratio_rapid_kl():
         'ratio_early': 4
     })
 
+        ratio_rapid_kl_202608 = ratio_rapid_kl_202608.round({
+        'ratio_on_time': 4,
+        'ratio_late': 4,
+        'ratio_early': 4
+    })
+
+        ratio_rapid_kl_202609 = ratio_rapid_kl_202609.round({
+        'ratio_on_time': 4,
+        'ratio_late': 4,
+        'ratio_early': 4
+    })
+
     combined = pd.concat([ratio_rapid_kl, ratio_rapid_kl_new, ratio_rapid_kl_202512,
                            ratio_rapid_kl_202601, ratio_rapid_kl_202602, ratio_rapid_kl_202603,
                            ratio_rapid_kl_202604, ratio_rapid_kl_202605, ratio_rapid_kl_202606,
-                           ratio_rapid_kl_202607], 
+                           ratio_rapid_kl_202607, ratio_rapid_kl_202608, ratio_rapid_kl_202609], 
                             ignore_index=True
                         )
 
@@ -214,6 +240,20 @@ def ratio_mrt_feeder():
     ratio_mrt_feeder_202607['ratio_early'] = ratio_mrt_feeder_202607['n_early'] / ratio_mrt_feeder_202607['n']
     ratio_mrt_feeder_202607['ratio_late'] = ratio_mrt_feeder_202607['n_late'] / ratio_mrt_feeder_202607['n']
 
+    df_202608 = pd.read_csv("dataset/MRT_monthly_bpi_202608.csv")
+    ratio_mrt_feeder_202608 = df_202608[['route_id', 'month', 'n', 'n_on_time', 'n_early', 'n_late']]
+
+    ratio_mrt_feeder_202608['ratio_on_time'] = ratio_mrt_feeder_202608['n_on_time'] / ratio_mrt_feeder_202608['n']
+    ratio_mrt_feeder_202608['ratio_early'] = ratio_mrt_feeder_202608['n_early'] / ratio_mrt_feeder_202608['n']
+    ratio_mrt_feeder_202608['ratio_late'] = ratio_mrt_feeder_202608['n_late'] / ratio_mrt_feeder_202608['n']
+
+    df_202609 = pd.read_csv("dataset/MRT_monthly_bpi_202609.csv")
+    ratio_mrt_feeder_202609 = df_202608[['route_id', 'month', 'n', 'n_on_time', 'n_early', 'n_late']]
+
+    ratio_mrt_feeder_202609['ratio_on_time'] = ratio_mrt_feeder_202609['n_on_time'] / ratio_mrt_feeder_202609['n']
+    ratio_mrt_feeder_202609['ratio_early'] = ratio_mrt_feeder_202609['n_early'] / ratio_mrt_feeder_202609['n']
+    ratio_mrt_feeder_202609['ratio_late'] = ratio_mrt_feeder_202609['n_late'] / ratio_mrt_feeder_202609['n']
+
     ratio_mrt_feeder = ratio_mrt_feeder.round({
         'ratio_on_time': 4,
         'ratio_late': 4,
@@ -272,12 +312,25 @@ def ratio_mrt_feeder():
         'ratio_on_time': 4,
         'ratio_late': 4,
         'ratio_early': 4
-    })    
+    })
+
+        ratio_mrt_feeder_202608 = ratio_mrt_feeder_202608.round({
+        'ratio_on_time': 4,
+        'ratio_late': 4,
+        'ratio_early': 4
+    })  
+
+        ratio_mrt_feeder_202609 = ratio_mrt_feeder_202609.round({
+        'ratio_on_time': 4,
+        'ratio_late': 4,
+        'ratio_early': 4
+    })  
 
     combined = pd.concat([ratio_mrt_feeder, ratio_mrt_feeder_new, ratio_mrt_feeder_202512,
                            ratio_mrt_feeder_202601, ratio_mrt_feeder_202602, ratio_mrt_feeder_202603,
                            ratio_mrt_feeder_202604, ratio_mrt_feeder_202605, ratio_mrt_feeder_202606,
-                           ratio_mrt_feeder_202607], ignore_index=True)
+                           ratio_mrt_feeder_202607, ratio_mrt_feeder_202608, ratio_mrt_feeder_202609], 
+                           ignore_index=True)
 
     return combined
 
@@ -293,6 +346,8 @@ def unique_months():
     df_202605 = pd.read_csv("dataset/Rapid_kl_monthly_bpi_202605.csv")
     df_202606 = pd.read_csv("dataset/Rapid_kl_monthly_bpi_202606.csv")
     df_202607 = pd.read_csv("dataset/Rapid_kl_monthly_bpi_202607.csv")
+    df_202608 = pd.read_csv("dataset/Rapid_kl_monthly_bpi_202608.csv")
+    df_202609 = pd.read_csv("dataset/Rapid_kl_monthly_bpi_202609.csv")
     
     combined_months = pd.concat([
         df['month'],
@@ -304,7 +359,9 @@ def unique_months():
         df_202604['month'],
         df_202605['month'],
         df_202606['month'],
-        df_202607['month']
+        df_202607['month'],
+        df_202608['month'],
+        df_202609['month']
     ])
 
     unique_months = sorted(combined_months.unique())
@@ -323,6 +380,8 @@ def bpi_rapid_kl():
     df_202605 = pd.read_csv("dataset/Rapid_kl_monthly_bpi_202605.csv")
     df_202606 = pd.read_csv("dataset/Rapid_kl_monthly_bpi_202606.csv")
     df_202607 = pd.read_csv("dataset/Rapid_kl_monthly_bpi_202607.csv")
+    df_202608 = pd.read_csv("dataset/Rapid_kl_monthly_bpi_202608.csv")
+    df_202609 = pd.read_csv("dataset/Rapid_kl_monthly_bpi_202609.csv")
 
     bpi_rapid_kl = df[['route_short_name', 'route_long_name','mae_ratio','otp', 'month', 'I_hat']].rename(columns={'I_hat': 'BPI', 'mae_ratio':'rMAE','otp':'OTP'})
     bpi_rapid_kl_new = df_new[['route_short_name', 'route_long_name','mae_ratio','otp', 'month', 'I_hat']].rename(columns={'I_hat': 'BPI', 'mae_ratio':'rMAE','otp':'OTP'})
@@ -334,6 +393,8 @@ def bpi_rapid_kl():
     bpi_rapid_202605 = df_202605[['route_short_name', 'route_long_name','mae_ratio','otp', 'month', 'BPI']].rename(columns={'mae_ratio':'rMAE','otp':'OTP'})
     bpi_rapid_202606 = df_202606[['route_short_name', 'route_long_name','mae_ratio','otp', 'month', 'BPI']].rename(columns={'mae_ratio':'rMAE','otp':'OTP'})
     bpi_rapid_202607 = df_202607[['route_short_name', 'route_long_name','mae_ratio','otp', 'month', 'BPI']].rename(columns={'mae_ratio':'rMAE','otp':'OTP'})
+    bpi_rapid_202608 = df_202608[['route_short_name', 'route_long_name','mae_ratio','otp', 'month', 'BPI']].rename(columns={'mae_ratio':'rMAE','otp':'OTP'})
+    bpi_rapid_202609 = df_202609[['route_short_name', 'route_long_name','mae_ratio','otp', 'month', 'BPI']].rename(columns={'mae_ratio':'rMAE','otp':'OTP'})
 
     bpi_rapid_kl['rMAE'] = bpi_rapid_kl['rMAE'].clip(upper=1)
     bpi_rapid_kl_new['rMAE'] = bpi_rapid_kl_new['rMAE'].clip(upper=1)
@@ -345,11 +406,14 @@ def bpi_rapid_kl():
     bpi_rapid_202605['rMAE'] =  bpi_rapid_202605['rMAE'].clip(upper=1)
     bpi_rapid_202606['rMAE'] =  bpi_rapid_202606['rMAE'].clip(upper=1)
     bpi_rapid_202607['rMAE'] =  bpi_rapid_202607['rMAE'].clip(upper=1)
+    bpi_rapid_202608['rMAE'] =  bpi_rapid_202608['rMAE'].clip(upper=1)
+    bpi_rapid_202609['rMAE'] =  bpi_rapid_202609['rMAE'].clip(upper=1)
 
     combined = pd.concat([bpi_rapid_kl, bpi_rapid_kl_new, bpi_rapid_202512, 
                           bpi_rapid_202601, bpi_rapid_202602, bpi_rapid_202603,
                           bpi_rapid_202604, bpi_rapid_202605, bpi_rapid_202606,
-                          bpi_rapid_202607], ignore_index=True)
+                          bpi_rapid_202607, bpi_rapid_202608, bpi_rapid_202609], 
+                          ignore_index=True)
 
     return combined
 
@@ -365,6 +429,8 @@ def bpi_mrt_feeder():
     df_202605 = pd.read_csv("dataset/MRT_monthly_bpi_202605.csv")
     df_202606 = pd.read_csv("dataset/MRT_monthly_bpi_202606.csv")
     df_202607 = pd.read_csv("dataset/MRT_monthly_bpi_202607.csv")
+    df_202608 = pd.read_csv("dataset/MRT_monthly_bpi_202608.csv")
+    df_202609 = pd.read_csv("dataset/MRT_monthly_bpi_202609.csv")
 
     bpi_mrt_feeder = df[['route_id', 'mae_ratio','otp', 'month', 'I_hat']].rename(columns={'I_hat': 'BPI', 'mae_ratio':'rMAE','otp':'OTP' })
     bpi_mrt_feeder_new = df_new[['route_id', 'mae_ratio','otp', 'month', 'I_hat']].rename(columns={'I_hat': 'BPI', 'mae_ratio':'rMAE','otp':'OTP' })
@@ -376,6 +442,8 @@ def bpi_mrt_feeder():
     bpi_mrt_202605 = df_202605[['route_id', 'mae_ratio','otp', 'month', 'BPI']].rename(columns={'mae_ratio':'rMAE','otp':'OTP'})
     bpi_mrt_202606 = df_202606[['route_id', 'mae_ratio','otp', 'month', 'BPI']].rename(columns={'mae_ratio':'rMAE','otp':'OTP'})
     bpi_mrt_202607 = df_202607[['route_id', 'mae_ratio','otp', 'month', 'BPI']].rename(columns={'mae_ratio':'rMAE','otp':'OTP'})
+    bpi_mrt_202608 = df_202608[['route_id', 'mae_ratio','otp', 'month', 'BPI']].rename(columns={'mae_ratio':'rMAE','otp':'OTP'})
+    bpi_mrt_202609 = df_202609[['route_id', 'mae_ratio','otp', 'month', 'BPI']].rename(columns={'mae_ratio':'rMAE','otp':'OTP'})
 
     bpi_mrt_feeder['rMAE'] = bpi_mrt_feeder['rMAE'].clip(upper=1)
     bpi_mrt_feeder_new['rMAE'] = bpi_mrt_feeder_new['rMAE'].clip(upper=1)
@@ -387,10 +455,13 @@ def bpi_mrt_feeder():
     bpi_mrt_202605['rMAE'] = bpi_mrt_202605['rMAE'].clip(upper=1)
     bpi_mrt_202606['rMAE'] = bpi_mrt_202606['rMAE'].clip(upper=1)
     bpi_mrt_202607['rMAE'] = bpi_mrt_202607['rMAE'].clip(upper=1)
+    bpi_mrt_202608['rMAE'] = bpi_mrt_202608['rMAE'].clip(upper=1)
+    bpi_mrt_202609['rMAE'] = bpi_mrt_202609['rMAE'].clip(upper=1)
 
     combined = pd.concat([bpi_mrt_feeder, bpi_mrt_feeder_new, bpi_mrt_202512, 
                           bpi_mrt_202601, bpi_mrt_202602, bpi_mrt_202603,
                           bpi_mrt_202604, bpi_mrt_202605, bpi_mrt_202606,
-                          bpi_mrt_202607], ignore_index=True)
+                          bpi_mrt_202607, bpi_mrt_202608, bpi_mrt_202609], 
+                          ignore_index=True)
 
     return combined
