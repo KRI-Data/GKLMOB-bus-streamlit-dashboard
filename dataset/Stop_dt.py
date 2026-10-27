@@ -387,7 +387,7 @@ def stop_rapid_kl():
     combined = pd.concat([stop_rapid_kl, stop_rapid_kl_new, stop_rapid_kl_202512, 
                           stop_rapid_kl_202601, stop_rapid_kl_202602, stop_rapid_kl_202603,
                           stop_rapid_kl_202604, stop_rapid_kl_202605, stop_rapid_kl_202606,
-                          stop_rapid_kl_202607, stop_rapid_kl_202608, stop_rapidkl_202609], ignore_index=True)
+                          stop_rapid_kl_202607, stop_rapid_kl_202608, stop_rapid_kl_202609], ignore_index=True)
 
     return combined
 
