@@ -85,7 +85,7 @@ def ratio_rapid_kl():
 
     ratio_rapid_kl_202609['ratio_on_time'] = ratio_rapid_kl_202609['n_on_time'] / ratio_rapid_kl_202609['n']
     ratio_rapid_kl_202609['ratio_early'] = ratio_rapid_kl_202609['n_early'] / ratio_rapid_kl_202609['n']
-    ratio_rapid_kl_202609['ratio_late'] = ratio_rapid_kl_202609['n_late'] / ratio_rapid_kl_202609['n'
+    ratio_rapid_kl_202609['ratio_late'] = ratio_rapid_kl_202609['n_late'] / ratio_rapid_kl_202609['n']
 
     ratio_rapid_kl = ratio_rapid_kl.round({
         'ratio_on_time': 4,
