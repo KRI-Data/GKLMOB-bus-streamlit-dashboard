@@ -207,3 +207,5 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,python
+# Temp files from scripts/append_month.py if it is killed mid-write
+dataset/.*.tmp

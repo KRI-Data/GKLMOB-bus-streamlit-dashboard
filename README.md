@@ -53,7 +53,9 @@ No code changes are needed to add a month.
    ```
 
    Nothing is written if the month is already there, a file or column is missing,
-   or a file contains another month or duplicate rows.
+   a file contains another month, duplicate rows, empty cells, non-numeric values
+   or a Rapid KL row with no route name. The 3 shared files are updated together:
+   if one cannot be written (e.g. it is open in Excel), all 3 are left unchanged.
 4. Run `streamlit run app.py`, pick the new month and check every chart.
 5. Commit `dataset/monthly_bpi.csv`, `dataset/daily_bpi.csv` and `dataset/stop_otp.csv`,
    open a PR and merge to main.

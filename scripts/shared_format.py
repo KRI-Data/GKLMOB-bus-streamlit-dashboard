@@ -2,6 +2,7 @@
 
 This is the only code that knows the Analysis file names and column names.
 """
+import pandas as pd
 from config import RAPID_KL, MRT_FEEDER
 
 # Analysis file-name prefix for each shared file and network, e.g. Rapid_kl_monthly_bpi_202609.csv
@@ -44,7 +45,42 @@ def to_shared(name, network, df, source):
 
     df["network"] = network
     if network == RAPID_KL:
+        for col in sorted(RAPID_NAMES):
+            blank = df[col].isna() | (df[col].astype(str).str.strip() == "")
+            if blank.any():
+                raise ValueError(f"{source} has {int(blank.sum())} rows with no {col}; "
+                                 f"first at data row {blank.idxmax() + 2}")
+        for col in sorted(RAPID_NAMES):  # text, no stray spaces (all-digit names are read as numbers)
+            df[col] = df[col].astype(str).str.strip()
         df["route"] = df["route_short_name"] + " (" + df["route_long_name"] + ")"
     else:
         df["route"] = df["route_id"]
     return df.reindex(columns=COLUMNS[name])  # MRT files have no route names: left blank
+
+
+# Columns that must hold whole numbers / any number
+COUNTS = ["n", "n_on_time", "n_early", "n_late"]
+NUMBERS = ["otp", "mae_ratio", "BPI"]
+
+
+def check_values(name, df, source):
+    """Reject empty cells and non-numeric values; return df with counts as ints.
+
+    Only the route-name columns may be blank (MRT files have none).
+    """
+    required = [c for c in COLUMNS[name] if c not in RAPID_NAMES]
+    empty = {c: int(df[c].isna().sum()) for c in required if df[c].isna().any()}
+    if empty:
+        raise ValueError(f"{source} has empty cells: {empty}")
+
+    df = df.copy()
+    for col in [c for c in COUNTS + NUMBERS if c in df.columns]:
+        values = pd.to_numeric(df[col], errors="coerce")
+        if values.isna().any():
+            raise ValueError(f"{source}: column {col} has {int(values.isna().sum())} non-numeric values")
+        if col in COUNTS:
+            if (values % 1 != 0).any() or (values < 0).any():
+                raise ValueError(f"{source}: column {col} must hold whole numbers >= 0")
+            values = values.astype("int64")
+        df[col] = values
+    return df
