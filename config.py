@@ -1,0 +1,3 @@
+RAPID_KL = "Rapid KL Bus"
+MRT_FEEDER = "MRT Feeder"
+NETWORKS = [RAPID_KL, MRT_FEEDER]
